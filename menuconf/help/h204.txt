@@ -1,0 +1,5 @@
+This option allows you to let psyBNC simulate an internal 
+IRC-Network, which can be used for partylining. This replaces 
+the old &partyline channel known from psyBNC 2.1. It allows 
+the users to join internal channels, which will be defined by 
+them.

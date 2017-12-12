@@ -1,0 +1,4 @@
+This option allows you to choose, if the translation module 
+should be enabled. You can choose different languages to 
+translate from and to on the online administration of the 
+bouncer. See the README for further details.

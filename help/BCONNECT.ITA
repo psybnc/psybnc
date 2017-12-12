@@ -1,0 +1,6 @@
+BCONNECT [network']
+-------------------
+Riconnette il bouncer al network IRC
+Esempio:
+/BCONNECT 
+Vedi anche: BQUIT

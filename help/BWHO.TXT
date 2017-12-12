@@ -1,0 +1,6 @@
+BWHO
+----
+Lists all Users on the bouncer. If user has a "*" in front of his nick t
+hat means that the user is logged in. With this command you can also see the up
+links to (<-) and from (->) your bouncer. That is if you have bouncer linked to
+other bouncers.

@@ -1,0 +1,9 @@
+DELTRANSLATE [netzwerk']nummer
+------------------------------
+Loescht einen Eintrag in der Liste der Uebersetzungen.
+Siehe /LISTTRANSLATE, um die Nummer des Uebersetzers heraus-
+zufinden.
+Beispiel:
+DELTRANSLATE 3
+Siehe: TRANSLATE LISTTRANSLATE
+

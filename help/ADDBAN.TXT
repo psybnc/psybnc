@@ -1,0 +1,6 @@
+ADDBAN [network'][#chan] reason :hostmask
+-----------------------------------------
+You can ban people from the channel even if you are not logged on. 
+Example 
+/ADDBAN Get Lost Lamer ! :*!niky@lamers.land.com
+See also: DELBAN LISTBANS

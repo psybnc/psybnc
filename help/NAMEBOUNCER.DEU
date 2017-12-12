@@ -1,0 +1,5 @@
+NAMEBOUNCER name
+----------------
+Gibt dem Bouncer einen Namen. Dies ist notwendig, um Bouncer
+verlinken zu koennen.
+Siehe: LINKTO LINKFROM RELAYLINK

@@ -1,0 +1,4 @@
+This directory keeps the `language files'.
+The language files keep all phrases of psybnc
+in an indexed configuration format. See the
+readme for further details.

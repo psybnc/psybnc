@@ -1,0 +1,6 @@
+DELLINK nummer
+--------------
+Entfernt einen Link zu einem anderen Bouncer. Die Nummer des Links
+steht in der Liste aus LISTLINKS.
+Beispiel: 
+/DELLINK 4

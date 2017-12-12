@@ -1,0 +1,6 @@
+LISTBANS [netzwerk']
+--------------------
+Listet alle Bans des jeweiligen Nutzers.
+Example: 
+/LISTBANS 
+Siehe: DELBAN ADDBAN

@@ -1,0 +1,6 @@
+This option defines the name or IP of the allowed Host which 
+may connect. You can also use Hostmasks, as like 172.16.* or
+*.bla.blah.net. You need to enter the same entry delimited by
+a ";", e.g. 
+
+172.16.1.2;172.16.1.2

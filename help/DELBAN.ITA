@@ -1,0 +1,6 @@
+DELBAN [network'] :number
+-------------------------
+Rimuove un ban dalla banlist. Per vedere quale ban vuoi rimuovere usa /LISTBANS
+Esempio
+/DELBAN 6 
+Vedi anche: ADDBAN LISTBANS

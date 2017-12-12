@@ -1,0 +1,9 @@
+ADDSERVER [network'][S=]server :port password
+---------------------------------------------
+adds a new IRC server. You can add many servers. If the bouncer can't connect 
+to a server it will try next one in list. 
+If you put an S= in front of the Hostname, the bouncer will try to
+establish a SSL-Connection.
+Example: 
+ADDSERVER irc.stealth.net :6667 
+See also :DELSERVER LISTSERVERS

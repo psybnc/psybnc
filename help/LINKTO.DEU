@@ -1,0 +1,18 @@
+LINKTO :[S=]host:port
+---------------------
+LINKTO erzeugt einen neuen Eintrag in der Liste der Links zu einem
+anderen Bouncer. Die jeweilige Gegenstelle muss zuvor einen LINKFROM-
+Eintrag erzeugt haben, damit die LINK-Verbindung zustande kommen kann.
+Es koennen so viele Bouncer verlinkt werden, wie man mag. Dadurch
+ist die Moeglichkeit gegeben, eine interne Partyline zu nutzen, ent-
+weder ueber das sogenannte int'-Net oder ueber den Channel &partyline,
+falls dieser vor Compilierung aktiviert wurde.
+Nutzerrechte werden durch Links nicht beeintraechtigt, kein Nutzer
+des gelinkten Bouncers kann auf den eigenen Bouncer zugreifen. Lediglich
+die Verwendung von RELAYLINK ermoeglicht die Nutzung von VHOSTS des anderen
+Bouncers.
+Wirt vor dem Host S= angegeben, so versucht psyBNC den Aufbau
+eines SSL-Links.
+Beispiel: 
+/linkto :der.name.des.hosts.zu.dem.gelinkt.wird.org:54321 
+Siehe: LINKFROM NAMEBOUNCER and RELAYLINK

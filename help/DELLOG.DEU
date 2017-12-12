@@ -1,0 +1,8 @@
+DELLOG [netzwerk']nummer
+------------------------
+DELLOG ermoeglicht das Entfernen eines Eintrages in den
+Trafficlog-Filtern/Quellen.
+Die Nummer kann aus der Liste aus LISTLOGS ausgelesen werden.
+Beispiel:
+DELLOG 3
+Siehe: ADDLOG LISTLOG PLAYTRAFFICLOG ERASETRAFFICLOG

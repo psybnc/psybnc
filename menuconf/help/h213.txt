@@ -1,0 +1,4 @@
+This option defines, if the ident-Demon oIdentd will be 
+supported. See http://www.sourceforge.net if you want to 
+download this ident demon. psyBNC will use the change-Ident 
+Function which is offered by this demon.

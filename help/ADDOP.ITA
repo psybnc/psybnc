@@ -1,0 +1,9 @@
+ADDOP [network'][#canale] password :hostmask
+------------------------------------------
+Permette di aggiungere utenti alla oplist del bouncer. Questi potranno ottenere
+l'op da esso similarmente a come si fa con un bot.
+Esempio:
+/ADDOP #canale newpass:*!*@this.is.elite.host.com. 
+Se "#canale" non e' specificato l'utente potra' richiedere l'op al bouncer
+in qualunque canale il esso si trovi.
+Vedi anche: DELOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

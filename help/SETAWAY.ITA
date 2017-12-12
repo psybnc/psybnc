@@ -1,0 +1,9 @@
+SETAWAY [network']:testo
+-----------------------
+Il comando permette di impostare un messaggio di away se esci dal bouncer.
+Il testo verra' visto nel tuo whois.
+Esempio:
+SETAWAY mangio robe strane
+quindi se ti si fa un whois apparirebbe:
+xyz is away: mangio robe strane
+Vedi anche: SETAWAYNICK SETLEAVEMSG

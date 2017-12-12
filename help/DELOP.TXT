@@ -1,0 +1,7 @@
+DELOP [network'] :number
+------------------------
+deletes a user that can ask OP from your bouncer. In order to see a list 
+of users added in your OP list use /LISTOPS ! 
+Example:
+/DELOP 12 
+See also: LISTOPS ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDAS DELASK LISTASK

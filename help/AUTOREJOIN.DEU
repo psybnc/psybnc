@@ -1,0 +1,7 @@
+AUTOREJOIN [0|1]
+----------------
+Ermoeglicht oder Verhindert den autmatischen Rejoin nach
+einem Kick aus einem Channel.
+Beispiel:
+/AUTOREJOIN 1
+Siehe: AIDLE

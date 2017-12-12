@@ -1,0 +1,6 @@
+AUTOREJOIN [0|1]
+----------------
+Disables or enables Auto-Rejoin of Channels after Kick
+Example 
+/AUTOREJOIN 1
+See also: AIDLE

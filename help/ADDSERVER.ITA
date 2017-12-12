@@ -1,0 +1,9 @@
+ADDSERVER [network'][S=]server :port password
+---------------------------------------------
+aggiunge un nuovo server IRC alla lista. Puoi aggiungere diversi servers. Se il
+bouncer non puo' connettersi ad uno di essi provera' il successivo in lista.
+Se metti una S= di fronte all'host del server, il bouncer cerchera' di
+stabilire una connessione SSL con esso.
+Esempio:
+/ADDSERVER irc.stealth.net :6667 
+Vedi anche: DELSERVER LISTSERVERS

@@ -1,0 +1,13 @@
+ADDDCC [network']botname user pass :[S=]host:port
+-------------------------------------------------
+Aggiunge una nuova connessione dcc verso un bot. Si puo' aggiungere una
+connessione sicura diretta ad un eggdrop.
+Se metti S= prima dell'host lo psyBNC cerchera' di stabilire una
+connessione SSL.
+Esempio:
+/ADDDCC BotScemO newbie MiaPassword :the.elite.newbie.com:7333
+Puoi conoscere la porta telnet di un bot scrivendo ".dccstat" nella
+partyline del bot.
+Verrai automaticamente loggato nel bot come utente "newbie" con la password
+"MiaPassword", nell'esempio sopra.
+Vedi anche: LISTDCC DELDCC

@@ -1,0 +1,8 @@
+DELENCRYPT [netzwerk']nummer
+----------------------------
+DELENCRYPT entfernt eine hinzugefuegte Verschluesselung
+aus der Liste der Channel- oder Nutzerverschluesselungen.
+Siehe /LISTENCRYPT, um die Nummer der Verschluesselung herauszufinden.
+Beispiel:
+DELENCRYPT 3
+Siehe: ENCRYPT LISTENCRYPT

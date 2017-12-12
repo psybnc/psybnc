@@ -1,0 +1,8 @@
+DCCSEND [S=]nick :Datei
+-----------------------
+Sendet eine DCC-Dateitransferanfrage an nick.
+Falls der Nutzer die Anfrage akzeptiert, wird die
+Datei versandt.
+Falls vor dem Nick S= angegeben wird, versucht psyBNC
+den Aufbau einer SSL-Verbindung.
+Siehe: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC

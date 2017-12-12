@@ -1,0 +1,5 @@
+LISTLOGS [network']
+-------------------
+LISTLOGS mostra gli elementi del traffic log specificati da un
+indice.
+Vedi anche: ADDLOG DELLOG PLAYTRAFFICLOG ERASETRAFFICLOG

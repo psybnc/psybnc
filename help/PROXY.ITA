@@ -1,0 +1,7 @@
+PROXY [network']host:port
+-------------------------
+setta un proxy da cui connettersi ad irc. Questo e' per network firewallati.
+Attualmente sono supportati SOCKS4, Wingate e Proxy web che supportino il
+metodo CONNECT
+Esempio: 
+/PROXY proxy.mydomain.com:8080

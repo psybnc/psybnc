@@ -1,0 +1,6 @@
+BCONNECT [network']
+-------------------
+Connects bouncer back to the network 
+Example 
+/BCONNECT 
+See also: BQUIT

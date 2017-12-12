@@ -1,0 +1,11 @@
+ADDLOG [netzwerk']quelle :filter
+--------------------------------
+ADDLOG erlaubt das Hinzufuegen von Zielen und Filtern fuer
+das Traffic-Logging. Dabei werden saemtliche Daten im 
+Trafficlog gespeichert, welche sowohl Quelle (Channel, User)
+als auch Filter (Text, der in der jeweiligen IRC-Zeile vorkommt)
+enthalten ist.
+Beispiel:
+ADDLOG #toast :marmelade
+wuerde saemtliche Zeilen aus #toast mit dem Text "Marmelade" loggen.
+Siehe: DELLOG LISTLOGS PLAYTRAFFICLOG ERASETRAFFICLOG

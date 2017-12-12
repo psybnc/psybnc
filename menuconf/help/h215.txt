@@ -1,0 +1,3 @@
+This option allows the users of the bouncer to define secondary 
+IRC-Networks (used with token~), to establish more than one 
+connection from the bouncer to irc-servers.

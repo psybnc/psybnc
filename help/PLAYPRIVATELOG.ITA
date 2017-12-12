@@ -1,0 +1,5 @@
+PLAYPRIVATELOG [network']
+-------------------------
+mostra i messaggi loggati. Quando sei offline dal bouncer tutte le conversazioni
+private e i messaggi vengono loggati. Per leggerli devi usare /PLAYPRIVATELOG.
+Vedi anche: ERASEPRIVATELOG PLAYMAINLOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

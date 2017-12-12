@@ -1,0 +1,4 @@
+This option defines, if DCC Chats will be relayed thru the 
+bouncer, and if chats to bots are allowed. The bouncer will 
+switch chats to internal relays, then also give events on 
+chats for external programs.

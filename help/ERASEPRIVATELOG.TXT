@@ -1,0 +1,5 @@
+ERASEPRIVATELOG [network']
+--------------------------
+erases your logged messages. In order to keep your log up to date you should 
+delete the messages that you allready read using /PLAYPRIVATELOG.
+See also: PLAYPRIVATELOG PLAIMAINLOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

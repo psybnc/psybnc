@@ -1,0 +1,20 @@
+ADDIGNORE Inhalt :Hostmaske
+---------------------------
+Diese Funktion ermoeglicht das Hinzufuegen von Ignore-Eintraegen.
+Diese koennen abhaengig von Hostmaske und/oder Inhalt hinzugefuegt
+werden. Inhalt ist dabei ein Teiltext, welcher in einer Nachricht
+oder in einer Notiz vorkommen muss.
+Falls eine Hostmaske mit jeglichem Inhalt zu filtern ist,
+muss als Beispiel
+/ADDIGNORE * :*!*@*.lao.com
+hinzugefuegt werden.
+Ist ein Inhalt zu filtern unabhaengig von der Hostmaske, muss
+als Beispiel
+/ADDIGNORE sex :*!*@*
+hinzugefuegt werden. Damit wuerde alles gefiltert werden,
+was den Text "Sex" enhielte.
+Falls beides zu beruecksichtigen ist, kann als Beispiel:
+/ADDIGNORE knuddeln :*!*@*.icafe.com
+hinzugefuegt werden. Dies wuerde saemtliche Nachrichten aus der
+Domain icafe.com mit dem Inhalt "knuddeln" ausfiltern.
+Siehe: DELIGNORE LISTIGNORES

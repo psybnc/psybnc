@@ -1,0 +1,3 @@
+The Link Section allows to edit, add and delete links for the 
+bouncer. A link is a connection between multiple two bouncers 
+which allows shared vhosts and a shared internal irc-Network.

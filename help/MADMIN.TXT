@@ -1,0 +1,4 @@
+MADMIN user
+-----------
+declares user to admin bouncer. Warning user will have all rights in bouncer ! 
+See also: UNADMIN

@@ -1,0 +1,9 @@
+ADDAUTOOP [network']#channel :hostmask
+--------------------------------------
+This command allows you to add Users for being autoopped if 
+they join the channel.
+Example:
+ADDAUTOOP #leet :*!*blah@*.lame.com
+would add autoop for any user matching *!*blah@*.lame.com for
+the channel #leet.
+See also: DELAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS

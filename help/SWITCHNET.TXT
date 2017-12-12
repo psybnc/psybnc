@@ -1,0 +1,6 @@
+SWITCHNET newnet :oldnet
+------------------------
+This allows you to switch from the current main network to another.
+For this your current main connection will become the name "newnet",
+and "oldnet" will be put to your main connection.
+See also: ADDNETWORK DELNETWORK

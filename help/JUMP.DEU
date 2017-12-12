@@ -1,0 +1,10 @@
+JUMP [netzwerk'] :[nummer]
+--------------------------
+Springt zum naechsten Server aus der Serverliste, falls keine
+Nummer angegeben ist. Ist eine Nummer angeben, wird direkt 
+zu dem korrespondierenden Server aus LISTSERVERS gesprungen.
+Der JUMP-Befehl muss auch genutzt werden, um Einstellungen
+wie PROXY oder VHOST zu aktivieren.
+Beispiel: 
+JUMP
+Siehe: LISTSERVERS ADDSERVER DELSERVER

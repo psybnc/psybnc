@@ -1,0 +1,20 @@
+ADDNETWORK Name
+---------------
+Diese Funktionalitaet ermoeglicht den Aufbau mehrerer Verbindungen
+in unterschiedliche IRC-Netzwerke fuer den gleichen Client.
+Dies ermoeglicht z. B. eine Verbindung zum Efnet, und gleichzeitig
+eine weitere Verbindung zum IRCNet.
+Beispiel:
+ADDNETWORK Ef
+wuerde ein neues Netzwerk mit dem Namen "Ef" hinzufuegen.
+Ein jeweiliges Netzwerk wird mit einem sogenannten "Token" angesprochen.
+Beispiel:
+ADDSERVER Ef'irc.freei.net:6667
+wuerde einen Server fuer das Netzwerk Ef hinzufuegen. Tokens werden immer
+vor dem ersten parameter angegeben, sie haben immer den Syntax Token'.
+Channels und Nutzer auf dem zweiten Netzwerk werden mit dem Token versehen.
+Nutzer JohnDoe wuerde in diesem Netzwerk als Ef'JohnDoe dargestellt werden.
+Der Channel #wurst wuerde als #Ef'#wurst dargestellt werden.
+Ein typischer Join-Befehl im Netzwerk Ef wuerde wie folgt aussehen:
+JOIN #Ef'#Wurst
+Siehe: DELNETWORK

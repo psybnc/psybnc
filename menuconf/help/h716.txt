@@ -1,0 +1,2 @@
+This selection will lead into the list of the Servers for the User. You can
+add, delete or edit Server-Entries.

@@ -1,0 +1,10 @@
+SETLEAVEMSG [network']messaggio
+--------------------------
+Imposta un messaggio che verra' inviato ai canale in cui sei
+quando esci dal bouncer.
+Esempi:
+/SETLEAVEMSG sleeping
+gli alti nel canale vedrebbero:
+xyz is away (sleeping)
+Vedi anche: SETAWAY SETAWAYNICK
+

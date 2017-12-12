@@ -1,0 +1,10 @@
+SETAWAY [netzwerk']:text
+------------------------
+Ermoeglicht das Setzen eines Away-Textes. Dieser wird aktiviert,
+wenn der Nutzer die Verbindung zum Bouncer trennt, und erscheint
+im WHOIS.
+Beispiel: 
+SETAWAY essen
+Im Whois wuerde dann erscheinen:
+xyz is away: eating
+Siehe: SETAWAYNICK SETLEAVEMSG

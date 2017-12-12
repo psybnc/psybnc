@@ -1,0 +1,7 @@
+DELALLOW number
+---------------
+Entfernt einen Host-Allow durch Angabe der korrespondierenden
+Nummer aus LISTALLOW.
+Beispiel:
+DELALLOW 1
+Siehe: ADDALLOW LISTALLOW

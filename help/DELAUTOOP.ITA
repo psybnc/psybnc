@@ -1,0 +1,7 @@
+DELAUTOOP [network']number
+--------------------------
+cancella un autoop per numero.
+Il numero puoi ottenerlo con /LISTAUTOOPS.
+Esempio:
+/DELAUTOOP 2
+Vedi anche: ADDAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS ADDASK DELASK LISTASK

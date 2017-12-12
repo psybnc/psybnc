@@ -1,0 +1,8 @@
+DCCGET [S=]nick :filename
+---------------------
+Accetta e riceve un file da un utente rispondendo alla richiesta
+di invio. Il file verra' scaricato nella directory downloads/USERnn
+dove nn e' il numero dell'utente.
+Se S= viene messo prima del nick, psyBNC cerca di stabilire una
+connessione SSL.
+Vedi anche: DCCCHAT DCCANSWER DCCSEND DCCCANCEL LISTDCC

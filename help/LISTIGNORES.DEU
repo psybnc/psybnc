@@ -1,0 +1,6 @@
+LISTIGNORES [netzwerk']
+-----------------------
+Listet alle hinzugefuegten Ignores.
+Beispiel:
+/LISTAUTOOPS
+Siehe: ADDIGNORE DELIGNORE

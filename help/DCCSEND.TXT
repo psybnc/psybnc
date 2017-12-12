@@ -1,0 +1,7 @@
+DCCSENDME :filename
+-------------------
+Sends a file send request to the own client. This
+is thought to transfer formerly downloaded files
+from the shell to the user.
+If the user accepts the send, the file will be sent.
+See also: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC DCCSEND

@@ -1,0 +1,7 @@
+DCCENABLE 0 | 1
+---------------
+Allows you to disable or enable the internal
+DCC-Chat and Send-Handling of psyBNC. If disabled,
+psyBNC would just hand the DCC Requests over to
+the client.
+See also: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC

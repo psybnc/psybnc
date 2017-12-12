@@ -1,0 +1,6 @@
+LEAVEQUIT [0|1]
+---------------
+If enabled, psyBNC will leave all channels after Client-Disconnect
+Example 
+/LEAVEQUIT 1
+See also: AUTOREJOIN

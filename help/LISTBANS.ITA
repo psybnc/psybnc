@@ -1,0 +1,6 @@
+LISTBANS [network']
+-------------------
+lista i ban nella banlist.
+Esempio:
+/LISTBANS 
+Vedi anche: DELBAN ADDBAN

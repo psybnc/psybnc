@@ -1,0 +1,7 @@
+DELUSER login
+-------------
+cancella un utente dal bouncer. Devi essere Amministratore del
+bouncer per cancellare un utente.
+Esempio:
+/DELUSER newbie
+Vedi anche: ADDUSER

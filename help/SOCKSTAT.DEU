@@ -1,0 +1,11 @@
+SOCKSTAT
+--------
+zeigt den derzeitigen Status der Sockets, dies beinhaltet
+verbrauchten Traffic, Verschluesselungsinformationen usw.
+Desweiteren werden "abgelaufene" Sockets zurueckgesetzt.
+Falls SOCKSTAT aufgerufen wird, werden die Daten zusaetzlich
+ins Haupt-Log geschrieben.
+Falls von der Konsole das USR1-Signal an den Bouncer geschickt wird,
+erfolgt ebenfalls eine Ausgabe des Socket-Status.
+Beispiel:
+/SOCKSTAT

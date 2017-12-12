@@ -1,0 +1,14 @@
+ADDDCC [netzwerk']botname Nutzer password :[S=]host:port
+--------------------------------------------------------
+Fuegt eine neue statische DCC-Bot Chat-Verbindung hinzu.
+Du kannst damit eine permanent bestehende Verbindung zu Deinen
+Bots herstellen.
+Falls ein S= vor dem Hostname angegeben wird, versucht
+psyBNC den Aufbau einer SSL-Verbindung zum Bot.
+Beispiel: 
+/ADDDCC MeinBot Anfaenger MeinPass :fleisch.wurst.org:7333
+Du kannst den telnet Port des Bots herausfinden, indem Du
+.dccstat eingibst in der Bot-Partyline.
+Nach Anlegen des Eintrages wirst Du automatisch auf den Bot eingeloggt als
+Nutzer "Anfaenger" mit dem Password "MeinPass" im obigen Beispiel.
+Siehe: LISTDCC DELDCC

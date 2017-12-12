@@ -1,0 +1,2 @@
+This Options allow to change Options of the Compilation for psyBNC.
+You need to recompile psyBNC, when your changes were made.

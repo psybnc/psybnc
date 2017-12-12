@@ -1,0 +1,7 @@
+DELSERVER [netzwerk'] :servernummer
+-----------------------------------
+Loescht einen Eintrag aus der Liste der Server. Nutze
+/LISTSERVERS um die Nummer herauszufinden.
+Beispiel: 
+/DELSERVER 5 
+Siehe: ADDSERVER LISTSERVER

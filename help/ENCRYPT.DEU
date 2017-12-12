@@ -1,0 +1,17 @@
+ENCRYPT [netzwerk']password :#channel oder nick
+-----------------------------------------------
+ENCRYPT fuegt einen Eintrag zu der Liste der Verschluesselungen
+von Konversationen hinzu. #channel oder Nick ist das Ziel und die
+Quelle, an oder von der die Konversation zu verschluesseln ist.
+Der jeweilige Schluessel muss mit der Zielperson oder mit den
+Zielpersonen abgestimmt werden. Beide Seiten muessen ein 
+korrespondierendes Password setzen.
+Beispiel: 
+/ENCRYPT v1s1t0r :john
+Falls John das gleiche Password setzt, wird die Konversation
+entschluesselt. Verschluesselungsalgorithmen sind Blowfish und
+IDEA. Falls fuer einen Channel verschluesselt werden soll, muessen
+alle Personen auf diesem Channel das gleiche Password kennen.
+Beispiel:
+/ENCRYPT weissnich :#geheim
+Siehe: DELENCRYPT LISTENCRYPT

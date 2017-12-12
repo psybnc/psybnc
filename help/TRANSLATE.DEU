@@ -1,0 +1,40 @@
+TRANSLATE [netzwerk']#channel/nutzer :sprache-von sprache-zu
+------------------------------------------------------------
+TRANSLATE ermoeglicht das Hinzufuegen von Uebersetzern fuer
+Channels und Nutzer. Die Nachrichten in den Channels bzw. von 
+dem Nutzer werden direkt uebersetzt, es wird sowohl Originaltext
+als auch uebersetzter Text ausgegeben. Alle Texte, die in den
+Channel bzw. an den Nutzer geschickt werden, werden in die andere
+Richtung uebersetzt, jedoch ohne Ausgabe des originalen Textes an
+den Nutzer.
+Folgende Sprachen stehen zur Verfuegung:
+- Englisch zu Deutsch         en_de
+- Englisch zu Italienisch     en_it
+- Englisch zu Franzoesisch    en_fr
+- Englisch zu Portugiesisch   en_pt
+- Englisch zu Chinsesich      en_zh
+- Englisch zu Japanisch	      en_ja
+- Englisch zu Koreanisch      en_ko
+- Englisch zu Spanisch	      en_es
+- Englisch zu Russisch	      en_ru
+- Deutsch zu Englisch         de_en
+- Italenisch zu Englisch      it_en
+- Franzoesisch zu Englisch    fr_en
+- Portugiesisch zu Englisch   pt_en
+- Japanisch zu Englisch       ja_en
+- Koreanisch zu Englisch      ko_en
+- Russisch zu Englisch        ru_en
+- Spanisch zu Englisch        es_en
+- Franzoesisch zu Deutsch     fr_de
+- Deutsch zu Franzoesisch     de_fr
+Es muss ein Channel oder ein Nutzer angegeben werden, desweiteren
+eine Sprache, aus der aus dem Nutzer/Channel uebersetzt werden soll,
+und eine weitere Sprache, von welcher in welche zu dem Channel/Nutzer zu
+uebersetzen ist.
+Beispiel:
+/TRANSLATE #italia :it_en en_it
+Alles, was AUS diesem Channel ausgegeben werden wuerde,
+wuerde von Italienisch in Englisch uebersetzt werden.
+Alles, was IN den Channel gesandt werden wuerde,
+wuerde von englisch in italienisch uebersetzt werden.
+Siehe: DELTRANSLATE LISTTRANSLATE

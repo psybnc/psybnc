@@ -1,0 +1,7 @@
+DCCSENDME :Datei
+--------------
+Sendet eine DCC-Dateitransferanfrage an den eigenen Client,
+um eine zuvor auf die Shell transferierte Datei zu uebertragen.
+Falls der Nutzer die Anfrage akzeptiert, wird die
+Datei versandt.
+Siehe: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC DCCSEND

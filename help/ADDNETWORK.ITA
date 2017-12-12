@@ -1,0 +1,18 @@
+ADDNETWORK name
+---------------
+Questa funzionalita' permette di avere connessioni su differenti
+network irc in una singola connessione al bouncer.
+Cosi' ti e' possibile usare lo stesso client irc per frequentare canali
+su network diversi.
+Esempio:
+/ADDNETWORK Ef
+Aggiunge un nuovo network di nome "Ef".
+Per ogni network aggiunto puoi usare le funzioni separatamente, per esempio:
+/ADDSERVER Ef'irc.freei.net:6667
+aggiunge un server al network appena aggiunto. Il bouncer aprira' una
+connessione uscente e relayera' verso il tuo stesso client, prefissando
+gli utenti ed i canali col nome del network. Il canale #sausage diverra'
+quindi #Ef'#sausage. Analogamente, l'utente johndoe apparira' come Ef'johndoe.
+Ogni comando permette di specificare il network al quale riferirsi e quindi
+viene eseguito per quel particolare network.
+Vedi anche: DELNETWORK

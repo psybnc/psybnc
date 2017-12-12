@@ -1,0 +1,7 @@
+DELALLOW number
+---------------
+Cancella un host consentito dalla lista degli hosts permessi.
+Il numero puoi prenderlo con /LISTALLOW.
+Esempio:
+/DELALLOW 1
+Vedi anche: ADDALLOW LISTALLOW

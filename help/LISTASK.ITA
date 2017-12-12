@@ -1,0 +1,6 @@
+LISTASK [network']
+------------------
+lista tutti gli utenti che possono chiedere l'op al tuo bouncer.
+Esempio:
+/LISTASK 
+Vedi anche: ADDASK DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

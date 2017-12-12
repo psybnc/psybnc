@@ -1,0 +1,10 @@
+DELTRANSLATE [network']number
+-----------------------------
+DELTRANSLATE allows you to remove an added translator entry from
+the list of formerly added translators. See /LISTTRANSLATE to get
+the number of the context to be removed.
+Example:
+DELTRANSLATE 3
+would remove entry 3 from the list of translators.
+See also: TRANSLATE LISTTRANSLATE
+

@@ -1,0 +1,9 @@
+ADDAUTOOP [network']#canale :hostmask
+--------------------------------------
+Questo comando consente di aggiungere utenti a cui dare automaticamente
+l'op quando questi entrano nel canale.
+Esempio:
+/ADDAUTOOP #leet :*!*blah@*.lame.com
+aggiunge l'autoop per ogni utente il cui host corrisponde *!*blah@*.lame.com
+nel canale #leet.
+Vedi anche: DELAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS

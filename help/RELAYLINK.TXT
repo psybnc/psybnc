@@ -1,0 +1,8 @@
+RELAYLINK name :0|1
+-------------------
+Allows or denies relay links from/to the bouncer. 
+Example: 
+RELAYLINK name :1 
+Name is the name of the bouncer. Number 0 means dissalow, number 1 means allow 
+link from the bouncer. 
+See also: LINKFROM LINKTO NAMEBOUNCER

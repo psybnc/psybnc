@@ -1,0 +1,8 @@
+ADDOP [network'][#chan] password :hostmask
+------------------------------------------
+You can add users to your bouncer OP list. They can then get OP from bouncer 
+similar to bot oping. 
+Example: /ADDOP #chan newpass:*!*@this.is.elite.host.com. 
+If the "#chan" is not specified then user can ask OP from bouncer in any channel 
+that the bouncer is OP in. 
+See also: DELOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

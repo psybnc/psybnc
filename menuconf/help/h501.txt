@@ -1,0 +1,3 @@
+This option defines the type of the link. You can either choose 
+between a link which should listen for connections or a link 
+which will actively connect to a given Host.

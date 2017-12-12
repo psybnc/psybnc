@@ -1,0 +1,7 @@
+DELOP [network'] :number
+------------------------
+cancella un utente che puo' chiedere l'OP al tuo bouncer. Per vedere la
+lista degli utenti che possono farlo usa /LISTOPS !
+Esempio:
+/DELOP 12 
+Vedi anche: LISTOPS ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDAS DELASK LISTASK

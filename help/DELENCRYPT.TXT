@@ -1,0 +1,9 @@
+DELENCRYPT [network']number
+---------------------------
+DELENCRYPT allows you to remove an added ENCRYPT entry from
+the list of Encryption-Settings. See /LISTENCRYPT to get
+the number of the context to be removed.
+Example:
+DELENCRYPT 3
+would remove entry 3 from the list of crypting specifications.
+See also: ENCRYPT LISTENCRYPT

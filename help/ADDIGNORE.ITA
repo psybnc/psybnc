@@ -1,0 +1,19 @@
+ADDIGNORE contenuto :hostmask
+---------------------------
+Questa funzionalita' permette di aggiungere ignore.
+Queste possono essere dipendenti dalla hostmask e/o dal contenuto.
+Contenuto e' inteso come parte di qualunque messaggio o notice.
+Se una specifica hostmask dev'essere ignorata qualunque sia il
+testo che invia, si potrebbe usare:
+/ADDIGNORE * :*!*@*.lao.com
+Se invece vuoi ignorare solo il contenuto dovresti usare:
+/ADDIGNORE sex :*!*@*
+Questo filtrerebbe ogni cosa che ha come parte del testo
+"sex" nel contenuto.
+Se sia il contenuto che la hostmask sono necessari, usa una
+cosa tipo:
+/ADDIGNORE hug :*!*@*.icafe.com
+per esempio.
+Questo ignora tutti i messaggi dal dominio icafe.com col
+che contengono "hug"
+Vedi anche: DELIGNORE LISTIGNORES

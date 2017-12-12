@@ -1,0 +1,4 @@
+This option defines, if more than one User may use the bouncer. 
+The bounceradmin can add other users to the bouncer, which 
+would have the same ident on the irc networks, if no oIdentd 
+support would be possible.

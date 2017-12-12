@@ -1,0 +1,4 @@
+This option defines, how many Connections psyBNC may create by 
+connecting from the bouncer or to the Bouncer. A single User 
+should have a minimum of 2 possible Connections, one inbound 
+socket, one socket for the outbound.

@@ -1,0 +1,8 @@
+DELAUTOOP [network']number
+--------------------------
+deletes an added autoop entry by number. 
+You can get the number from LISTAUTOOPS.
+Example:
+/DELAUTOOP 2
+See also: ADDAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS ADDASK DELASK LISTASK
+

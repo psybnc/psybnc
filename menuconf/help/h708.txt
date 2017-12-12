@@ -1,0 +1,3 @@
+This defines a proxy over which the connection could be relayed. A proxy can
+be a webproxy, which allows the CONNECT method, or a sockshost supporting the
+socks4 Protocol.

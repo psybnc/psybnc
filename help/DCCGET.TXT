@@ -1,0 +1,8 @@
+DCCGET [S=]nick :filename
+---------------------
+Get an offered File from a user by acknowledging the
+Send Request. The File will be put into downloads/USERnn, where
+nn is the number of the User.
+If S= is put before the Nick, psyBNC tries to establish an
+SSL-Connection.
+See also: DCCCHAT DCCANSWER DCCSEND DCCCANCEL LISTDCC

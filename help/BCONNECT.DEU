@@ -1,0 +1,7 @@
+BCONNECT [netzwerk']
+--------------------
+Verbindet den Bouncer wieder zum Netzwerk. Muss nach BQUIT
+aufgerufen werden, um die Verbindung wiederherzustellen.
+Beispiel: 
+/BCONNECT 
+Siehe: BQUIT

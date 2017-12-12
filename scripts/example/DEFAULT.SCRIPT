@@ -1,0 +1,8 @@
+; a little example script
+; if the file DEFAULT.SCRIPT is being put into the scripts/ directory,
+; every user will use it
+
+dialogue	-		-		mail	-	mail
+alias		HELLO		"Say Hello"	-	-	echo "PRIVMSG $CONTENT :Hello"
+ctcp		VERSION		*!*@*		-	-	echo NOTICE $NICK :"$X01"VERSION Blah 1.0 \(c\) by Bleh "\(Windows Version\)""$X01"
+server		MODE		*!*@*		#lame	*	echo PRIVMSG #lame :$NICK set mode $CONTENT on $TO

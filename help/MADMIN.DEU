@@ -1,0 +1,5 @@
+MADMIN Nutzer
+-------------
+Gibt dem angebenen Nutzer Admin-Rechte. Kann nur durch einen Admin
+ausgefuehrt werden.
+Siehe: UNADMIN

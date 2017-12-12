@@ -1,0 +1,6 @@
+BQUIT [netzwerk']
+-----------------
+beendet die Server-Verbindung, bis BCONNECT aufgerufen wird.
+Beispiel: 
+/BQUIT 
+Siehe: BCONNECT

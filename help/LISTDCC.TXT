@@ -1,0 +1,6 @@
+LISTDCC [network']
+------------------
+lists the dcc bot connections currently added. 
+Example: 
+/LISTDCC 
+See also ADDDCC DELDCC

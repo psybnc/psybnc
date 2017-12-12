@@ -1,0 +1,4 @@
+This option defines, if Bouncer-Admins may add links to 
+other psyBNC-Demons. If this option is set, the Users can 
+use the internal network to join shares channels and query 
+each other.

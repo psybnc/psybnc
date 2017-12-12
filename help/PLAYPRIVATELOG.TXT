@@ -1,0 +1,5 @@
+PLAYPRIVATELOG [network']
+-------------------------
+displays logged msges. When you are away all private chats
+and messages get logged. In order to read them you must use /PLAYPRIVATELOG. 
+See also: ERASEPRIVATELOG PLAYMAINLOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

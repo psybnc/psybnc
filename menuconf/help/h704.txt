@@ -1,0 +1,4 @@
+This defines the Password for the user. If the password was set on the bouncer
+it is normally encrypted. Menuconf can't edit this blowfish-encrypted password
+so you have to enter a cleartextpassword which would be encrypted during the
+next rehash of the bouncer.

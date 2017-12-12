@@ -1,0 +1,5 @@
+This option defines, if asynchroneous name-resolving should
+be used in psyBNC. Its disabled on default, because the
+implementation is still experimental. Feel free to activate
+this option, but, as usual, be sure there is no warranty
+of usability at all.

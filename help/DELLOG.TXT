@@ -1,0 +1,10 @@
+DELLOG [network']number
+-----------------------
+DELLOG allows you to delete an entry to the logging specifications
+for traffic logging.
+Example:
+DELLOG 3
+would remove entry 3 from the list of logging specifications.
+To get the number to remove, do LISTLOGS. It is the leading
+number in front of the entry.
+See also: ADDLOG LISTLOG PLAYTRAFFICLOG ERASETRAFFICLOG

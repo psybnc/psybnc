@@ -1,0 +1,7 @@
+DELDCC [network']number
+-----------------------
+cancella una connessione dcc verso un bot. Puoi ottenere questo numero
+col comando /LISTDCC.
+Esempio:
+/DELDCC 4 
+Vedi anche: ADDDCC LISTDCC

@@ -1,0 +1,7 @@
+DELALLOW number
+---------------
+Deletes a host allowance from your list of host allows.
+You can get the number of the entry from LISTALLOW.
+Example:
+DELALLOW 1
+See also: ADDALLOW LISTALLOW

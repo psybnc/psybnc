@@ -1,0 +1,19 @@
+ADDIGNORE content :hostmask
+---------------------------
+This functionality allows to add Ignore-Entries.
+These can be dependent from the Hostmask and/or from Content.
+Content is meant as a part of any private Message and/or Notice.
+If a special Hostmask with any content has to be filtered,
+you would use for example:
+/ADDIGNORE * :*!*@*.lao.com
+Has a content to be filtered only, you will have to use
+for example:
+/ADDIGNORE sex :*!*@*
+That would filter everything, which has the part of text
+"sex" in the message-Content.
+If both content and hostmask have to count, you could use:
+/ADDIGNORE hug :*!*@*.icafe.com
+for example. 
+This would deny all Messages from the domain icafe.com with the
+content "hug".
+See also: DELIGNORE LISTIGNORES

@@ -1,0 +1,1 @@
+This defines the Nickname for the User.

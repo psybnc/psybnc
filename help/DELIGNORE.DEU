@@ -1,0 +1,6 @@
+DELIGNORE [netzwerk']nummer
+---------------------------
+Entfernt einen Ignore-Eintrag aus der Ignore-Liste
+Beispiel:
+/DELIGNORE 2
+Siehe: ADDIGNORE LISTIGNORES

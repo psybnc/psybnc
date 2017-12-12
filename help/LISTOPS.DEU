@@ -1,0 +1,5 @@
+LISTOPS [netzwerk']
+-------------------
+Listet die Hosts/Nutzer, welche von dem Bouncer des Nutzers
+Op abfragen koennen.
+Siehe: DELOP ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

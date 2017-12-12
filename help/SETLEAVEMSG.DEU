@@ -1,0 +1,10 @@
+SETLEAVEMSG [netzwerk']text
+---------------------------
+Setzt den Text einer Nachricht, welche in den Channels des Nutzers
+ausgegeben wird, wenn der Nutzer die Verbindung zum Bouncer trennt.
+Beispiel:
+/SETLEAVEMSG schlafen
+In den Channels wuerde
+xyz ist away (schlafen)
+ausgegeben werden.
+Siehe: SETAWAY SETAWAYNICK

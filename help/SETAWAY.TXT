@@ -1,0 +1,9 @@
+SETAWAY [network']:text
+-----------------------
+This command allows you to set an away-text if you leave the bouncer.
+The text will be seen in your whois.
+Example: 
+SETAWAY eating
+then in your whois would appear:
+xyz is away: eating
+See also: SETAWAYNICK SETLEAVEMSG

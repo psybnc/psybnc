@@ -1,0 +1,5 @@
+LISTTASKS
+---------
+Mostra la lista dei task correntemente in esecuzione dall'engine
+di scripting.
+Vedi anche: SRELOAD

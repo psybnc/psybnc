@@ -1,0 +1,2728 @@
+# $Id: italiano.lng,v 1.3 2005/06/04 17:57:29 hisi Exp $ #
+#------------------------------------------------------------------------------
+# Language File for psyBNC - Italian
+# by `Ard\ZzZz - mystical@operamail.com
+# !!! WARNING !!! Do not change any format-specifics. psyBNC wont work
+#                 correctly without the correct formats.
+#------------------------------------------------------------------------------
+
+desc psyBNC Language File - Italiano - by `Ard\ZzZz(mysical@operamail.com)
+
+; p_blowfish.c line 616:
+msg0001=%s                                                             
+; p_blowfish.c line 628:
+msg0002=%s                                                            
+; p_client.c line 70:
+msg0003=JOIN :%sþÿ
+; p_client.c line 91:
+msg0004=:$%s*%s!%s@%s TOPIC 
+; p_client.c line 91:
+msg0005= :%sþÿ
+; p_client.c line 96:
+msg0006=:%s!*@%s TOPIC 
+; p_client.c line 96:
+msg0007= :%sþÿ
+; p_client.c line 116:
+msg0008=:%s!%s@%s PART 
+; p_client.c line 116:
+msg0009= :%sþÿ
+; p_client.c line 117:
+msg0010=Utente %s uscito dal bnc.
+; p_client.c line 119:
+msg0011=PART :%sþÿ
+; p_client.c line 139:
+msg0012=motd/USER%d.MOTD
+; p_client.c line 147:
+msg0013= 001 
+; p_client.c line 165:
+msg0014=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Hai dei messaggi. scrivi /QUOTE PLAYPRIVATELOG per leggerli.
+; p_client.c line 167:
+msg0015=AWAYþÿ
+; p_client.c line 168:
+msg0016=.AWAYþÿ
+; p_client.c line 205:
+msg0017=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%c %s(%s) [%s:%s] :%s [last:%-20s]þÿ
+; p_client.c line 207:
+msg0018=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%c %s(%s) [%s:%s] :%sþÿ
+; p_client.c line 210:
+msg0019=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%c %s(%s)@%s [%s:%s] :%s [last:%-20s]þÿ
+; p_client.c line 212:
+msg0020=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%c %s(%s)@%s [%s:%s] :%sþÿ
+; p_client.c line 218:
+msg0021=:%s!*@%s BWHO :þÿ
+; p_client.c line 226:
+msg0022=Log dei socketstat attuali
+; p_client.c line 228:
+msg0023=Fine delle stat
+; p_client.c line 237:
+msg0024=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Benvenuto %s !þÿ
+; p_client.c line 239:
+msg0025=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Questo e' uno psyBNC-IRC-Proxy anonimoþÿ
+; p_client.c line 241:
+msg0026=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei il primo a connettersi a questo proxy server.þÿ
+; p_client.c line 242:
+msg0027=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei l'admin del proxy. Usa il comando ADDSERVER per aggiungere un server cosi' il bouncer potra' connettersi.þÿ
+; p_client.c line 285:
+msg0028=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Ident dato. La sintassi e' ADDUSER ident :usernameþÿ
+; p_client.c line 289:
+msg0029=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Username dato. La sintassi e' ADDUSER ident :usernameþÿ
+; p_client.c line 293:
+msg0030=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'utente %s esiste gia'.þÿ
+; p_client.c line 331:
+msg0031=Nuovo utente:%s (%s) aggiunto da %s
+; p_client.c line 333:
+msg0032=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nuovo utente '%s' aggiunto. La password e' stata impostata a '%s'
+; p_client.c line 341:
+msg0033=Numero massimo di utenti raggiunto.
+; p_client.c line 355:
+msg0034=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Nick dati. La sintassi e' DELUSER nickþÿ
+; p_client.c line 359:
+msg0035=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Il utente %s esiste gia'.þÿ
+; p_client.c line 364:
+msg0036=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L' utente %s e il proprietario. Smussa e cancellato.þÿ
+; p_client.c line 368:
+msg0037=User %s deleted by %s.
+; p_client.c line 383:
+msg0038=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi aggiungere un network ad un networkþÿ
+; p_client.c line 387:
+msg0039=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Network indicato. La sintassi e' ADDNETWORK networkþÿ
+; p_client.c line 391:
+msg0040=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Network puo' essere al massimo 10 caratteri.þÿ
+; p_client.c line 395:
+msg0041=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Il Network %s esiste gia'.þÿ
+; p_client.c line 417:
+msg0042=Nuovo Network %s aggiunto da %s
+; p_client.c line 422:
+msg0043=Numero massimo di utenti raggiunto.
+; p_client.c line 433:
+msg0044=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Network indicato. La sintassi e' DELNETWORK networkþÿ
+; p_client.c line 437:
+msg0045=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Network %s non trovato.þÿ
+; p_client.c line 441:
+msg0046=Network %s cancellato da %s.
+; p_client.c line 458:
+msg0047=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :E' stato indicato un Network non esistente. Usare SWITCHNET nuovo_network :esistenteþÿ
+; p_client.c line 463:
+msg0048=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Network esistente e' stato indicato. Usare SWITCHNET nuovo_network :esistenteþÿ
+; p_client.c line 467:
+msg0049=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Network %s non trovato.þÿ
+; p_client.c line 474:
+msg0050=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Il Network %s esiste gia'.þÿ
+; p_client.c line 485:
+msg0051=:irc.psychoid.net KICK %s %s :Cambio di Network
+; p_client.c line 494:
+msg0052=:irc.psychoid.net KICK #%s'%s %s :Cambio di Network
+; p_client.c line 526:
+msg0053=:%s!%s@%s NICK :%s
+; p_client.c line 544:
+msg0054=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna Password fornita. La sintassi e' PASSWORD [user] :newpassþÿ
+; p_client.c line 550:
+msg0055=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non trovatoþÿ
+; p_client.c line 557:
+msg0056=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi cambiare le password degli altri utenti.þÿ
+; p_client.c line 561:
+msg0057=USER%d
+; p_client.c line 566:
+msg0058=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Password dell'utente %s cambiata in '%s'þÿ
+; p_client.c line 592:
+msg0059=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Jump richiesto, cambio di server...þÿ
+; p_client.c line 593:
+msg0060=Jump richiesto da %s. Uscita da IRC.
+; p_client.c line 595:
+msg0061=QUIT :changing serversþÿ
+; p_client.c line 597:
+msg0062=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei connesso.þÿ
+; p_client.c line 617:
+msg0063=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link '%d' non trovato.þÿ
+; p_client.c line 623:
+msg0064=USER%d
+; p_client.c line 624:
+msg0065=VHOST
+; p_client.c line 626:
+msg0066=VLINK
+; p_client.c line 629:
+msg0067=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :VHOST cambiato in '%s' sul Link %d. Usa JUMP per attivare l'hostname nuovo.þÿ
+; p_client.c line 631:
+msg0068=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :VHOST cambiato in '%s'.þÿ
+; p_client.c line 648:
+msg0069=%s:%s
+; p_client.c line 666:
+msg0070=USER%d
+; p_client.c line 667:
+msg0071=PROXY
+; p_client.c line 669:
+msg0072=PPORT
+; p_client.c line 672:
+msg0073=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :PROXY rimosso. Usa JUMP per attivare i cambiamenti al proxy.þÿ
+; p_client.c line 674:
+msg0074=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :PROXY impostato su '%s:%d'. Usa JUMP per attivare i cambiamenti al proxy. Usa PROXY : per ritornare al modo senza proxy.þÿ
+; p_client.c line 691:
+msg0075=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa AIDLE 0 oppure AIDLE 1.þÿ
+; p_client.c line 696:
+msg0076=USER%d
+; p_client.c line 697:
+msg0077=AIDLE
+; p_client.c line 700:
+msg0078=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AIDLE attivato.þÿ
+; p_client.c line 702:
+msg0079=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AIDLE disattivato.þÿ
+; p_client.c line 717:
+msg0080=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa AUTOREJOIN 0 oppure AUTOREJOIN 1.þÿ
+; p_client.c line 722:
+msg0081=USER%d
+; p_client.c line 723:
+msg0082=AUTOREJOIN
+; p_client.c line 726:
+msg0083=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AUTOREJOIN attivato.þÿ
+; p_client.c line 728:
+msg0084=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AUTOREJOIN disattivato.þÿ
+; p_client.c line 743:
+msg0085=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa LEAVEQUIT 0 oppure LEAVEQUIT 1.þÿ
+; p_client.c line 748:
+msg0086=USER%d
+; p_client.c line 749:
+msg0087=LEAVEQUIT
+; p_client.c line 752:
+msg0088=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :LEAVEQUIT attivato.þÿ
+; p_client.c line 754:
+msg0089=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :LEAVEQUIT disattivato.þÿ
+; p_client.c line 769:
+msg0090=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa DCCENABLE 0 oppure DCCENABLE 1.þÿ
+; p_client.c line 774:
+msg0091=USER%d
+; p_client.c line 775:
+msg0092=DCCENABLED
+; p_client.c line 778:
+msg0093=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :DCCs dinamiche abilitate.þÿ
+; p_client.c line 780:
+msg0094=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :DCCs dinamiche disabilitate.þÿ
+; p_client.c line 794:
+msg0095=USER%d
+; p_client.c line 797:
+msg0096=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AWAY cambiato in '%s'.þÿ
+; p_client.c line 810:
+msg0097=USER%d
+; p_client.c line 811:
+msg0098=LEAVEMSG
+; p_client.c line 813:
+msg0099=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Messaggio di LEAVE cambiato in '%s'. Il messaggio verra' postato su tutti i canali quando si esce.þÿ
+; p_client.c line 826:
+msg0100=USER%d
+; p_client.c line 827:
+msg0101=AWAYNICK
+; p_client.c line 829:
+msg0102=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nick di AWAY cambiato in '%s'.þÿ
+; p_client.c line 843:
+msg0103=USER%d
+; p_client.c line 846:
+msg0104=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Username cambiato in '%s'. Devi usare JUMP per attivarlo.þÿ
+; p_client.c line 865:
+msg0105=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun server indicato. La sintassi e' ADDSERVER hostname :portþÿ
+; p_client.c line 868:
+msg0106=USER%d
+; p_client.c line 872:
+msg0107=%s:%s
+; p_client.c line 895:
+msg0108=SPASS%d
+; p_client.c line 896:
+msg0109=SERVERS
+; p_client.c line 905:
+msg0110=PORT%d
+; p_client.c line 906:
+msg0111=SERVERS
+; p_client.c line 907:
+msg0112=SERVER%d
+; p_client.c line 908:
+msg0113=SERVERS
+; p_client.c line 910:
+msg0114=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Server %s porta %s (password: %s) aggiunto.þÿ
+; p_client.c line 916:
+msg0115=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuno slot per server libero.þÿ
+; p_client.c line 928:
+msg0116=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun server indicato. La sintassi e' DELSERVER numeroþÿ
+; p_client.c line 931:
+msg0117=USER%d
+; p_client.c line 932:
+msg0118=SPASS%s
+; p_client.c line 933:
+msg0119=SERVERS
+; p_client.c line 934:
+msg0120=PORT%s
+; p_client.c line 935:
+msg0121=SERVERS
+; p_client.c line 936:
+msg0122=SERVER%s
+; p_client.c line 937:
+msg0123=SERVERS
+; p_client.c line 939:
+msg0124=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Server %s cancellato.þÿ
+; p_client.c line 957:
+msg0125=USER%d
+; p_client.c line 963:
+msg0126=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Server #%d: %s porta %dþÿ
+; p_client.c line 967:
+msg0127=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine lista servers.þÿ
+; p_client.c line 998:
+msg0128=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non hai definito un nome per questo bnc. Fai NAMEBOUNCER name prima.þÿ
+; p_client.c line 1002:
+msg0129=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Host non indicato. Usa %s name :host:port.þÿ
+; p_client.c line 1006:
+msg0130=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :name non indicato. Usa %s name :host:port.þÿ
+; p_client.c line 1010:
+msg0131=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Porta non indicata. Usa %s name :host:port.þÿ
+; p_client.c line 1024:
+msg0132=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Porta non valida. Usa %s name :host:port.þÿ
+; p_client.c line 1036:
+msg0133=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link %s gia' esistente.þÿ
+; p_client.c line 1041:
+msg0134=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non ci sono piu' Link-Connections liberi.þÿ
+; p_client.c line 1053:
+msg0135=Nuovo link '%s' %s %s:%d aggiunto da %s.
+; p_client.c line 1070:
+msg0136=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Valore non valido. Usa RELAYLINK linknumber :0|1.þÿ
+; p_client.c line 1074:
+msg0137=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :linknumber non indicato. Use RELAYLINK linknumber :0|1.þÿ
+; p_client.c line 1081:
+msg0138=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link %s sconosciuto.þÿ
+; p_client.c line 1090:
+msg0139=Relay link per linkare '%s' %sd da %s
+; p_client.c line 1103:
+msg0140=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Link-Number definito.þÿ
+; p_client.c line 1110:
+msg0141=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link %s sconosciuto.þÿ
+; p_client.c line 1113:
+msg0142=Link %d rimosso da %s
+; p_client.c line 1116:
+msg0143=Link per %s rimosso da %s
+; p_client.c line 1122:
+msg0144=Link da %s rimosso da %s
+; p_client.c line 1136:
+msg0145=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s
+; p_client.c line 1154:
+msg0146=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista dei Links locali.þÿ
+; p_client.c line 1173:
+msg0147=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%c%d %s %s %s(%d)þÿ
+; p_client.c line 1178:
+msg0148=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'albero dei Linkþÿ
+; p_client.c line 1180:
+msg0149=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine Tree.þÿ
+; p_client.c line 1243:
+msg0150=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Parametri errati. Usa ADDDCC botname user pass :host:portþÿ
+; p_client.c line 1305:
+msg0151=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa AUTOGETDCC 0 oppure AUTOGETDCC 1.þÿ
+; p_client.c line 1310:
+msg0152=USER%d
+; p_client.c line 1311:
+msg0153=AUTOGETDCC
+; p_client.c line 1314:
+msg0154=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AUTOGETDCC attivato.þÿ
+; p_client.c line 1316:
+msg0155=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AUTOGETDCC disattivato.þÿ
+; p_client.c line 1342:
+msg0156=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :
+; p_client.c line 1342:
+msg0157= Help (* = Solo per l'Admin del Bouncer)ÿ
+; p_client.c line 1343:
+msg0158=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :--------------------------------------ÿ
+; p_client.c line 1345:
+msg0159=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :BHELP - Fine Aiutoÿ
+; p_client.c line 1348:
+msg0160=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :BHELP - Fine Aiutoÿ
+; p_client.c line 1362:
+msg0161=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Host indicato. Usa ADDOP [#chan] password :host
+; p_client.c line 1366:
+msg0162=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna Password fornita. Usa ADDOP [#chan] password :host
+; p_client.c line 1370:
+msg0163=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1373:
+msg0164=USER%d.OP
+; p_client.c line 1375:
+msg0165=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto op per l'hostmask %s (%s)
+; p_client.c line 1388:
+msg0166=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Host indicato. Usa ADDAUTOOP #chan :host
+; p_client.c line 1392:
+msg0167=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Channel indicato. Usa ADDAUTOOP #chan :host
+; p_client.c line 1396:
+msg0168=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1399:
+msg0169=USER%d.AOP
+; p_client.c line 1401:
+msg0170=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto auto-op per l'hostmask %s (%s)
+; p_client.c line 1414:
+msg0171=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Host indicato. Use ADDASK [#chan] password :host
+; p_client.c line 1418:
+msg0172=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Password indicato. Use ADDASK [#chan] password :host
+; p_client.c line 1422:
+msg0173=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1425:
+msg0174=USER%d.ASK
+; p_client.c line 1427:
+msg0175=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto op dall'hostmask %s (%s)
+; p_client.c line 1440:
+msg0176=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Host indicato. Usa ADDALLOW :hostmask
+; p_client.c line 1444:
+msg0177=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1447:
+msg0178=PSYBNC.HOSTALLOWS
+; p_client.c line 1449:
+msg0179=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto Host allow dall'hostmask %s
+; p_client.c line 1462:
+msg0180=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Host indicato. Usa ADDBAN [#canale] motivo :host
+; p_client.c line 1466:
+msg0181=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Motivo indicato. Usa ADDBAN [#canale] motivo :host
+; p_client.c line 1470:
+msg0182=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1473:
+msg0183=USER%d.BAN
+; p_client.c line 1475:
+msg0184=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto ban per l'host %s (%s)
+; p_client.c line 1490:
+msg0185=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Log Filter indicato (* per loggare tutto). Usa ADDLOG [#chan/logdest.] :filter(testo da essere loggato)
+; p_client.c line 1494:
+msg0186=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna Destination indicata. Usa ADDLOG [#chan/logdest.] :filter
+; p_client.c line 1498:
+msg0187=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; nel Filter
+; p_client.c line 1501:
+msg0188=USER%d.LGI
+; p_client.c line 1503:
+msg0189=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto log per destinazione %s (filtro %s)
+; p_client.c line 1522:
+msg0190=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link '%d' non trovato.þÿ
+; p_client.c line 1530:
+msg0191=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Link '%d' resettato e disconnesso.þÿ
+; p_client.c line 1547:
+msg0192=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun canale o nick indicato. Usa ENCRYPT password :#canale o nick
+; p_client.c line 1551:
+msg0193=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna Password fornita. Usa ENCRYPT password :#canale o nick
+; p_client.c line 1555:
+msg0194=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; nei #canali o nei nick
+; p_client.c line 1558:
+msg0195=USER%d.ENC
+; p_client.c line 1561:
+msg0196=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto encryption per %s (%s)
+; p_client.c line 1590:
+msg0197=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun languages indicato. Usa TRANSLATE #canale o nick :language-from language-to
+; p_client.c line 1594:
+msg0198=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun Canale o Nick indicati. Usa TRANSLATE #canale o nick :language-from language-to
+; p_client.c line 1598:
+msg0199=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; per specificare i language
+; p_client.c line 1605:
+msg0200=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Parametri insufficienti in language. Usa due specificazioni di language.
+; p_client.c line 1611:
+msg0201=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :languages errati. Usa en_de,en_fr,en_it,en_pt,de_en,fr_en,it_en,pt_en,en_zh,en_ja,en_ko,en_es,en_ru,fr_de,de_fr,ja_en,ko_en,ru_en oppure es_en.
+; p_client.c line 1623:
+msg0202=USER%d.TRA
+; p_client.c line 1626:
+msg0203=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto translator per %s (%s)
+; p_client.c line 1628:
+msg0204=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :languages errati. Usa en_de,en_fr,en_it,en_pt,de_en,fr_en,it_en oppure pt_en
+; p_client.c line 1641:
+msg0205=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELOP number
+; p_client.c line 1644:
+msg0206=USER%d.OP
+; p_client.c line 1646:
+msg0207=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Op Number %s rimosso
+; p_client.c line 1657:
+msg0208=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELOP number
+; p_client.c line 1660:
+msg0209=USER%d.AOP
+; p_client.c line 1662:
+msg0210=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Auto-Op Number %s rimosso
+; p_client.c line 1672:
+msg0211=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELASK number
+; p_client.c line 1675:
+msg0212=USER%d.ASK
+; p_client.c line 1677:
+msg0213=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :AskOp Number %s rimosso
+; p_client.c line 1687:
+msg0214=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELALLOW number
+; p_client.c line 1690:
+msg0215=PSYBNC.HOSTALLOWS
+; p_client.c line 1692:
+msg0216=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Host Allow Number %s rimosso
+; p_client.c line 1704:
+msg0217=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELBAN number
+; p_client.c line 1707:
+msg0218=USER%d.BAN
+; p_client.c line 1711:
+msg0219=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Ban Number %s rimosso
+; p_client.c line 1724:
+msg0220=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELLOG number
+; p_client.c line 1727:
+msg0221=USER%d.LGI
+; p_client.c line 1729:
+msg0222=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Log Entry Number %s rimosso
+; p_client.c line 1741:
+msg0223=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELENCRYPT number
+; p_client.c line 1744:
+msg0224=USER%d.ENC
+; p_client.c line 1746:
+msg0225=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Encryption Number %s rimosso
+; p_client.c line 1760:
+msg0226=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun number indicato. Usa DELTRANSLATE number
+; p_client.c line 1763:
+msg0227=USER%d.TRA
+; p_client.c line 1765:
+msg0228=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Translator Number %s rimosso
+; p_client.c line 1777:
+msg0229=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista OPs:
+; p_client.c line 1779:
+msg0230=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1789:
+msg0231=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Auto-OPs:
+; p_client.c line 1791:
+msg0232=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1801:
+msg0233=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista AskOPs:
+; p_client.c line 1803:
+msg0234=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1813:
+msg0235=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Host Allows:
+; p_client.c line 1815:
+msg0236=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1825:
+msg0237=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Bans:
+; p_client.c line 1827:
+msg0238=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1839:
+msg0239=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Encryptions:
+; p_client.c line 1841:
+msg0240=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1855:
+msg0241=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Translators:
+; p_client.c line 1857:
+msg0242=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1872:
+msg0243=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista Log-Entrys:
+; p_client.c line 1874:
+msg0244=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine della Lista.
+; p_client.c line 1888:
+msg0245=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :REHASH !! Tutte le connessioni saranno resettate.
+; p_client.c line 1889:
+msg0246=REHASH dall'utente %s
+; p_client.c line 1915:
+msg0247=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun user indicato. La sintassi e' MADMIN user.
+; p_client.c line 1921:
+msg0248=L'utente %s ha impostato l'utente %s come amministratore
+; p_client.c line 1923:
+msg0249=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non trovato.
+; p_client.c line 1937:
+msg0250=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun user indicato. La sintassi UNADMIN user.
+; p_client.c line 1941:
+msg0251=L'utente %s ha tolto i diritti di amministratore dall'utente %s
+; p_client.c line 1946:
+msg0252=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non trovato.
+; p_client.c line 1960:
+msg0253=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :No user given. Syntax is BKILL user.
+; p_client.c line 1965:
+msg0254=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non e' online. Perche' killare un morto?.
+; p_client.c line 1968:
+msg0255=L'utente %s ha killato l'utente %s
+; p_client.c line 1969:
+msg0256=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei stato killato da %s.
+; p_client.c line 1975:
+msg0257=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non trovato.
+; p_client.c line 1995:
+msg0258=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Script ricaricatoþÿ
+; p_client.c line 2008:
+msg0259=Lista processi attivi
+; p_client.c line 2013:
+msg0260=PID: %d  STDIN: %d STDOUT: %d STDERR: %d PROGRAM: %s
+; p_client.c line 2017:
+msg0261=Fine lista processi
+; p_client.c line 2030:
+msg0262=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei gia' quittato.ÿ
+; p_client.c line 2034:
+msg0263=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei stato marcato come quittato.ÿ
+; p_client.c line 2037:
+msg0264=QUIT :ÿ
+; p_client.c line 2040:
+msg0265=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sei stato sconnesso.ÿ
+; p_client.c line 2054:
+msg0266=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei marcato come quittato.ÿ
+; p_client.c line 2073:
+msg0267=SYSTEM
+; p_client.c line 2075:
+msg0268=Nome del bouncer impostato come '%s'.
+; p_client.c line 2086:
+msg0269=L'utente %s e' uscito dal bnc (da %s)
+; p_client.c line 2087:
+msg0270=:%s!%s@%s QUIT :cyaþÿ
+; p_client.c line 2176:
+msg0271=%s%s%sþÿ
+; p_client.c line 2203:
+msg0272=%s%s%sþÿ
+; p_client.c line 2276:
+msg0273=:irc.psychoid.net PONG irc.psychoid.net :%s
+; p_client.c line 2278:
+msg0274=:%s PONG %s :%s
+; p_client.c line 2379:
+msg0275=AWAY :%sþÿ
+; p_client.c line 2386:
+msg0276=.AWAY %sþÿ
+; p_client.c line 2396:
+msg0277=NICK %sþÿ
+; p_client.c line 2398:
+msg0278=NICK %sþÿ
+; p_client.c line 2417:
+msg0279=L'utente %s e' uscito dal bnc.
+; p_client.c line 2425:
+msg0280=Utente %s: non c'e' l'utente connesso (%s)
+; p_client.c line 2426:
+msg0281=Utente %s: non c'e' l'utente connesso (%s)
+; p_client.c line 2427:
+msg0282=Errore
+; p_client.c line 2436:
+msg0283=Utente %s disconnesso (da %s)
+; p_client.c line 2437:
+msg0284=Utente %s disconnesso (da %s)
+; p_client.c line 2438:
+msg0285=Connessione perduta
+; p_dcc.c line 45:
+msg0286=USER%d.DCC
+; p_dcc.c line 75:
+msg0287=%s %s %s
+; p_dcc.c line 76:
+msg0288=%s:%dÿ
+; p_dcc.c line 78:
+msg0289=DCC per %s(%s:%d) aggiunta da %s.
+; p_dcc.c line 101:
+msg0290=USER%d
+; p_dcc.c line 105:
+msg0291=ENTRY%d
+; p_dcc.c line 159:
+msg0292=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista DCCsþÿ
+; p_dcc.c line 168:
+msg0293=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%d%c %s (%s:%d)þÿ
+; p_dcc.c line 173:
+msg0294=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine lista DCCsþÿ
+; p_dcc.c line 211:
+msg0295=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non esiste la DCC indicata.þÿ
+; p_dcc.c line 217:
+msg0296=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sessione DCC (%d) chiusa.þÿ
+; p_dcc.c line 235:
+msg0297=USER%d
+; p_dcc.c line 236:
+msg0298=ENTRY%d
+; p_dcc.c line 240:
+msg0299=ENTRY%d
+; p_dcc.c line 244:
+msg0300=ENTRY%d
+; p_dcc.c line 247:
+msg0301=ENTRY%d
+; p_dcc.c line 249:
+msg0302=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :DCC %d cancellata.þÿ
+; p_dcc.c line 304:
+msg0303=:%s%c%s!DCC@%s PRIVMSG %s :%sþÿ
+; p_dcc.c line 328:
+msg0304=Connected to DCC: %s to %s (%s:%d)
+; p_dcc.c line 330:
+msg0305=%sþÿ
+; p_dcc.c line 333:
+msg0306=%sþÿ
+; p_dcc.c line 355:
+msg0307=DCC perduta: %s to %s (%s:%d)
+; p_dcc.c line 379:
+msg0308=Fallita connessione DCC: %s to %s (%s:%d)
+; p_dcc.c line 424:
+msg0309=Collegamento SSL-DCC: %s to %s (%s:%d)
+; p_dcc.c line 427:
+msg0310=Collegamento DCC: %s to %s (%s:%d)
+; p_dcc.c line 434:
+msg0311=Fallita connessione DCC: %s to %s (%s:%d)
+; p_dcc.c line 507:
+msg0312=/dev/
+; p_dcc.c line 509:
+msg0313=/etc/
+; p_dcc.c line 630:
+msg0314=:%s(%s!DCCChat@%s PRIVMSG %s :[%d] Chat stabilita
+; p_dcc.c line 638:
+msg0315=CONNECTED
+; p_dcc.c line 658:
+msg0316=:%s(%s!DCCChat@%s PRIVMSG %s :[%d] Chat chiusa
+; p_dcc.c line 679:
+msg0317=:%s(%s!DCCChat@%s PRIVMSG %s :%s
+; p_dcc.c line 735:
+msg0318=:%s(%s!DCCChat@%s PRIVMSG %s :[%d] Chat stabilita
+; p_dcc.c line 755:
+msg0319=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Trasferimento file di %s da %s%s abortito.
+; p_dcc.c line 774:
+msg0320=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Trasferimento file di %s da %s%s interrotto.
+; p_dcc.c line 805:
+msg0321=Trasferimento file %s inviato a %s%s completato.
+; p_dcc.c line 850:
+msg0322=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'usente %s%s(%s) ha accettato il file %s. Inizio invio del file.
+; p_dcc.c line 876:
+msg0323=downloads
+; p_dcc.c line 877:
+msg0324=downloads/USER%d
+; p_dcc.c line 884:
+msg0325=Impossibile creare file %s - annullamento.
+; p_dcc.c line 890:
+msg0326=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Connesso a %s%s(%s). Ricezione file %s.
+; p_dcc.c line 910:
+msg0327=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Connessione verso %s%s(%s) perduta. File %s incompleto.
+; p_dcc.c line 938:
+msg0328=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Errore di scrittura file durante la ricezione da %s%s(%s). File %s incompleto.
+; p_dcc.c line 965:
+msg0329=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Ricevuto EOF durante la ricezione da %s%s(%s). File %s incompleto.
+; p_dcc.c line 967:
+msg0330=File %s da %s%s(%s) ricevuto.
+; p_dcc.c line 1017:
+msg0331=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei connesso.
+; p_dcc.c line 1022:
+msg0332=Nessun IP definito per l'uso delle DCC. Crea una linea 'PSYBNC.SYSTEM.DCCHOST=IP' nel psybnc.conf.
+; p_dcc.c line 1034:
+msg0333=Creazione porta in listening impossibile da bindare dopo 20 prove.. annullamento.
+; p_dcc.c line 1040:
+msg0334=Creazione socket fallita.. uscita.
+; p_dcc.c line 1063:
+msg0335=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Richiesta di DCC Chat inviata a %s%s (%s:%d)
+; p_dcc.c line 1067:
+msg0336=NOTICE %s :SSL-DCC Chat (%s)
+; p_dcc.c line 1070:
+msg0337=NOTICE %s :DCC Chat (%s)
+; p_dcc.c line 1085:
+msg0338=PRIVMSG %s :%cDCC CHAT chat %s %d%c
+; p_dcc.c line 1089:
+msg0339=PRIVMSG %s :%cDCC CHAT chat %lu %d%c
+; p_dcc.c line 1112:
+msg0340=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s%s ha inviato una richiesta di DCC Chat. Usa /DCCANSWER %s oppure /DCCANSWER S=%s (SSL) per stabilire la connessione (%s/%d).
+; p_dcc.c line 1114:
+msg0341=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s%s ha inviato una richiesta di DCC Chat. Usa /DCCANSWER %s per stabilire la connessione (%s/%d).
+; p_dcc.c line 1161:
+msg0342=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna richiesta DCC da '%s'
+; p_dcc.c line 1166:
+msg0343=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei connesso.
+; p_dcc.c line 1171:
+msg0344=Nessun IP definito per l'uso delle DCC. Crea una linea 'PSYBNC.SYSTEM.DCCHOST=IP' nel psybnc.conf.
+; p_dcc.c line 1177:
+msg0345=Filename invalido '%s'.
+; p_dcc.c line 1183:
+msg0346=downloads/USER%d/%s
+; p_dcc.c line 1187:
+msg0347=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :File %s non trovato.
+; p_dcc.c line 1204:
+msg0348=Creazione porta in listening impossibile da bindare dopo 20 prove.. annullamento.
+; p_dcc.c line 1210:
+msg0349=Creazione socket fallita.. uscita.
+; p_dcc.c line 1245:
+msg0350=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :SSL-DCC File Send for %s request sent to %s%s (%s:%d)
+; p_dcc.c line 1248:
+msg0351=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :DCC File Send for %s request sent to %s%s (%s:%d)
+; p_dcc.c line 1253:
+msg0352=NOTICE %s :SSL-DCC Send %s (%s)
+; p_dcc.c line 1256:
+msg0353=NOTICE %s :DCC Send %s (%s)
+; p_dcc.c line 1271:
+msg0354=PRIVMSG %s :%cDCC SEND %s %s %d %lu%c
+; p_dcc.c line 1275:
+msg0355=PRIVMSG %s :%cDCC SEND %s %lu %d %lu%c
+; p_dcc.c line 1282:
+msg0356=downloads/USER%d/%s
+; p_dcc.c line 1302:
+msg0357=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s%s ha inviato una richiesta di invio file attraverso DCC per il file %s. Il file verra' downloadato automaticamente. (%s/%d).
+; p_dcc.c line 1307:
+msg0358=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s%s ha inviato una richiesta di invio file attraverso DCC per il file %s. Usa /DCCGET %s%s :%s oppure /DCCGET %sS=%s :%s (SSL) per ricevere il file. (%s/%d).
+; p_dcc.c line 1309:
+msg0359=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%s%s ha inviato una richiesta di invio file attraverso DCC per il file %s. Usa /DCCGET %s%s :%s per ricevere il file. (%s/%d).
+; p_dcc.c line 1371:
+msg0360=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessuna richiesta di invio file attraverso DCC da '%s' per il file %s
+; p_dcc.c line 1486:
+msg0361=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s : Lista DCCs pendenti
+; p_dcc.c line 1490:
+msg0362=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s : %d %s %s (%s)
+; p_dcc.c line 1492:
+msg0363=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s : %d %s %s
+; p_dcc.c line 1498:
+msg0364=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s : Fine lista DCCs pendenti
+; p_dcc.c line 1548:
+msg0365=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :DCC sconosciuta. Usa /DCCCANCEL nick :file oppure /DCCCANCEL nick.
+; p_dcc.c line 1562:
+msg0366=VERSION
+; p_dcc.c line 1564:
+msg0367=NOTICE %s :%cVERSION 
+; p_dcc.c line 1597:
+msg0368=DCC CHAT
+; p_dcc.c line 1624:
+msg0369=DCC SEND
+; p_inifunc.c line 144:
+msg0370=%s.%s.%s=
+; p_inifunc.c line 180:
+msg0371=%s.%s.%s=
+; p_inifunc.c line 181:
+msg0372=%s.%s.
+; p_inifunc.c line 281:
+msg0373=USER%d
+; p_inifunc.c line 282:
+msg0374=SERVER%d
+; p_inifunc.c line 283:
+msg0375=SERVERS
+; p_inifunc.c line 286:
+msg0376=PORT%d
+; p_inifunc.c line 287:
+msg0377=SERVERS
+; p_inifunc.c line 289:
+msg0378=SPASS%d
+; p_inifunc.c line 290:
+msg0379=SERVERS
+; p_inifunc.c line 321:
+msg0380=log/USER%d.LOG
+; p_inifunc.c line 323:
+msg0381=log/USER%d.TRA
+; p_inifunc.c line 325:
+msg0382=USER%d.
+; p_intnet.c line 132:
+msg0383=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Il Network interno (int') non puo' essere joinato, perche' il tuo nick e' gia' in uso da %s!%s@%s. Cambia il tuo nick quindi riprova ad entrare.
+; p_intnet.c line 137:
+msg0384=:intnet!intnet@%s INTNET *@* :USER %s %s %s :%s
+; p_intnet.c line 295:
+msg0385=%s!%s@%s
+; p_intnet.c line 345:
+msg0386=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 357:
+msg0387=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 383:
+msg0388=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 435:
+msg0389=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 494:
+msg0390=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 555:
+msg0391=:intnet!intnet@%s INTNET *@* :%s
+; p_intnet.c line 599:
+msg0392=%s-psybnc.net
+; p_intnet.c line 603:
+msg0393=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 608:
+msg0394=%s-psybnc.net
+; p_intnet.c line 615:
+msg0395=:%s-psybnc.net 404 %s %s :Non puoi inviare al canale
+; p_intnet.c line 618:
+msg0396=:%s-psybnc.net 404 %s %s :Non puoi inviare al canale
+; p_intnet.c line 620:
+msg0397=:%s!%s@%s %s %s :%s
+; p_intnet.c line 630:
+msg0398=%s-psybnc.net
+; p_intnet.c line 634:
+msg0399=:%s-psybnc.net 401 %s %s :Nick non esistente
+; p_intnet.c line 639:
+msg0400=%s-psybnc.net
+; p_intnet.c line 643:
+msg0401=:%s!%s@%s %s %s :%s
+; p_intnet.c line 667:
+msg0402=USER%d
+; p_intnet.c line 670:
+msg0403=ENTRY%d
+; p_intnet.c line 671:
+msg0404=INTCHANS
+; p_intnet.c line 677:
+msg0405=INTCHANS
+; p_intnet.c line 677:
+msg0406=ENTRY%d
+; p_intnet.c line 678:
+msg0407=ENTRY%d
+; p_intnet.c line 679:
+msg0408=INTCHANS
+; p_intnet.c line 692:
+msg0409=USER%d
+; p_intnet.c line 695:
+msg0410=ENTRY%d
+; p_intnet.c line 696:
+msg0411=INTCHANS
+; p_intnet.c line 701:
+msg0412=INTCHANS
+; p_intnet.c line 719:
+msg0413=USER%d
+; p_intnet.c line 723:
+msg0414=ENTRY%d
+; p_intnet.c line 724:
+msg0415=INTCHANS
+; p_intnet.c line 783:
+msg0416=%s-psybnc.net
+; p_intnet.c line 802:
+msg0417=:%s-psybnc.net 474 %s %s :Non puoi entrare nel canale, sei bannato (+b)
+; p_intnet.c line 805:
+msg0418=:%s-psybnc.net 475 %s %s :Non puoi entrare nel canale, con key (+k)
+; p_intnet.c line 808:
+msg0419=:%s-psybnc.net 473 %s %s :Non puoi entrare nel canale, ad invito (+i)
+; p_intnet.c line 814:
+msg0420=:%s!%s@%s JOIN %s
+; p_intnet.c line 817:
+msg0421=:%s!%s@%s MODE %s +o %s
+; p_intnet.c line 823:
+msg0422=:%s-psybnc.net 332 %s %s :%s
+; p_intnet.c line 835:
+msg0423=%s-psybnc.net
+; p_intnet.c line 839:
+msg0424=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 859:
+msg0425=:%s-psybnc.net 441 %s %s :Non stanno nel canale
+; p_intnet.c line 881:
+msg0426=:%s-psybnc.net 441 %s %s :Non stanno nel canale
+; p_intnet.c line 900:
+msg0427=:%s-psybnc.net 441 %s %s :Non stanno nel canale
+; p_intnet.c line 922:
+msg0428=:%s-psybnc.net 441 %s %s :Non stanno nel canale
+; p_intnet.c line 952:
+msg0429=%s-psybnc.net
+; p_intnet.c line 964:
+msg0430=:%s-psybnc.net 403 %s %s :Canale inesistente
+; p_intnet.c line 989:
+msg0431=smitn
+; p_intnet.c line 1016:
+msg0432=:%s-psybnc.net 367 %s %s %s
+; p_intnet.c line 1019:
+msg0433=:%s-psybnc.net 368 %s %s :Fine della lista dei ban del canale
+; p_intnet.c line 1132:
+msg0434=:%s!%s@%s MODE %s %s%s %s
+; p_intnet.c line 1134:
+msg0435=:%s MODE %s %s%s %s
+; p_intnet.c line 1150:
+msg0436=%s-psybnc.net
+; p_intnet.c line 1155:
+msg0437=:%s-psybnc.net 403 %s %s :Canale inesistente
+; p_intnet.c line 1162:
+msg0438=:%s-psybnc.net 324 %s %s %s %s
+; p_intnet.c line 1164:
+msg0439=:%s-psybnc.net 324 %s %s %s
+; p_intnet.c line 1167:
+msg0440=:%s-psybnc.net 324 %s %s %s
+; p_intnet.c line 1236:
+msg0441=%s-psybnc.net
+; p_intnet.c line 1243:
+msg0442=:%s-psybnc.net 403 %s %s :Canale inesistente
+; p_intnet.c line 1248:
+msg0443=:%s-psybnc.net 442 %s %s :Non sei su questo canale
+; p_intnet.c line 1255:
+msg0444=:%s-psybnc.net 482 %s %s :Non sei OP
+; p_intnet.c line 1327:
+msg0445=%s-psybnc.net
+; p_intnet.c line 1334:
+msg0446=:%s-psybnc.net 403 %s %s :Canale inesistente
+; p_intnet.c line 1339:
+msg0447=:%s-psybnc.net 442 %s %s :Non sei su questo canale
+; p_intnet.c line 1341:
+msg0448=:%s!%s@%s PART %s :%s
+; p_intnet.c line 1354:
+msg0449=%s-psybnc.net
+; p_intnet.c line 1358:
+msg0450=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1383:
+msg0451= KICK 
+; p_intnet.c line 1407:
+msg0452=:%s!%s@%s KICK %s %s :%s
+; p_intnet.c line 1415:
+msg0453=%s-psybnc.net
+; p_intnet.c line 1443:
+msg0454=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1448:
+msg0455=:%s-psybnc.net 442 %s %s :Non sei su questo canale
+; p_intnet.c line 1452:
+msg0456=:%s-psybnc.net 482 %s %s :Non sei OP
+; p_intnet.c line 1469:
+msg0457=:%s!%s@%s KICK %s %s :%s
+; p_intnet.c line 1476:
+msg0458=:%s-psybnc.net 441 %s %s :Non sono su questo canale
+; p_intnet.c line 1506:
+msg0459=:%s!%s@%s NOTICE %s :Il tuo nick e' stato introdotto nella intnet dal link '%s'. Il link e' stato resettato per un collide.
+; p_intnet.c line 1519:
+msg0460=%s-psybnc.net
+; p_intnet.c line 1527:
+msg0461=:%s!%s@%s NICK :%s
+; p_intnet.c line 1548:
+msg0462=%s-psybnc.net
+; p_intnet.c line 1555:
+msg0463=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1560:
+msg0464=:%s-psybnc.net 442 %s %s :Non sei nel canale
+; p_intnet.c line 1593:
+msg0465=:%s!%s@%s QUIT :%s
+; p_intnet.c line 1614:
+msg0466=%s-psybnc.net
+; p_intnet.c line 1623:
+msg0467=:%s-psybnc.net 352 %s * %s %s %s %s H :0 ?
+; p_intnet.c line 1626:
+msg0468=:%s-psybnc.net 315 %s * :Fine del WHO
+; p_intnet.c line 1631:
+msg0469=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1636:
+msg0470=:%s-psybnc.net 442 %s %s :Non sei nel canale
+; p_intnet.c line 1641:
+msg0471=:%s-psybnc.net 352 %s %s %s %s * %s H :0 ?
+; p_intnet.c line 1644:
+msg0472=:%s-psybnc.net 315 %s %s :Fine del WHO
+; p_intnet.c line 1667:
+msg0473=%s-psybnc.net
+; p_intnet.c line 1674:
+msg0474=:%s-psybnc.net 401 %s %s :No such Nick
+; p_intnet.c line 1676:
+msg0475=:%s-psybnc.net 311 %s %s %s %s * :psyBNC Network User
+; p_intnet.c line 1677:
+msg0476=:%s-psybnc.net 319 %s %s :
+; p_intnet.c line 1701:
+msg0477=:%s-psybnc.net 312 %s %s %s :Network psyBNC
+; p_intnet.c line 1705:
+msg0478=:%s-psybnc.net 313 %s %s :e' un BNC Administrator
+; p_intnet.c line 1707:
+msg0479=:%s-psybnc.net 318 %s %s :Fine WHOIS
+; p_intnet.c line 1732:
+msg0480=Guest
+; p_intnet.c line 1756:
+msg0481=:%s!%s@%s NOTICE %s :Il tuo nick e' stato introdotto nella intnet dal link '%s'. Il link e' stato resettato per un collide.
+; p_intnet.c line 1760:
+msg0482=:intnet!intnet@%s INTNET *@* :USER %s %s %s :%s
+; p_intnet.c line 1796:
+msg0483=%s-psybnc.net
+; p_intnet.c line 1803:
+msg0484=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1808:
+msg0485=:%s-psybnc.net 442 %s %s :Non sei nel canale
+; p_intnet.c line 1812:
+msg0486=:%s-psybnc.net 482 %s %s :Non sei OP
+; p_intnet.c line 1817:
+msg0487=:%s!%s@%s TOPIC %s :%s
+; p_intnet.c line 1854:
+msg0488=%s-psybnc.net
+; p_intnet.c line 1882:
+msg0489=:%s-psybnc.net 401 %s %s :Canale inesistente
+; p_intnet.c line 1887:
+msg0490=:%s-psybnc.net 442 %s %s :Non sei nel canale
+; p_intnet.c line 1891:
+msg0491=:%s-psybnc.net 482 %s %s :Non sei OP
+; p_intnet.c line 1908:
+msg0492=:%s!%s@%s INVITE %s :%s
+; p_intnet.c line 1911:
+msg0493=:%s-psybnc.net 443 %s %s %s :e' gia' nel canale
+; p_intnet.c line 1938:
+msg0494=USER %s %s %s :%s
+; p_intnet.c line 1945:
+msg0495=:%s-psybnc.net MODE %s +
+; p_intnet.c line 1950:
+msg0496=:%s!%s@%s JOIN :%s
+; p_intnet.c line 1955:
+msg0497=%s %s
+; p_intnet.c line 1956:
+msg0498=:%s-psybnc.net MODE %s +
+; p_intnet.c line 1975:
+msg0499=%s %s
+; p_intnet.c line 1977:
+msg0500=:%s-psybnc.net MODE %s +
+; p_intnet.c line 1985:
+msg0501=%s %s
+; p_intnet.c line 1986:
+msg0502=:%s-psybnc.net MODE %s +
+; p_intnet.c line 2002:
+msg0503=%s %s
+; p_intnet.c line 2005:
+msg0504=:%s-psybnc.net MODE %s %s
+; p_intnet.c line 2027:
+msg0505=:%s!%s@%s QUIT :%s %s
+; p_intnet.c line 2036:
+msg0506=:%s!%s@%s QUIT :%s %s
+; p_link.c line 94:
+msg0507=USER %s %s 127.0.0.1 :%sþÿ
+; p_link.c line 95:
+msg0508=NICK %sþÿ
+; p_link.c line 96:
+msg0509=RELAY: Utente %s connesso.
+; p_link.c line 104:
+msg0510=RELAY: Utente %s: impossibile connettere.
+; p_link.c line 128:
+msg0511=RELAY: Utente %s: connessione perduta.
+; p_link.c line 158:
+msg0512=PSYBNC %s :%dþÿ
+; p_link.c line 165:
+msg0513=PASS %sþÿ
+; p_link.c line 166:
+msg0514=:*!*@%s RECURSIVE :%sþÿ
+; p_link.c line 168:
+msg0515=:*!*@* BWHO :þÿ
+; p_link.c line 173:
+msg0516=:TOPO!TOPO@* LISTLINKS * :þÿ
+; p_link.c line 174:
+msg0517=LINK %d: connesso a %s porta %d.
+; p_link.c line 182:
+msg0518=LINK %d: impossibile connettere a %s porta %d.
+; p_link.c line 194:
+msg0519=LINK %d: connessione a %s porta %d perduta.
+; p_link.c line 196:
+msg0520=Lost Link (%s)
+; p_link.c line 234:
+msg0521=INTNET
+; p_link.c line 249:
+msg0522=QUERY
+; p_link.c line 254:
+msg0523=:psyBNC!*@%s SYSMSG %s@%s :%s - No such userþÿ
+; p_link.c line 259:
+msg0524=:$%s*%s!psyBNC@lam3rz.de PRIVMSG %s :%sþÿ
+; p_link.c line 261:
+msg0525=:$%s@%s!psyBNC@lam3rz.de PRIVMSG %s :%sþÿ
+; p_link.c line 266:
+msg0526=SYSMSG
+; p_link.c line 302:
+msg0527=:psyBNC!*@
+; p_link.c line 317:
+msg0528=%s*%s
+; p_link.c line 320:
+msg0529=:$%s*%s!%s@%s. JOIN :
+; p_link.c line 342:
+msg0530=:%s!psyBNC@lam3rz.de NOTICE %s :%sþÿ
+; p_link.c line 353:
+msg0531=Questo Link non ha nome, cancellazione.
+; p_link.c line 368:
+msg0532=RECURSIVE
+; p_link.c line 372:
+msg0533=LINK %d: RECURSIVE (%s:%d) - Cancellazione Link
+; p_link.c line 386:
+msg0534=PARTY
+; p_link.c line 395:
+msg0535=PRIVMSG
+; p_link.c line 400:
+msg0536=psyBNC
+; p_link.c line 403:
+msg0537=logged in.
+; p_link.c line 405:
+msg0538=User 
+; p_link.c line 412:
+msg0539=%s@%s
+; p_link.c line 419:
+msg0540=logged off.
+; p_link.c line 421:
+msg0541=User 
+; p_link.c line 428:
+msg0542=%s@%s
+; p_link.c line 430:
+msg0543=logged off
+; p_link.c line 435:
+msg0544=Linked to 
+; p_link.c line 437:
+msg0545=:TOPO!TOPO@%s LISTLINKS * :þÿ
+; p_link.c line 441:
+msg0546=Lost Link (
+; p_link.c line 451:
+msg0547=:$%s*%s!%s@%s. %s %s:%s
+; p_link.c line 475:
+msg0548=:psyBNC!*@%s SYSMSG %s@%s :[%s] %c %s(%s) [%s:%s] :%s [last:%-20s]þÿ
+; p_link.c line 477:
+msg0549=:psyBNC!*@%s SYSMSG %s@%s :[%s] %c %s(%s) [%s:%s] :%sþÿ
+; p_link.c line 485:
+msg0550=LISTLINKS
+; p_link.c line 505:
+msg0551=:psyBNC!*@%s SYSMSG %s@%s :[%s]%c%d %s %s %s(%d)þÿ
+; p_link.c line 514:
+msg0552=TOPIC
+; p_link.c line 522:
+msg0553=:$%s*%s!%s@%s TOPIC 
+; p_link.c line 522:
+msg0554= :%sþÿ
+; p_link.c line 530:
+msg0555=INTNET
+; p_link.c line 562:
+msg0556=Lost Link (%s)
+; p_link.c line 563:
+msg0557=LINK %d: Link perduto.
+; p_link.c line 610:
+msg0558=%sRELAY: Utente %s@%s (%s:%d): prova %s porta %d (%s).
+; p_link.c line 638:
+msg0559=linkdescriptors esauriti
+; p_link.c line 660:
+msg0560=RELAY: impossibile connettere a %s porta %d.
+; p_link.c line 694:
+msg0561=%sLINK %d: Connessione su %s:%d.
+; p_link.c line 705:
+msg0562=LINK %d: impossibile connettere a %s porta %d.
+; p_log.c line 42:
+msg0563=%s :%sÿ
+; p_log.c line 46:
+msg0564=%s :%sÿ
+; p_log.c line 48:
+msg0565=%s :%sÿ
+; p_log.c line 84:
+msg0566=salt.h
+; p_log.c line 89:
+msg0567=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :ATTEZIONE ! Sposta il file salt.h dalla shell in un posto sicuroÿ
+; p_log.c line 92:
+msg0568=log/USER%d.LOG
+; p_log.c line 104:
+msg0569=For a list
+; p_log.c line 105:
+msg0570=notes waiting on
+; p_log.c line 107:
+msg0571=http://
+; p_log.c line 108:
+msg0572=HTTP://
+; p_log.c line 134:
+msg0573=log/USER%d.LOG
+; p_log.c line 139:
+msg0574=%s'%s :(%s) %sÿ
+; p_log.c line 156:
+msg0575=log/USER%d.LOG
+; p_log.c line 158:
+msg0576=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Inizio play del Logÿ
+; p_log.c line 162:
+msg0577=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%sÿ
+; p_log.c line 164:
+msg0578=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa ERASEPRIVATELOG per eliminare il logÿ
+; p_log.c line 178:
+msg0579=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei amministratoreÿ
+; p_log.c line 186:
+msg0580=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Inizio del log principaleÿ
+; p_log.c line 188:
+msg0581=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%sÿ
+; p_log.c line 190:
+msg0582=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Usa ERASEMAINLOG per eliminare il logÿ
+; p_log.c line 217:
+msg0583=log/USER%d.TRL
+; p_log.c line 220:
+msg0584=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun filtro definito. Usa PLAYTRAFFICLOG source mm-dd-yy hh:mm:ss mm-dd-yy hh:mm:ss :text (* per loggare ogni cosa). Puoi anche usare PLAYTRAFFICLOG last.þÿ
+; p_log.c line 234:
+msg0585=%s %d-%d-%d %d:%d:%d %d-%d-%d %d:%d:%d :%sÿ
+; p_log.c line 260:
+msg0586=:-psyBNC!psyBNC@lam3rz.de PRIVMSG * :Inizio del play del log a partire da last.þÿ
+; p_log.c line 262:
+msg0587=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Inizio del play del log (%s, da %04d-%02d-%02d %02d:%02d:%02d a %04d-%02d-%02d %02d:%02d:%02d, filtro %s)þÿ
+; p_log.c line 268:
+msg0588=%d-%d-%d-%d-%d-%d:%s:
+; p_log.c line 312:
+msg0589=:-psyBNC!psyBNC@lam3rz.de PRIVMSG * :Fine del log.þÿ
+; p_log.c line 314:
+msg0590=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine del log (%s)þÿ
+; p_log.c line 321:
+msg0591=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Sintassi errata. Usa PLAYTRAFFICLOG source mm-dd-yy hh:mm:ss mm-dd-yy hh:mm:ss :text (* for ogni cosa)þÿ
+; p_log.c line 333:
+msg0592=%s.old
+; p_log.c line 345:
+msg0593=log/USER%d.LOG
+; p_log.c line 347:
+msg0594=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Log cancellatoÿ
+; p_log.c line 359:
+msg0595=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non sei amministratoreÿ
+; p_log.c line 365:
+msg0596=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Log principale cancellatoÿ
+; p_log.c line 381:
+msg0597=log/USER%d.TRL
+; p_log.c line 385:
+msg0598=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Log del traffico cancellatoÿ
+; p_log.c line 387:
+msg0599=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun log di traffico apertoÿ
+; p_log.c line 433:
+msg0600=log/USER%d.TRL
+; p_log.c line 438:
+msg0601=%02d-%02d-%02d-%02d-%02d-%02d:%s:%sÿ
+; p_memory.c line 39:
+msg0602=MEMORIA ESAURITA. Ultimo contesto: %s/%s Linea %d - killo il bouncer !
+; p_memory.c line 290:
+msg0603=Contesto programma : %s/%s Linea %d
+; p_memory.c line 299:
+msg0604=Errore BUS - Crash !
+; p_memory.c line 306:
+msg0605=SEGMENT VIOLATION - Crash !
+; p_memory.c line 313:
+msg0606=Errore di floating point - Crash !
+; p_memory.c line 322:
+msg0607=Terminato - quit per tutti gli utenti
+; p_memory.c line 330:
+msg0608=QUIT :terminatedÿ
+; p_memory.c line 336:
+msg0609=ERROR :terminatedÿ
+; p_memory.c line 345:
+msg0610=Ricevuto il segnale TERMINATE dal terminale
+; p_memory.c line 354:
+msg0611=Ricevuto HangUp - rehash
+; p_memory.c line 363:
+msg0612=Ricevuto il segnale QUIT - ignorato
+; p_memory.c line 372:
+msg0613=Log stat SSL
+; p_memory.c line 374:
+msg0614=Criptatore globale: Nessuna negoziazione attiva
+; p_memory.c line 378:
+msg0615=Nessuno.
+; p_memory.c line 379:
+msg0616=Criptatore globale: %s
+; p_memory.c line 381:
+msg0617=%4ld elementi nella cache di sessione
+; p_memory.c line 383:
+msg0618=%4d client connessi (SSL_connect())
+; p_memory.c line 385:
+msg0619=%4d client connessi che hanno finito
+; p_memory.c line 388:
+msg0620=%4d richieste di rinegoziazione client
+; p_memory.c line 391:
+msg0621=%4d connessioni server (SSL_accept())
+; p_memory.c line 393:
+msg0622=%4d connessioni server che hanno finito
+; p_memory.c line 396:
+msg0623=%4d richieste di rinegoziazione server
+; p_memory.c line 399:
+msg0624=%4d hits cache di sessione
+; p_memory.c line 400:
+msg0625=%4d miss cache di sessione
+; p_memory.c line 401:
+msg0626=%4d timeouts della cache di sessione
+; p_memory.c line 402:
+msg0627=Fine statistiche SSL
+; p_memory.c line 434:
+msg0628=Ricevuto USER1 - Debug dei sockets
+; p_memory.c line 453:
+msg0629=SOCK %-3d : TYPE - %s, SRC - %-41s:%-5d, DST- %-41s:%-5d, STATE - %s, BYTESIN - %-16d, BYTESOUT - %-16d, ENC - %s(%s/%d), SINCE - %s
+; p_memory.c line 458:
+msg0630=SOCK %-3d : TYPE - %s, SRC - %-41s:%-5d, DST- %-41s:%-5d, STATE - %s, BYTESIN - %-16d, BYTESOUT - %-16d, ENC - %s, SINCE - %s
+; p_memory.c line 462:
+msg0631=SOCK %-3d : TYPE - %s, SRC - %-41s:%-5d, DST- %-41s:%-5d, STATE - %s, BYTESIN - %-16d, BYTESOUT - %-16d, SINCE - %s
+; p_memory.c line 469:
+msg0632=SOCK: %-3d spirato, chiusura
+; p_memory.c line 489:
+msg0633=Ricevuto USR2 - Ricaricamento configurazione
+; p_memory.c line 499:
+msg0634=Interrotto - chiusura applicazione.
+; p_memory.c line 506:
+msg0635=Ricevuto segnale Ill - continuazione.
+; p_memory.c line 513:
+msg0636=Killato - chiusura applicazione.
+; p_network.c line 86:
+msg0637=:int'%s!%s
+; p_network.c line 88:
+msg0638=:%s!%s
+; p_network.c line 110:
+msg0639=%s %s %s
+; p_network.c line 112:
+msg0640=%s %s %s
+; p_network.c line 156:
+msg0641=%s %s
+; p_network.c line 170:
+msg0642=%s %s
+; p_network.c line 184:
+msg0643=%s - Network sconosciutoÿ
+; p_network.c line 261:
+msg0644=%s%c#%s'%s
+; p_network.c line 282:
+msg0645=%s:%s'%s
+; p_network.c line 292:
+msg0646=%c%s'%s
+; p_network.c line 333:
+msg0647=%s%c%s%c
+; p_network.c line 335:
+msg0648=%s%s%c
+; p_network.c line 338:
+msg0649=%s%s%c
+; p_network.c line 342:
+msg0650=%s%c%s'%s%c
+; p_network.c line 344:
+msg0651=%s%s'%s%c
+; p_network.c line 377:
+msg0652=%s %s'%s
+; p_network.c line 423:
+msg0653=%s :%s
+; p_network.c line 443:
+msg0654=%s %s %s
+; p_network.c line 445:
+msg0655=%s %s'%s %s
+; p_network.c line 485:
+msg0656=0123456789
+; p_network.c line 490:
+msg0657=%s%s%c
+; p_network.c line 492:
+msg0658=%s%s'%s%c
+; p_network.c line 495:
+msg0659=%s%s%c
+; p_network.c line 504:
+msg0660=INVITE
+; p_network.c line 511:
+msg0661=%s :#%s'%s
+; p_network.c line 535:
+msg0662=%s %s %s
+; p_network.c line 537:
+msg0663=%s %s'%s %s
+; p_peer.c line 132:
+msg0664=LINK %d: Prima connessione attraverso SSL. Certificato salvato
+; p_peer.c line 137:
+msg0665=Link %d
+; p_peer.c line 142:
+msg0666=:%s!*@%s IAM :þÿ
+; p_peer.c line 144:
+msg0667=:*!*@* BWHO :þÿ
+; p_peer.c line 145:
+msg0668=:psyBNC@%s!*@%s TOPIC 
+; p_peer.c line 145:
+msg0669= :%sþÿ
+; p_peer.c line 147:
+msg0670=:*!*@* LISTLINKS :þÿ
+; p_peer.c line 165:
+msg0671=Linked to %s
+; p_peer.c line 166:
+msg0672=Linked to %s
+; p_peer.c line 175:
+msg0673=:-psyBNC!psyBNC@lam3rz.de PRIVMSG * :Relay non permessi. Arrivederci.þÿ
+; p_peer.c line 262:
+msg0674=User %s: Primo log in attraverso SSL. Certificato ricevuto e salvato.
+; p_peer.c line 269:
+msg0675=User %s
+; p_peer.c line 275:
+msg0676=User %s loggato nel bnc.
+; p_peer.c line 277:
+msg0677=User %s loggato nel bnc.
+; p_peer.c line 289:
+msg0678=:-psyBNC!psychiod@lam3rz.de NOTICE %s :Nuova connessione da %sÿ
+; p_peer.c line 294:
+msg0679=User %s loggato (non in Partyline).
+; p_peer.c line 297:
+msg0680=User %s loggato.
+; p_peer.c line 321:
+msg0681=:%s!%s@%s NICK :%sþÿ
+; p_peer.c line 335:
+msg0682=NICK %sþÿ
+; p_peer.c line 343:
+msg0683=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Hai messaggi. Scivi /QUOTE PLAYPRIVATELOG per leggere i tuoi messaggi.
+; p_peer.c line 345:
+msg0684=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non ci sono nuovi messaggi per te
+; p_peer.c line 374:
+msg0685=Perduta connessione da %s (%s)
+; p_peer.c line 385:
+msg0686=Perduta connessione da  %s (%s)
+; p_peer.c line 405:
+msg0687=Login fallito. Disconnessione.ÿ
+; p_peer.c line 419:
+msg0688=PSYBNC
+; p_peer.c line 424:
+msg0689=VHOST
+; p_peer.c line 427:
+msg0690=CONNECT
+; p_peer.c line 431:
+msg0691=RELAY
+; p_peer.c line 440:
+msg0692=:-psyBNC!psyBNC@lam3rz.de NOTICE %s :Il tuo client IRC non ha inviato la password. Scrivi /QUOTE PASS tuapassword per connetterti.
+; p_peer.c line 451:
+msg0693=Fallito link in entrata %s (%s)
+; p_peer.c line 463:
+msg0694=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Password errata. Disconnessione.ÿ
+; p_peer.c line 464:
+msg0695=Autenticazione fallita per %s dall'host %s
+; p_peer.c line 481:
+msg0696=*!*@%s
+; p_peer.c line 485:
+msg0697=*!*@%s
+; p_peer.c line 507:
+msg0698=Sono consentite un massimo di 3 connessioni per host !ÿ
+; p_peer.c line 513:
+msg0699=Troppe connessioni, rimozione delle connessioni da %s
+; p_peer.c line 514:
+msg0700=Troppe connessioni dall'host !ÿ
+; p_peer.c line 518:
+msg0701=:Welcome!psyBNC@lam3rz.de NOTICE * :
+; p_peer.c line 532:
+msg0702=killed by user abort
+; p_peer.c line 573:
+msg0703=SYSTEM
+; p_peer.c line 573:
+msg0704=DCCHOST
+; p_peer.c line 573:
+msg0705=PSYBNC
+; p_peer.c line 577:
+msg0706=DCCHOST dev'essere in formato IP decimale puntato (nnn.nnn.nnn.nnn)
+; p_peer.c line 584:
+msg0707=PORT%d
+; p_peer.c line 585:
+msg0708=SYSTEM
+; p_peer.c line 585:
+msg0709=PSYBNC
+; p_peer.c line 588:
+msg0710=HOST%d
+; p_peer.c line 589:
+msg0711=SYSTEM
+; p_peer.c line 589:
+msg0712=PSYBNC
+; p_peer.c line 614:
+msg0713=Impossibile impostare un Host per le DCC Chats e per i Files. Imposta almeno un Listener per un IP.
+; p_script.c line 123:
+msg0714=Numero massimo di subtasks paralleli raggiunto durante la tentata esecuzione di '%s' dall'utente %s
+; p_script.c line 187:
+msg0715=EOFÿ
+; p_script.c line 208:
+msg0716=Impossibile creare i sockets per il task '%s' dell'utente %s
+; p_script.c line 216:
+msg0717=SIN/%d
+; p_script.c line 226:
+msg0718=SOUT/%d
+; p_script.c line 236:
+msg0719=SERR/%d
+; p_script.c line 343:
+msg0720=DCCCHAT
+; p_script.c line 344:
+msg0721=DCCSEND
+; p_script.c line 345:
+msg0722=SERVER
+; p_script.c line 346:
+msg0723=DIALOGUE
+; p_script.c line 348:
+msg0724=ALIAS
+; p_server.c line 43:
+msg0725=motd/USER%d.MOTD
+; p_server.c line 46:
+msg0726= 001 
+; p_server.c line 75:
+msg0727=MODE %s +iþÿ
+; p_server.c line 95:
+msg0728=PONG :%sþÿ
+; p_server.c line 97:
+msg0729=PONG :%sþÿ
+; p_server.c line 106:
+msg0730=PRIVMSG %s :awayþÿ
+; p_server.c line 108:
+msg0731=NICK %sþÿ
+; p_server.c line 110:
+msg0732=NICK %sþÿ
+; p_server.c line 144:
+msg0733=NICK %sþÿ
+; p_server.c line 155:
+msg0734=USER%d
+; p_server.c line 181:
+msg0735=JOIN %s %sÿ
+; p_server.c line 183:
+msg0736=JOIN %sÿ
+; p_server.c line 200:
+msg0737=$QUIT
+; p_server.c line 201:
+msg0738=PART %s :%sþÿ
+; p_server.c line 203:
+msg0739=PART %s :%sþÿ
+; p_server.c line 220:
+msg0740=$QUIT
+; p_server.c line 221:
+msg0741=PRIVMSG %s :%cACTION e' away (%s)%cþÿ
+; p_server.c line 223:
+msg0742=PRIVMSG %s :%cACTION e' away (%s)%cþÿ
+; p_server.c line 253:
+msg0743=:%s!%s@%s JOIN :%s%sÿ
+; p_server.c line 255:
+msg0744=:%s 332 %s %s%s :%sÿ
+; p_server.c line 266:
+msg0745=:irc.psychoid.net MODE %s%s +%c %sþÿ
+; p_server.c line 284:
+msg0746=MODE %s +b %s
+; p_server.c line 285:
+msg0747=KICK %s %s :bannato: %s
+; p_server.c line 288:
+msg0748=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'utente %s(%s) corrisponde al ban (%s), kickbannato su %s
+; p_server.c line 302:
+msg0749=MODE %s +o %s
+; p_server.c line 305:
+msg0750=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'utente %s(%s) corrisponde all'autoop (%s), oppato su %s
+; p_server.c line 330:
+msg0751=MODE %s +o %s
+; p_server.c line 332:
+msg0752=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :L'utente %s(%s) corrisponde all'op (%s), oppato su %s
+; p_server.c line 358:
+msg0753=.op %s %sþÿ
+; p_server.c line 366:
+msg0754=PRIVMSG %s :op %s %s
+; p_server.c line 369:
+msg0755=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Chiesto a %s(%s) l'op su %s
+; p_server.c line 398:
+msg0756=%s!%s@%s
+; p_server.c line 423:
+msg0757=WHO %s
+; p_server.c line 566:
+msg0758= KICK 
+; p_server.c line 596:
+msg0759=[KICKED] from %s (%s)
+; p_server.c line 666:
+msg0760=Utente %s (%s) disconnesso (da %s) Motivo: %s
+; p_server.c line 675:
+msg0761=motd/USER%d.MOTD
+; p_server.c line 735:
+msg0762= 315 
+; p_server.c line 781:
+msg0763= 324 
+; p_server.c line 826:
+msg0764= 332 
+; p_server.c line 877:
+msg0765= 353 
+; p_server.c line 1029:
+msg0766=%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c
+; p_server.c line 1068:
+msg0767=%c%c%c%c%c%c
+; p_server.c line 1081:
+msg0768=%s %dþÿ
+; p_server.c line 1085:
+msg0769=CONNECT %s:%d HTTP/1.0ÿÿ
+; p_server.c line 1104:
+msg0770=RELAY %s :%dþÿ
+; p_server.c line 1105:
+msg0771=VHOST :%sþÿ
+; p_server.c line 1106:
+msg0772=CONNECT %s :%dþÿ
+; p_server.c line 1110:
+msg0773=PASS %sþÿ
+; p_server.c line 1112:
+msg0774=USER %s %s 127.0.0.1 :%sþÿ
+; p_server.c line 1114:
+msg0775=NICK %sþÿ
+; p_server.c line 1116:
+msg0776=NICK %sþÿ
+; p_server.c line 1119:
+msg0777=PASS %sþÿ
+; p_server.c line 1121:
+msg0778=Utente %s (%s) connesso a %s:%d (%s)
+; p_server.c line 1132:
+msg0779=Utente %s: impossibile connettere a %s porta %d.
+; p_server.c line 1138:
+msg0780=motd/USER%d.MOTD
+; p_server.c line 1150:
+msg0781=Utente %s disconnesso dal server.
+; p_server.c line 1158:
+msg0782=motd/USER%d.MOTD
+; p_server.c line 1206:
+msg0783=L'utente %s (%s) non ha nessun server in lista
+; p_server.c line 1213:
+msg0784=L'utente %s (%s) non ha nessun server in lista
+; p_server.c line 1262:
+msg0785=%s/.ispoof
+; p_server.c line 1278:
+msg0786=Utente %s (%s) prova il proxy %s porta %d sul server %s porta %d
+; p_server.c line 1283:
+msg0787=Utente %s (%s) prova %s porta %d sul link %s (%s:%d) (%s).
+; p_server.c line 1286:
+msg0788=Utente %s (%s) prova server %s porta %d (%s).
+; p_server.c line 1294:
+msg0789=Utente %s: impossibile connettere a %s porta %d.
+; p_socket.c line 75:
+msg0790=Errore creazione socket
+; p_socket.c line 116:
+msg0791=IMPOSSIBILE ALLOCARE SPAZIO PER IL SOCKET - SHUT DOWN
+; p_socket.c line 196:
+msg0792= (SSL)
+; p_socket.c line 206:
+msg0793=Impossibile creare sock Listener sull'host %s porta %d%s
+; p_socket.c line 243:
+msg0794=Impossibile creare sock Listener sull'host %s porta %d%s (lookup)
+; p_socket.c line 265:
+msg0795=Impossibile creare sock Listener sull'host %s porta %d%s (lookup)
+; p_socket.c line 286:
+msg0796=Impossibile creare sock Listener sull'host %s porta %d%s (bind)
+; p_socket.c line 293:
+msg0797=Impossibile creare sock Listener sull'host %s porta %d%s (listen)
+; p_socket.c line 298:
+msg0798=In Listening su: %s porta %d%sÿ
+; p_socket.c line 299:
+msg0799=Listener creato :%s porta %d%s
+; p_socket.c line 493:
+msg0800=PING :pþÿ
+; p_socket.c line 496:
+msg0801=PING :pþÿ
+; p_socket.c line 812:
+msg0802=PONG 
+; p_socket.c line 846:
+msg0803=Impossibile creare connessione SSL per il socket %d(%d) (SETFD)
+; p_socket.c line 862:
+msg0804=Impossibile creare connessione SSL per il socket  %d(%d) (CONNECT)
+; p_socket.c line 972:
+msg0805=%s: Nessun certificato SSL dato
+; p_socket.c line 975:
+msg0806=%s: Nessun certificato SSL dato - Connessione rifiutata
+; p_socket.c line 983:
+msg0807=%s: Ricevuto il corretto Certificato e la giusta key
+; p_socket.c line 988:
+msg0808=%s: Ricevuto il corretto Certificato, ma non la giusta key - Connessione rifiutata
+; p_socket.c line 991:
+msg0809=%s: Ricevuto il corretto Certificato, ma non la giusta key - ignorato
+; p_socket.c line 998:
+msg0810=%s: Ricevuto Certificato non valido (%s) - Ignorato
+; p_socket.c line 1003:
+msg0811=%s: Ricevuto Certificato non valido (%s) - Connessione rifiutata
+; p_socket.c line 1108:
+msg0812=Impossibile trovare il socket in listening.
+; p_socket.c line 1115:
+msg0813=Connessione illecita da %s. Connessione chiusa.
+; p_socket.c line 1121:
+msg0814=connessione da %s
+; p_socket.c line 1151:
+msg0815=Impossibile inizializzare la connessione SSL da %s: %s. Chiusura connessione.
+; p_socket.c line 1156:
+msg0816=Connessione SSL accettata da %s
+; p_socket.c line 1332:
+msg0817=Impossibile creare la connessione SSL per il socket %d(%d) (FD)
+; p_string.c line 346:
+msg0818=LISTS
+; p_string.c line 353:
+msg0819=ENTRY%d
+; p_string.c line 385:
+msg0820=LISTS
+; p_string.c line 388:
+msg0821=ENTRY%d
+; p_string.c line 390:
+msg0822=ENTRY%d
+; p_string.c line 391:
+msg0823=%s;%s
+; p_string.c line 421:
+msg0824=LISTS
+; p_string.c line 425:
+msg0825=%s.%s.
+; p_string.c line 433:
+msg0826=ENTRY%d
+; p_string.c line 467:
+msg0827=%s:%s
+; p_string.c line 470:
+msg0828=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Elemento #%d: %s
+; p_string.c line 573:
+msg0829=lang/%s.lng
+; p_string.c line 583:
+msg0830=desc 
+; p_string.c line 639:
+msg0831=MSG%04d
+; p_sysmsg.c line 37:
+msg0832=:%s!%s@%s JOIN :
+; p_sysmsg.c line 40:
+msg0833=:irc.psychoid.net 332 %s 
+; p_sysmsg.c line 40:
+msg0834= :%sþÿ
+; p_sysmsg.c line 42:
+msg0835=:irc.psychoid.net 353 %s = 
+; p_sysmsg.c line 50:
+msg0836=:irc.psychoid.net 353 %s = 
+; p_sysmsg.c line 59:
+msg0837=:irc.psychoid.net 366 %s 
+; p_sysmsg.c line 59:
+msg0838= :Fine della lista NAMES.þÿ
+; p_sysmsg.c line 60:
+msg0839=Utente %s entrato.
+; p_sysmsg.c line 135:
+msg0840=%s!%s. QUIT :link perduto (%s)þÿ
+; p_sysmsg.c line 191:
+msg0841=psyBNC
+; p_sysmsg.c line 193:
+msg0842=PRIVMSG
+; p_sysmsg.c line 216:
+msg0843=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%sÿ
+; p_sysmsg.c line 244:
+msg0844=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%sÿ
+; p_sysmsg.c line 326:
+msg0845=:%s!*@%s PARTY * :%sþÿ
+; p_sysmsg.c line 343:
+msg0846=:%s!*@%s QUERY %s :%sþÿ
+; p_sysmsg.c line 354:
+msg0847=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non nel bouncer
+; p_sysmsg.c line 367:
+msg0848=psyBNC
+; p_sysmsg.c line 369:
+msg0849=logged in.
+; p_sysmsg.c line 384:
+msg0850=logged off.
+; p_sysmsg.c line 396:
+msg0851=logged off.
+; p_sysmsg.c line 398:
+msg0852=Lost Link (
+; p_sysmsg.c line 413:
+msg0853=:%s!psyBNC@%s. QUIT :Lost Linkþÿ
+; p_sysmsg.c line 436:
+msg0854=:$%s!%s@%s. %s %s:%s
+; p_sysmsg.c line 446:
+msg0855=:$%s!%s@%s %s %s :%s
+; p_sysmsg.c line 455:
+msg0856=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Utente %s non nel bouncer
+; p_sysmsg.c line 478:
+msg0857=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Connessione DCC %s sconosciuta o non stabilita
+; p_sysmsg.c line 481:
+msg0858=%sþÿ
+; p_topology.c line 112:
+msg0859=         
+; p_topology.c line 120:
+msg0860=--------
+; p_translate.c line 76:
+msg0861=%s %s :
+; p_translate.c line 79:
+msg0862=:%s %s %s :
+; p_translate.c line 81:
+msg0863=:%s %s %s :
+; p_translate.c line 94:
+msg0864=babelfish.altavista.com
+; p_translate.c line 164:
+msg0865=doit=done&urltext=%s&lp=%s
+; p_translate.c line 165:
+msg0866=POST /raging/translate.dyn? HTTP/1.1þÿAccept: */*þÿAccept-Language: enþÿContent-Type: application/x-www-form-urlencodedþÿAccept-Encoding: gzip, deflateþÿUser-Agent: Modzilla/4.0 (compatible; NetBitch 1.0; C64 1.0; DigExt)þÿHost: babelfish.altavista.comþÿContent-Length: %dþÿConnection: Keep-Aliveþÿþÿ%s
+; p_translate.c line 174:
+msg0867=ERRORE: nel Translator (%d:%d)
+; p_translate.c line 194:
+msg0868=<strong class=hed>
+; p_translate.c line 225:
+msg0869=</strong>
+; p_translate.c line 263:
+msg0870=<textarea
+; p_translate.c line 287:
+msg0871=</textarea
+; p_translate.c line 290:
+msg0872=cgi-bin
+; p_translate.c line 298:
+msg0873=correntemente non disponibile
+; p_translate.c line 319:
+msg0874=:%s!%s@%s PRIVMSG %s :(tradotto)%s
+; p_translate.c line 321:
+msg0875=:%s PRIVMSG %s :(originale)%s
+; p_translate.c line 354:
+msg0876=Timeout: Translation %d (%s:%s)
+; p_uchannel.c line 88:
+msg0877=+%s %s
+; p_uchannel.c line 146:
+msg0878=USER%d
+; p_uchannel.c line 147:
+msg0879=CHANNELS
+; p_uchannel.c line 147:
+msg0880=ENTRY%d
+; p_uchannel.c line 149:
+msg0881=USER%d
+; p_uchannel.c line 150:
+msg0882=ENTRY%d
+; p_uchannel.c line 152:
+msg0883=CHANNELS
+; p_uchannel.c line 421:
+msg0884=USER%d.CHANNELS.ENTRY%d
+; p_uchannel.c line 423:
+msg0885=USER%d.CHANNELS.KEY%d
+; p_uchannel.c line 474:
+msg0886=USER%d
+; p_uchannel.c line 475:
+msg0887=KEY%d
+; p_uchannel.c line 476:
+msg0888=CHANNELS
+; p_uchannel.c line 601:
+msg0889=#int'
+; p_uchannel.c line 606:
+msg0890=:%s 353 %s = %s%s :
+; p_uchannel.c line 635:
+msg0891=:%s 366 %s %s%s :Fine della lista /NAMES.ÿ
+; p_uchannel.c line 650:
+msg0892=%c%c %s
+; p_uchannel.c line 848:
+msg0893=USER%d
+; p_uchannel.c line 849:
+msg0894=KEY%d
+; p_uchannel.c line 850:
+msg0895=CHANNELS
+; p_uchannel.c line 866:
+msg0896=USER%d
+; p_uchannel.c line 867:
+msg0897=KEY%d
+; p_uchannel.c line 868:
+msg0898=CHANNELS
+; p_uchannel.c line 975:
+msg0899=USER%d
+; p_uchannel.c line 978:
+msg0900=ENTRY%d
+; p_uchannel.c line 979:
+msg0901=CHANNELS
+; p_uchannel.c line 983:
+msg0902=KEY%d
+; p_uchannel.c line 984:
+msg0903=CHANNELS
+; p_userfile.c line 37:
+msg0904=USER%d
+; p_userfile.c line 39:
+msg0905=QUIT :simone disse: rehasha sto cosoÿ
+; p_userfile.c line 46:
+msg0906=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :rehashingÿ
+; p_userfile.c line 53:
+msg0907=LOGIN
+; p_userfile.c line 60:
+msg0908=PARENT
+; p_userfile.c line 69:
+msg0909=psy%d
+; p_userfile.c line 75:
+msg0910=Avvertimento ! L'utente %s non ha una password settata.
+; p_userfile.c line 93:
+msg0911=VHOST
+; p_userfile.c line 95:
+msg0912=PROXY
+; p_userfile.c line 99:
+msg0913=AWAYNICK
+; p_userfile.c line 101:
+msg0914=LEAVEMSG
+; p_userfile.c line 103:
+msg0915=LASTWHOIS
+; p_userfile.c line 109:
+msg0916=NETWORK
+; p_userfile.c line 111:
+msg0917=RIGHTS
+; p_userfile.c line 120:
+msg0918=QUITTED
+; p_userfile.c line 127:
+msg0919=VLINK
+; p_userfile.c line 133:
+msg0920=PPORT
+; p_userfile.c line 139:
+msg0921=AUTOGETDCC
+; p_userfile.c line 145:
+msg0922=DCCENABLED
+; p_userfile.c line 151:
+msg0923=AIDLE
+; p_userfile.c line 157:
+msg0924=LEAVEQUIT
+; p_userfile.c line 163:
+msg0925=AUTOREJOIN
+; p_userfile.c line 169:
+msg0926=SYSMSG
+; p_userfile.c line 175:
+msg0927=LASTLOG
+; p_userfile.c line 188:
+msg0928=PUBKEYCHKSUM
+; p_userfile.c line 204:
+msg0929=USER%d.BAN
+; p_userfile.c line 207:
+msg0930=USER%d.OP
+; p_userfile.c line 210:
+msg0931=USER%d.AOP
+; p_userfile.c line 213:
+msg0932=USER%d.ASK
+; p_userfile.c line 216:
+msg0933=USER%d.LGI
+; p_userfile.c line 220:
+msg0934=USER%d.ENC
+; p_userfile.c line 225:
+msg0935=USER%d.TRA
+; p_userfile.c line 230:
+msg0936=log/USER%d.TRL
+; p_userfile.c line 247:
+msg0937=USER%d
+; p_userfile.c line 249:
+msg0938=LOGIN
+; p_userfile.c line 258:
+msg0939=VHOST
+; p_userfile.c line 259:
+msg0940=PROXY
+; p_userfile.c line 261:
+msg0941=LEAVEMSG
+; p_userfile.c line 262:
+msg0942=AWAYNICK
+; p_userfile.c line 263:
+msg0943=NETWORK
+; p_userfile.c line 265:
+msg0944=RIGHTS
+; p_userfile.c line 267:
+msg0945=VLINK
+; p_userfile.c line 269:
+msg0946=PPORT
+; p_userfile.c line 271:
+msg0947=PARENT
+; p_userfile.c line 273:
+msg0948=QUITTED
+; p_userfile.c line 275:
+msg0949=DCCENABLED
+; p_userfile.c line 277:
+msg0950=AUTOGETDCC
+; p_userfile.c line 279:
+msg0951=AIDLE
+; p_userfile.c line 281:
+msg0952=LEAVEQUIT
+; p_userfile.c line 283:
+msg0953=AUTOREJOIN
+; p_userfile.c line 285:
+msg0954=SYSMSG
+; p_userfile.c line 287:
+msg0955=LASTLOG
+; p_userfile.c line 288:
+msg0956=LASTWHOIS
+; p_userfile.c line 291:
+msg0957=PUBKEYCHKSUM
+; p_userfile.c line 304:
+msg0958=LINKS
+; p_userfile.c line 305:
+msg0959=LINK%d
+; p_userfile.c line 315:
+msg0960=ALLOWRELAY
+; p_userfile.c line 326:
+msg0961=LINKS
+; p_userfile.c line 327:
+msg0962=LINK%d
+; p_userfile.c line 334:
+msg0963=ALLOWRELAY
+; p_userfile.c line 346:
+msg0964=Caricamento degli utenti..
+; p_userfile.c line 352:
+msg0965=Nessun utente trovato.
+; p_userfile.c line 373:
+msg0966=LINK: -> %s (%d) chiusura connessioneÿ
+; p_userfile.c line 377:
+msg0967=LINK: <- %s (%d) chiusura connessioneÿ
+; p_userfile.c line 380:
+msg0968=LINK%d
+; p_userfile.c line 395:
+msg0969=ALLOWRELAY
+; psybnc.c line 54:
+msg0970=[SSL-Server] Impossibile creare SSL-Context per connessioni in entrata. Terminazione.
+; psybnc.c line 59:
+msg0971=[SSL-Server] Caricamento certificato SSL %s fallito
+; psybnc.c line 64:
+msg0972=[SSL-Server] Caricamento key privata SSL %s fallito
+; psybnc.c line 69:
+msg0973=[SSL-Server] Controllo key privata SSL fallito
+; psybnc.c line 76:
+msg0974=[SSL-Client] Impossibile creare SSL-Context per connessioni in uscita. Terminazione.
+; psybnc.c line 81:
+msg0975=[SSL-Client] Caricamento certificato SSL %s fallito
+; psybnc.c line 86:
+msg0976=[SSL-Client] Caricamento key privata SSL %s fallito
+; psybnc.c line 91:
+msg0977=[SSL-Client] Controllo key privata SSL fallito
+; psybnc.c line 94:
+msg0978=SSL inizializzato
+; psybnc.c line 145:
+msg0979=.-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.ÿ
+; psybnc.c line 146:
+msg0980= ,----.,----.,-.  ,-.,---.,--. ,-.,----. ÿ
+; psybnc.c line 147:
+msg0981= |  O ||  ,-' \ \/ / | o ||   \| || ,--' ÿ
+; psybnc.c line 148:
+msg0982= |  _/ _\  \   \  /  | o< | |\   || |__  ÿ
+; psybnc.c line 149:
+msg0983= |_|  |____/   |__|  |___||_|  \_| \___| ÿ
+; psybnc.c line 150:
+msg0984=      Version 
+; psybnc.c line 150:
+msg0985= (c) 1999-2003ÿ
+; psybnc.c line 151:
+msg0986=              the most psychoid          ÿ
+; psybnc.c line 152:
+msg0987=      and  the cool lam3rz Group IRCnet  ÿ
+; psybnc.c line 153:
+msg0988=                                         ÿ
+; psybnc.c line 154:
+msg0989=`-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=tCl=-'ÿ
+; psybnc.c line 156:
+msg0990=** ATTENZIONE ** hai avviato psybnc da rootÿ
+; psybnc.c line 198:
+msg0991=File di configurazione: %sÿ
+; psybnc.c line 199:
+msg0992=File di localizzazione: %sÿ
+; psybnc.c line 200:
+msg0993=log/psybnc.log
+; psybnc.c line 201:
+msg0994=SYSTEM
+; psybnc.c line 201:
+msg0995=PORT1
+; psybnc.c line 203:
+msg0996=Nessuna porta/host di listening definite.ÿEsegui 'make menuconfig' per il setupÿoppure aggiungi:ÿPSYBNC.SYSTEM.PORT1=tuaportaÿeÿPSYBNC.SYSTEM.HOST1=*ÿal file psybnc.confÿ
+; psybnc.c line 207:
+msg0997=SYSTEM
+; psybnc.c line 212:
+msg0998=SYSTEM
+; psybnc.c line 212:
+msg0999=LOGFILE
+; psybnc.c line 214:
+msg1000=Logfile non specificato, log verso log/psybnc.logÿ
+; psybnc.c line 215:
+msg1001=log/psybnc.log
+; psybnc.c line 226:
+msg1002=Impossibile creare porta di listening.. terminazioneÿ
+; psybnc.c line 230:
+msg1003=psybnc.pid
+; psybnc.c line 233:
+msg1004=Impossibile creare pidfile. Terminazione.ÿ
+; psybnc.c line 255:
+msg1005=psyBNC-Partyline Channel
+; psybnc.c line 278:
+msg1006=PSYBNC.HOSTALLOWS
+; psybnc.c line 282:
+msg1007=%s avviato (PID %d)ÿ
+; psybnc.c line 283:
+msg1008=%s avviato (PID :%d)
+; p_hash.c line 43:
+msg1009=PRIVMSG
+; p_hash.c line 44:
+msg1010=PING
+; p_hash.c line 45:
+msg1011=QUIT
+; p_hash.c line 46:
+msg1012=WHO
+; p_hash.c line 47:
+msg1013=USER
+; p_hash.c line 49:
+msg1014=JOIN
+; p_hash.c line 50:
+msg1015=PART
+; p_hash.c line 51:
+msg1016=TOPIC
+; p_hash.c line 53:
+msg1017=NICK
+; p_hash.c line 54:
+msg1018=BWHO
+; p_hash.c line 54:
+msg1019=Lista tutti gli utenti nel bouncer
+; p_hash.c line 54:
+msg1020=help/BWHO.ITA
+; p_hash.c line 55:
+msg1021=PASSWORD
+; p_hash.c line 55:
+msg1022=Imposta la tua password o quella di un altro utente (Admin)
+; p_hash.c line 55:
+msg1023=help/PASSWORD.ITA
+; p_hash.c line 56:
+msg1024=BVHOST
+; p_hash.c line 56:
+msg1025=Imposta il VHOST da usare
+; p_hash.c line 56:
+msg1026=help/VHOST.ITA
+; p_hash.c line 58:
+msg1027=PROXY
+; p_hash.c line 58:
+msg1028=Imposta il proxy da usare
+; p_hash.c line 58:
+msg1029=help/PROXY.ITA
+; p_hash.c line 60:
+msg1030=SETUSERNAME
+; p_hash.c line 60:
+msg1031=Imposta il tuo User Name
+; p_hash.c line 60:
+msg1032=help/SETUSERNAME.ITA
+; p_hash.c line 61:
+msg1033=SETAWAY
+; p_hash.c line 61:
+msg1034=Imposta il testo di away quando esci
+; p_hash.c line 61:
+msg1035=help/SETAWAY.ITA
+; p_hash.c line 62:
+msg1036=SETLEAVEMSG
+; p_hash.c line 62:
+msg1037=Imposta il testo di uscita quando esci
+; p_hash.c line 62:
+msg1038=help/SETLEAVEMSG.ITA
+; p_hash.c line 63:
+msg1039=LEAVEQUIT
+; p_hash.c line 63:
+msg1040=Se impostato ad 1, esce da tutti i canali quando esci dal bouncer
+; p_hash.c line 63:
+msg1041=help/LEAVEQUIT.ITA
+; p_hash.c line 64:
+msg1042=SETAWAYNICK
+; p_hash.c line 64:
+msg1043=Imposta il tuo nick quando sei offline
+; p_hash.c line 64:
+msg1044=help/SETAWAYNICK.ITA
+; p_hash.c line 65:
+msg1045=JUMP
+; p_hash.c line 65:
+msg1046=Salta al successivo server IRC in lista
+; p_hash.c line 65:
+msg1047=help/JUMP.ITA
+; p_hash.c line 67:
+msg1048=BQUIT
+; p_hash.c line 67:
+msg1049=Chiude la connessione al server attiva
+; p_hash.c line 67:
+msg1050=help/BQUIT.ITA
+; p_hash.c line 68:
+msg1051=BCONNECT
+; p_hash.c line 68:
+msg1052=Riconnette una connessione chiusa con BQUIT
+; p_hash.c line 68:
+msg1053=help/BCONNECT.ITA
+; p_hash.c line 70:
+msg1054=AIDLE
+; p_hash.c line 70:
+msg1055=Abilita/Disabilita l' Antiidle
+; p_hash.c line 70:
+msg1056=help/AIDLE.ITA
+; p_hash.c line 71:
+msg1057=AUTOREJOIN
+; p_hash.c line 71:
+msg1058=Abilita/Disabilita l' Auto-Rejoin
+; p_hash.c line 71:
+msg1059=help/AUTOREJOIN.ITA
+; p_hash.c line 72:
+msg1060=ADDSERVER
+; p_hash.c line 72:
+msg1061=Aggiunge un server IRC alla tua lista di server
+; p_hash.c line 72:
+msg1062=help/ADDSERVER.ITA
+; p_hash.c line 73:
+msg1063=DELSERVER
+; p_hash.c line 73:
+msg1064=Cancella un IRC server dalla lista, referenziato per numero
+; p_hash.c line 73:
+msg1065=help/DELSERVER.ITA
+; p_hash.c line 74:
+msg1066=LISTSERVERS
+; p_hash.c line 74:
+msg1067=Lista tutti i server IRC
+; p_hash.c line 74:
+msg1068=help/LISTSERVERS.ITA
+; p_hash.c line 76:
+msg1069=ADDNETWORK
+; p_hash.c line 76:
+msg1070=Aggiunge un diverso Network al tuo client
+; p_hash.c line 76:
+msg1071=help/ADDNETWORK.ITA
+; p_hash.c line 77:
+msg1072=DELNETWORK
+; p_hash.c line 77:
+msg1073=Cancella un Network dal client
+; p_hash.c line 77:
+msg1074=help/DELNETWORK.ITA
+; p_hash.c line 78:
+msg1075=SWITCHNET
+; p_hash.c line 78:
+msg1076=Cambia ad un dato Network
+; p_hash.c line 78:
+msg1077=help/SWITCHNET.ITA
+; p_hash.c line 80:
+msg1078=ADDOP
+; p_hash.c line 80:
+msg1079=Aggiunge un utente che potra' opparsi da te
+; p_hash.c line 80:
+msg1080=help/ADDOP.ITA
+; p_hash.c line 81:
+msg1081=DELOP
+; p_hash.c line 81:
+msg1082=Cancella un utente che poteva opparsi da te
+; p_hash.c line 81:
+msg1083=help/DELOP.ITA
+; p_hash.c line 82:
+msg1084=LISTOPS
+; p_hash.c line 82:
+msg1085=Lista gli Op addati
+; p_hash.c line 82:
+msg1086=help/LISTOPS.ITA
+; p_hash.c line 83:
+msg1087=ADDAUTOOP
+; p_hash.c line 83:
+msg1088=Aggiunge un utente che otterra' l'Auto-Op da te
+; p_hash.c line 83:
+msg1089=help/ADDAUTOOP.ITA
+; p_hash.c line 84:
+msg1090=DELAUTOOP
+; p_hash.c line 84:
+msg1091=Cancella un utente Auto-Op
+; p_hash.c line 84:
+msg1092=help/DELAUTOOP.ITA
+; p_hash.c line 85:
+msg1093=LISTAUTOOPS
+; p_hash.c line 85:
+msg1094=Lists all added Auto-Ops
+; p_hash.c line 85:
+msg1095=help/LISTAUTOOPS.ITA
+; p_hash.c line 86:
+msg1096=ADDBAN
+; p_hash.c line 86:
+msg1097=Aggiunge un ban (globale o specifico per un canale)
+; p_hash.c line 86:
+msg1098=help/ADDBAN.ITA
+; p_hash.c line 87:
+msg1099=DELBAN
+; p_hash.c line 87:
+msg1100=Cancella un ban per numero
+; p_hash.c line 87:
+msg1101=help/DELBAN.ITA
+; p_hash.c line 88:
+msg1102=LISTBANS
+; p_hash.c line 88:
+msg1103=Lista tutti i ban
+; p_hash.c line 88:
+msg1104=help/LISTBANS.ITA
+; p_hash.c line 89:
+msg1105=ADDASK
+; p_hash.c line 89:
+msg1106=Aggiunge un host/bot a cui chiedere l'Op
+; p_hash.c line 89:
+msg1107=help/ADDASK.ITA
+; p_hash.c line 90:
+msg1108=DELASK
+; p_hash.c line 90:
+msg1109=Cancella un host/bot per l'Op per numero
+; p_hash.c line 90:
+msg1110=help/DELASK.ITA
+; p_hash.c line 91:
+msg1111=LISTASK
+; p_hash.c line 91:
+msg1112=Lista gli host/bot a cui chiedere l'Op
+; p_hash.c line 91:
+msg1113=help/LISTASK.ITA
+; p_hash.c line 93:
+msg1114=ADDDCC
+; p_hash.c line 93:
+msg1115=Aggiunge una connessione DCC verso un bot
+; p_hash.c line 93:
+msg1116=help/ADDDCC.ITA
+; p_hash.c line 94:
+msg1117=LISTDCC
+; p_hash.c line 94:
+msg1118=Lista tutte le connessioni DCC
+; p_hash.c line 94:
+msg1119=help/LISTDCC.ITA
+; p_hash.c line 95:
+msg1120=DELDCC
+; p_hash.c line 95:
+msg1121=Cancella una connessione DCC per numero
+; p_hash.c line 95:
+msg1122=help/DELDCC.ITA
+; p_hash.c line 96:
+msg1123=DCCCHAT
+; p_hash.c line 96:
+msg1124=Offre una DCC Chat per un dato utente su IRC
+; p_hash.c line 96:
+msg1125=help/DCCCHAT.ITA
+; p_hash.c line 97:
+msg1126=DCCANSWER
+; p_hash.c line 97:
+msg1127=Risponde ad una richiesta di DCC Chat
+; p_hash.c line 97:
+msg1128=help/DCCANSWER.ITA
+; p_hash.c line 99:
+msg1129=DCCENABLE
+; p_hash.c line 99:
+msg1130=Abilita/Disabilita le DCC attraverso psybnc
+; p_hash.c line 99:
+msg1131=help/DCCENABLE.ITA
+; p_hash.c line 102:
+msg1132=DCCSEND
+; p_hash.c line 102:
+msg1133=Invia un file attraverso un dato utente su IRC
+; p_hash.c line 102:
+msg1134=help/DCCSEND.ITA
+; p_hash.c line 103:
+msg1135=DCCGET
+; p_hash.c line 103:
+msg1136=Prende un file inviato attraverso DCC da un utente su IRC
+; p_hash.c line 103:
+msg1137=help/DCCGET.ITA
+; p_hash.c line 104:
+msg1138=DCCSENDME
+; p_hash.c line 104:
+msg1139=Invia all'utente sul bouncer un File
+; p_hash.c line 104:
+msg1140=help/DCCSENDME.ITA
+; p_hash.c line 105:
+msg1141=AUTOGETDCC
+; p_hash.c line 105:
+msg1142=accetta sempre i files offerti
+; p_hash.c line 105:
+msg1143=help/AUTOGETDCC.ITA
+; p_hash.c line 107:
+msg1144=DCCENABLE
+; p_hash.c line 107:
+msg1145=Abilita/Disabilita le DCC attraverso psybnc
+; p_hash.c line 107:
+msg1146=help/DCCENABLE.ITA
+; p_hash.c line 111:
+msg1147=DCCCANCEL
+; p_hash.c line 111:
+msg1148=Annulla una DCC Chat o un trasferimento file
+; p_hash.c line 111:
+msg1149=help/DCCCANCEL.ITA
+; p_hash.c line 114:
+msg1150=PLAYPRIVATELOG
+; p_hash.c line 114:
+msg1151=Visualizza il log dei tuoi messaggi
+; p_hash.c line 114:
+msg1152=help/PLAYPRIVATELOG.ITA
+; p_hash.c line 115:
+msg1153=ERASEPRIVATELOG
+; p_hash.c line 115:
+msg1154=Cancella il log dei tuoi messaggi
+; p_hash.c line 115:
+msg1155=help/ERASEPRIVATELOG.ITA
+; p_hash.c line 119:
+msg1156=ADDLOG
+; p_hash.c line 119:
+msg1157=Aggiunge una sorgente / filtro per i Log
+; p_hash.c line 119:
+msg1158=help/ADDLOG.ITA
+; p_hash.c line 120:
+msg1159=DELLOG
+; p_hash.c line 120:
+msg1160=Cancella una sorgente per i Log per numero
+; p_hash.c line 120:
+msg1161=help/DELLOG.ITA
+; p_hash.c line 121:
+msg1162=LISTLOGS
+; p_hash.c line 121:
+msg1163=Lista tutte le sorgenti/filtri per i Log
+; p_hash.c line 121:
+msg1164=help/LISTLOGS.ITA
+; p_hash.c line 122:
+msg1165=PLAYTRAFFICLOG
+; p_hash.c line 122:
+msg1166=Visualizza il log del traffico
+; p_hash.c line 122:
+msg1167=help/PLAYTRAFFICLOG.ITA
+; p_hash.c line 123:
+msg1168=ERASETRAFFICLOG
+; p_hash.c line 123:
+msg1169=Cancella il log del traffico
+; p_hash.c line 123:
+msg1170=help/ERASETRAFFICLOG.ITA
+; p_hash.c line 127:
+msg1171=ENCRYPT
+; p_hash.c line 127:
+msg1172=Cripta la conversazione verso un dato canale/utente
+; p_hash.c line 127:
+msg1173=help/ENCRYPT.ITA
+; p_hash.c line 128:
+msg1174=DELENCRYPT
+; p_hash.c line 128:
+msg1175=Cancella un elemento di criptazione per numero
+; p_hash.c line 128:
+msg1176=help/DELENCRYPT.ITA
+; p_hash.c line 129:
+msg1177=LISTENCRYPT
+; p_hash.c line 129:
+msg1178=Mostra la lista delle conversazioni criptate
+; p_hash.c line 129:
+msg1179=help/LISTENCRYPT.ITA
+; p_hash.c line 132:
+msg1180=TRANSLATE
+; p_hash.c line 132:
+msg1181=Aggiunge un traduttore verso/da un canale/utente
+; p_hash.c line 132:
+msg1182=help/TRANSLATE.ITA
+; p_hash.c line 133:
+msg1183=DELTRANSLATE
+; p_hash.c line 133:
+msg1184=Cancella un traduttore per numero
+; p_hash.c line 133:
+msg1185=help/DELTRANSLATE.ITA
+; p_hash.c line 134:
+msg1186=LISTTRANSLATE
+; p_hash.c line 134:
+msg1187=Mostra la lista delle conversazioni tradotte
+; p_hash.c line 134:
+msg1188=help/LISTTRANSLATE.ITA
+; p_hash.c line 136:
+msg1189=BREHASH
+; p_hash.c line 136:
+msg1190=Rehash il bouncer e resetta tutte le connessioni
+; p_hash.c line 136:
+msg1191=help/REHASH.ITA
+; p_hash.c line 138:
+msg1192=MADMIN
+; p_hash.c line 138:
+msg1193=Da' lo stato di Amministratore ad un utente
+; p_hash.c line 138:
+msg1194=help/MADMIN.ITA
+; p_hash.c line 139:
+msg1195=UNADMIN
+; p_hash.c line 139:
+msg1196=Toglie lo stato di Amministratore da un utente
+; p_hash.c line 139:
+msg1197=help/UNADMIN.ITA
+; p_hash.c line 140:
+msg1198=BKILL
+; p_hash.c line 140:
+msg1199=Killa un utente dal bouncer
+; p_hash.c line 140:
+msg1200=help/BKILL.ITA
+; p_hash.c line 142:
+msg1201=SOCKSTAT
+; p_hash.c line 142:
+msg1202=Mostra/Logga le connessioni correnti
+; p_hash.c line 142:
+msg1203=help/SOCKSTAT.ITA
+; p_hash.c line 144:
+msg1204=ADDUSER
+; p_hash.c line 144:
+msg1205=Aggiunge un nuovo utente al bouncer
+; p_hash.c line 144:
+msg1206=help/ADDUSER.ITA
+; p_hash.c line 145:
+msg1207=DELUSER
+; p_hash.c line 145:
+msg1208=Cancella un utente dal bouncer
+; p_hash.c line 145:
+msg1209=help/DELUSER.ITA
+; p_hash.c line 148:
+msg1210=NAMEBOUNCER
+; p_hash.c line 148:
+msg1211=Da' un nome al bouncer (richiesto per il linkaggio)
+; p_hash.c line 148:
+msg1212=help/NAMEBOUNCER.ITA
+; p_hash.c line 149:
+msg1213=LINKTO
+; p_hash.c line 149:
+msg1214=Aggiunge un bouncer Link ad Host/Porta
+; p_hash.c line 149:
+msg1215=help/LINKTO.ITA
+; p_hash.c line 150:
+msg1216=LINKFROM
+; p_hash.c line 150:
+msg1217=Aggiunge un bouncer link per il tuo bouncer
+; p_hash.c line 150:
+msg1218=help/LINKFROM.ITA
+; p_hash.c line 151:
+msg1219=RELAYLINK
+; p_hash.c line 151:
+msg1220=Permette o disabilita un link relayabile
+; p_hash.c line 151:
+msg1221=help/RELAYLINK.ITA
+; p_hash.c line 152:
+msg1222=DELLINK
+; p_hash.c line 152:
+msg1223=Cancella un link dal bouncer
+; p_hash.c line 152:
+msg1224=help/DELLINK.ITA
+; p_hash.c line 153:
+msg1225=LISTLINKS
+; p_hash.c line 153:
+msg1226=Lista tutti i links verso/dal bouner
+; p_hash.c line 153:
+msg1227=help/LISTLINKS.ITA
+; p_hash.c line 154:
+msg1228=RELINK
+; p_hash.c line 154:
+msg1229=Resetta un link verso un bouncer per numero
+; p_hash.c line 154:
+msg1230=help/RELINK.ITA
+; p_hash.c line 157:
+msg1231=PLAYMAINLOG
+; p_hash.c line 157:
+msg1232=Visualizza il log delle connessioni
+; p_hash.c line 157:
+msg1233=help/PLAYMAINLOG.ITA
+; p_hash.c line 158:
+msg1234=ERASEMAINLOG
+; p_hash.c line 158:
+msg1235=Cancella il log delle connessioni
+; p_hash.c line 158:
+msg1236=help/ERASEMAINLOG.ITA
+; p_hash.c line 160:
+msg1237=ADDALLOW
+; p_hash.c line 160:
+msg1238=Aggiunge un host a cui e' consentito connettersi
+; p_hash.c line 160:
+msg1239=help/ADDALLOW.ITA
+; p_hash.c line 161:
+msg1240=DELALLOW
+; p_hash.c line 161:
+msg1241=Cancella un host consentito
+; p_hash.c line 161:
+msg1242=help/DELALLOW.ITA
+; p_hash.c line 162:
+msg1243=LISTALLOW
+; p_hash.c line 162:
+msg1244=Lista gli host consentiti nel tuo bouncer
+; p_hash.c line 162:
+msg1245=help/LISTALLOW.ITA
+; p_hash.c line 164:
+msg1246=SRELOAD
+; p_hash.c line 164:
+msg1247=Ricarica lo script per l'utente
+; p_hash.c line 164:
+msg1248=help/SRELOAD.ITA
+; p_hash.c line 165:
+msg1249=LISTTASKS
+; p_hash.c line 165:
+msg1250=Lista i task correntemente in esecuzione
+; p_hash.c line 165:
+msg1251=help/LISTTASKS.ITA
+; p_hash.c line 167:
+msg1252=BHELP
+; p_hash.c line 167:
+msg1253=Mostra questo help o aiuta riguardo un argomento
+; p_hash.c line 167:
+msg1254=help/BHELP.ITA
+; p_hash.c line 172:
+msg1255=ERROR
+; p_hash.c line 173:
+msg1256=001
+; p_hash.c line 174:
+msg1257=002
+; p_hash.c line 175:
+msg1258=003
+; p_hash.c line 176:
+msg1259=004
+; p_hash.c line 177:
+msg1260=005
+; p_hash.c line 178:
+msg1261=251
+; p_hash.c line 179:
+msg1262=252
+; p_hash.c line 180:
+msg1263=253
+; p_hash.c line 181:
+msg1264=254
+; p_hash.c line 182:
+msg1265=255
+; p_hash.c line 183:
+msg1266=372
+; p_hash.c line 184:
+msg1267=375
+; p_hash.c line 185:
+msg1268=376
+; p_hash.c line 186:
+msg1269=352
+; p_hash.c line 187:
+msg1270=353
+; p_hash.c line 188:
+msg1271=315
+; p_hash.c line 189:
+msg1272=324
+; p_hash.c line 190:
+msg1273=332
+; p_hash.c line 191:
+msg1274=366
+; p_hash.c line 192:
+msg1275=432
+; p_hash.c line 193:
+msg1276=433
+; p_hash.c line 194:
+msg1277=437
+; p_hash.c line 195:
+msg1278=PING
+; p_hash.c line 196:
+msg1279=NICK
+; p_hash.c line 197:
+msg1280=JOIN
+; p_hash.c line 198:
+msg1281=PART
+; p_hash.c line 199:
+msg1282=QUIT
+; p_hash.c line 200:
+msg1283=KICK
+; p_hash.c line 201:
+msg1284=MODE
+; p_hash.c line 202:
+msg1285=TOPIC
+; p_hash.c line 203:
+msg1286=PRIVMSG
+; p_hash.c line 204:
+msg1287=NOTICE
+; p_hash.c line 220:
+msg1288=PRIVMSG
+; p_hash.c line 221:
+msg1289=NOTICE
+; p_hash.c line 222:
+msg1290=JOIN
+; p_hash.c line 223:
+msg1291=MODE
+; p_hash.c line 224:
+msg1292=PART
+; p_hash.c line 225:
+msg1293=KICK
+; p_hash.c line 226:
+msg1294=NICK
+; p_hash.c line 227:
+msg1295=NAMES
+; p_hash.c line 228:
+msg1296=QUIT
+; p_hash.c line 229:
+msg1297=WHO
+; p_hash.c line 230:
+msg1298=WHOIS
+; p_hash.c line 231:
+msg1299=USER
+; p_hash.c line 232:
+msg1300=TOPIC
+; p_hash.c line 233:
+msg1301=INVITE
+; p_hash.c line 249:
+msg1302=NICK
+; p_hash.c line 257:
+msg1303=:%s-psybnc.net 481 %s :Permesso negato - Non sei l'Admin del bouncer
+; p_hash.c line 279:
+msg1304=%s-psybnc.net 421 %s %s :Comando sconosciuto
+; p_hash.c line 305:
+msg1305=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :BHELP %c %-15s - %sÿ
+; p_hash.c line 309:
+msg1306=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :BHELP Usa /QUOTE bhelp <comando> per un dettagliato aiuto.ÿ
+; p_hash.c line 316:
+msg1307=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aiuto per: %sÿ
+; p_hash.c line 321:
+msg1308=r
+; p_hash.c line 323:
+msg1309=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :File di help %s non disponibile.ÿ
+; p_hash.c line 328:
+msg1310=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :%sÿ
+; p_hash.c line 337:
+msg1311=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun aiuto per: %sÿ
+; p_hash.c line 372:
+msg1312=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Solo gli amministratori possono usare questo comando.þÿ
+; p_hash.c line 425:
+msg1313=PONG :%sþÿ
+; p_hash.c line 431:
+msg1314=MODE
+; p_script.c line 357:
+msg1315=(nessuno)
+; p_client.c line 857:
+msg1316=Nessuno
+; p_client.c line 991:
+msg1317=da
+; p_client.c line 992:
+msg1318=a
+; p_client.c line 1062:
+msg1319=abilita
+; p_client.c line 1062:
+msg1320=disabilita
+; p_intnet.c line 134:
+msg1321=%s!%s@%s QUIT :riconnessionedÿ
+; p_hash.c line 165:
+msg1322=ADDIGNORE
+; p_hash.c line 165:
+msg1323=Aggiunge un hostmask/filtro agli ignore
+; p_hash.c line 165:
+msg1324=help/ADDIGNORE.ITA
+; p_hash.c line 165:
+msg1325=DELIGNORE
+; p_hash.c line 165:
+msg1326=Cancella un hostmask/filtro dagli ignore
+; p_hash.c line 165:
+msg1327=help/DELIGNORE.ITA
+; p_hash.c line 165:
+msg1328=LISTIGNORES
+; p_hash.c line 165:
+msg1329=Lista gli ignores attuali
+; p_hash.c line 165:
+msg1330=help/LISTIGNORES.ITA
+; p_userfile.c line 219:
+msg1331=USER%d.IGN
+; p_client.c line 1491:
+msg1332=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun host indicato. Usa ADDIGNORE contenuti :host (* come wildcard)
+; p_client.c line 1495:
+msg1333=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :No Content given. Use ADDIGNORE contenuti :host (* come wildcard)
+; p_client.c line 1499:
+msg1334=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Non puoi usare ; negli hostname
+; p_client.c line 1502:
+msg1335=USER%d.IGN
+; p_client.c line 1504:
+msg1336=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Aggiunto ignore per l'host %s (%s)
+; p_client.c line 1754:
+msg1337=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun numero indicato. Usa DELIGNORE number
+; p_client.c line 1757:
+msg1338=USER%d.IGN
+; p_client.c line 1761:
+msg1339=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Ignore numero %s rimosso
+; p_client.c line 1887:
+msg1340=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Lista ignore:
+; p_client.c line 1889:
+msg1341=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Fine lista ignore
+; p_hash.c line 170
+msg1342=SETLANG
+; p_hash.c line 170:
+msg1343=Imposta il linguaggio  (globale)
+; p_hash.c line 170:
+msg1344=help/SETLANG.ITA
+; p_client.c line 2164:
+msg1345=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Nessun linguaggio indicato. Usa SETLANG linguaggio.
+; p_client.c line 2182:
+msg1346=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Linguaggio settato a '%s'.
+; p_client.c line 2178:
+msg1347=:-psyBNC!psyBNC@lam3rz.de PRIVMSG %s :Il linguaggio '%s' non puo' essere caricato.
+; p_client.c line 2183:
+msg1348=Linguaggio impostato a '%s' da %s.
+; p_hash.c line 210
+msg1349=265
+; p_hash.c line 211
+msg1350=266
+; p_coredns.c line 1274
+msg1351=Resolver giu. Reinizializzatione..
+; p_coredns.c line 1277
+msg1352=Non ha potuto inizializzare il resolver. Chiusura giu.
+; p_coredns.c line 1288
+msg1353=Incapace assegnare socket per la communicazione del nameserver: %s
+; p_coredns.c line 1307
+msg1354=Incapace setsockopt() socket per la communicazione del nameserver: %s
+; p_coredns.c line 1319
+msg1355=Nessun server die nome definito.
+; p_coredns.c line 1344
+msg1356=Resolver die nome cominciato.
+; p_server.c line 1428
+msg1357=Utente %s(%s) Staccando dal server lapidato.
+; p_hash.c line 240
+msg1358=USERHOST
+; p_hash.c line 241
+msg1359=ISON

@@ -1,0 +1,8 @@
+ADDBAN [netzwerk'][#chan] Grund :hostmaske
+------------------------------------------
+Du kannst Bans setzen, welche ebenfalls ausgefuehrt werden, wenn
+Du nicht zum Bouncer verbunden bist.
+Beispiel: 
+/ADDBAN Tschuess ! :*!bock@wurst.com
+Bannt *!bock@wurst.com auf saemtlichen Channels.
+Siehe: DELBAN LISTBANS

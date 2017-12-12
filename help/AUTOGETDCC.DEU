@@ -1,0 +1,7 @@
+AUTOGETDCC [netzwerk'] :0|1
+---------------------------
+Ermoeglicht oder verhindert das automatische Annehmen von
+angebotenen DCC-Dateitransferangeboten.
+Diese Einstellung wird als "ausgeschaltet" voreingestellt.
+Beispiel: 
+/AUTOGETDCC 1

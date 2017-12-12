@@ -1,0 +1,15 @@
+ENCRYPT [network']password :#channel or nick
+--------------------------------------------
+Encrypt encrypts talk to a channel or person. This is thought
+for allowing improved privacy on irc. You need to handshake
+a key with the person you want to talk to encrypted, then
+both sides have to set that key to encrypt and decrypt correctly.
+Example: 
+/ENCRYPT v1s1t0r :john
+If john would also set the same password to your nick, you could 
+talk encrypted. As encryption algorithms blowfish and idea are used.
+If you are using ENCRYPT for a channel, then all people on the channel
+have to set the same password.
+Example:
+/ENCRYPT d0ntkn0w :#leet
+See also: DELENCRYPT LISTENCRYPT

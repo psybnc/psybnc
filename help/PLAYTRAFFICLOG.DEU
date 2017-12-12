@@ -1,0 +1,34 @@
+PLAYTRAFFICLOG [netzwerk']quelle abdatum abzeit bisdatum biszeit :filter
+oder
+PLAYTRAFFICLOG last
+------------------------------------------------------------------------
+PLAYTRAFFICLOG gibt das Traffic-Log in Form von IRC-konformen Ausgaben
+wieder..
+Beispiel:
+PLAYTRAFFICLOG #wurst 03-02-99 13:20:00 03-02-99 14:20:00 :JOIN
+wuerde alle Zeilen ausgeben, die den Text JOIN enthalten, und
+vom 03-02-99 13:20:00 bis zum 03-02-99 14:20:00 datiert sind.
+Die Traffic wird ausgegeben, wie sie gespeichert wurde.
+Texte erscheinen im Channel, ebenfalls JOINS oder PARTS.
+Die Quellangabe muss ein Channel oder ein Nick sein, fuer
+welchen die Nachrichten geloggt wurden.
+Datumsangaben haben das Format mm-tt-jj.
+Zeitangaben sind immer ss:mm:ss (stunde, minute, sekunde).
+Jede Zeiteinheitenangabe muss 2 Stellen haben.
+Desweiteren kann
+PLAYTRAFFICLOG last
+benutzt werden. Dann werden alle Logeintraege wiedergegeben, welche
+seit dem letzten Aufruf von PLAYTRAFFICLOG last wiedergegeben wurden,
+oder das Log das letzte mal geloescht wurde.
+Einige Hinweise zum Traffic-Logging:
+- Man sollte das Traffic-Loggen filtern. Ansonsten kann
+  der Bedarf an Festplattenspeicher und Prozessorauslastung
+  enorm ansteigen. Dies waere insbesondere fatal, falls
+  der Shellserver mit Diskquota ausgestattet ist.
+- Trafficlogging wird nur durchgefuehrt, soweit der 
+  Nutzer NICHT zum Bouncer verbunden ist.- 
+- Falls * als Filter definiert wird, wird alle,
+  was zur Quelle ausgegeben wird, geloggt.
+- Das Traffic-Log sollte in regelmaessigen Abstaenden geloescht werden.
+  Dies geschieht ueber ERASETRAFFICLOG.
+Siehe: ADDLOG DELLOG LISTLOG ERASETRAFFICLOG

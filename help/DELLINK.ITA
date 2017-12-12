@@ -1,0 +1,6 @@
+DELLINK number
+--------------
+cancella un bouncer dalla BounceNet. Puoi segnarti il numero del
+bouncer da eliminare dando il comando /LISTLINKS.
+Esempio:
+/DELLINK 4

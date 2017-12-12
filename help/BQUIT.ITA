@@ -1,0 +1,6 @@
+BQUIT [network']
+----------------
+chiude la connessione al server finche' non viene ripristinata con BCONNECT.
+Esempio:
+/BQUIT 
+Vedi anche: BCONNECT

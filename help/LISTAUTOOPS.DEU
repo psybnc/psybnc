@@ -1,0 +1,7 @@
+LISTAUTOOPS [netzwerk']
+-----------------------
+Listet alle Nutzer, welche vom Bouncer des Nutzers Autoop
+bekommen koennen.
+Beispiel:
+/LISTAUTOOPS
+Siehe: ADDAUTOOP DELAUTOOP DELOP ADDOP LISTOPS ADDASK DELASK LISTASK

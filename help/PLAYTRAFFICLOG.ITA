@@ -1,0 +1,32 @@
+PLAYTRAFFICLOG [network']sorgente datainizio orainizio datafine orafine :filtro
+oppure
+PLAYTRAFFICLOG last
+-----------------------------------------------------------------------
+PLAYTRAFFICLOG playa il log del traffico IRC in simulando IRC stesso
+Esempio:
+PLAYTRAFFICLOG #leet 03-02-99 13:20:00 03-02-99 14:20:00 :JOIN
+ti mostrerebbe ogni lina contentente JOIN (nella maggior parte dei casi
+i joins del canale) dal 03-02-99 13:20:00 al 03-02-99 14:20:00.
+Il traffico stesso ti verrebbe inviato cosi' come registrato, cosi'
+apparirebbe nel canale se ne hai specificato uno.
+sorgente dev'essere un nick od un canale.
+Le date devo essere nel formato mm-dd-yy.
+Gli orari devono essere nel formato hh:mm:ss.
+Ogni elemento deve essere di due lettere.
+Puoi anche usare:
+PLAYTRAFFICLOG last
+che playera' le ultime cose loggate da quando hai usato PLAYTRAFFICLOG last
+l'ultima volta o da quando hai cancellato il log (vedi ERASETRAFFICLOG).
+Alcuni consigli riguardo al logging:
+- dovresti filtrare le cose da loggare, o possibilmente
+  avere una vasta disponibilita' di spazio su disco.
+  Se hai una quota limitata sulla shell, devi usare questa
+  funzionalita' con la massima cura perche' rischi di
+  esaurire la tua quota molto velocemente.
+- il bouncer logga solo se NON sei connesso al bouncer.
+- Se definisci * come filtro, qualsiasi cosa succede alla
+  sorgente verra' loggata.
+- Devi preoccuparti di cancellare il log del traffico.
+  Questo si fa col comando ERASETRAFFICLOG. Cancella
+  l'intero file di log e ne comincia uno nuovo.
+Vedi anche: ADDLOG DELLOG LISTLOG ERASETRAFFICLOG

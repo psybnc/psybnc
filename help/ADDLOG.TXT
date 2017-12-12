@@ -1,0 +1,9 @@
+ADDLOG [network']source :filter
+-------------------------------
+ADDLOG allows you to add an entry to the logging specifications
+for traffic logging.
+Example:
+ADDLOG #leet :0day
+would allow you to log any texts that appear on #leet with the
+partial text 0day.
+See also: DELLOG LISTLOGS PLAYTRAFFICLOG ERASETRAFFICLOG

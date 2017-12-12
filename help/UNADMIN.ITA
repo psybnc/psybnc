@@ -1,0 +1,6 @@
+UNADMIN utente
+------------
+toglie i diritti di Amministratore del bouncer dall'utente specificato
+Esempio:
+UNADIM Lamer
+Vedi anche: MADMIN

@@ -1,0 +1,10 @@
+SETLEAVEMSG [network']text
+--------------------------
+Sets a message which get posted to the channels if you
+leave the bouncer. 
+Example:
+/SETLEAVEMSG sleeping
+then you would see in the channels:
+xyz is away (sleeping)
+See also: SETAWAY SETAWAYNICK
+

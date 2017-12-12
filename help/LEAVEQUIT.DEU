@@ -1,0 +1,7 @@
+LEAVEQUIT [0|1]
+---------------
+Ermoeglicht/Verhindert das Verlassen der Channels bei Trennung
+der Verbindung des Nutzers zum Bouncer.
+Beispiel: 
+/LEAVEQUIT 1
+Siehe: AUTOREJOIN

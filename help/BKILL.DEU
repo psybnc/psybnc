@@ -1,0 +1,6 @@
+BKILL Nutzer
+------------
+Schliesst die Verbindung eines Nutzers auf den Bouncer.
+Beispiel: 
+BKILL Neuling
+Siehe: DELUSER

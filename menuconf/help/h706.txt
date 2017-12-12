@@ -1,0 +1,2 @@
+This defines the Rights of the User. A User can either be a normal User 
+or an Admin.

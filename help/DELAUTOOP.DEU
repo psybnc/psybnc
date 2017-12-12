@@ -1,0 +1,7 @@
+DELAUTOOP [netzwerk']nummer
+---------------------------
+Entfernt einen Auto-Op Eintrag nach angegebener Nummer aus LISTAUTOOPS.
+Beispiel::
+/DELAUTOOP 2
+Siehe: ADDAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS ADDASK DELASK LISTASK
+

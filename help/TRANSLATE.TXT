@@ -1,0 +1,32 @@
+TRANSLATE [network']#channel/user :language-from language-to
+------------------------------------------------------------
+Translate allows you to set channels or users to be online translated.
+Currently possibly are the following translations:
+- English to German           en_de
+- English to Italian          en_it
+- English to French           en_fr
+- English to Portugese        en_pt
+- English to Chinese          en_zh
+- English to Japanese 	      en_ja
+- English to Korean           en_ko
+- English to Spanish	      en_es
+- English to Russian	      en_ru
+- Deutsch to English          de_en
+- Italian zu English          it_en
+- French to English    	      fr_en
+- Portugese to English        pt_en
+- Japanese to English         ja_en
+- Korean to English           ko_en
+- Russian to English          ru_en
+- Spanish to English          es_en
+- French to German     	      fr_de
+- German to French     	      de_fr
+You need to set a channel or a user to be translated and two
+of the language identifiers (see behind the languages).
+Example:
+/TRANSLATE #italia :it_en en_it
+So everything you would get FROM the channel #italia
+would be translated from italian to english, and in return everything
+you would post to #italia, would be translated from
+english into italian.
+See also: DELTRANSLATE LISTTRANSLATE

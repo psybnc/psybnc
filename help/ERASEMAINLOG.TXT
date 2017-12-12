@@ -1,0 +1,5 @@
+ERASEMAINLOG
+------------
+erases the bouncer system log. In order to keep your log up to
+date you should delete the bouncer system log after you examine it. 
+See also: PLAYPRIVATELOG ERASELOG PLAIMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

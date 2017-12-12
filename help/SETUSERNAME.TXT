@@ -1,0 +1,3 @@
+SETUSERNAME [network'] :username
+--------------------------------
+sets your username

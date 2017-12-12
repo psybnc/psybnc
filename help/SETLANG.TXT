@@ -1,0 +1,4 @@
+SETLANG language
+----------------
+Sets the language of the bouncer. The standard-package
+supports the arguments "english" and "german".

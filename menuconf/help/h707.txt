@@ -1,0 +1,2 @@
+This defines the number of the link to relay over. The setting vhost would
+have to be a vhost on the link destination.

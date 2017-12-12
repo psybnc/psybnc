@@ -1,0 +1,8 @@
+ADDUSER login :username
+------------------------
+Adds a new bouncer user, You can add up to 99 users
+and you still won't be flooded off. But remember more users means more traffic
+and some servers has a traffic limit. Example: Adduser newbie :The lamest kid 
+in town ! The newbie will be used as a LOGIN. Remember to set your IDENT correct
+ly ! The text after ":" is displayed as a REAL NAME. 
+See also: DELUSER

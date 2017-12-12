@@ -1,0 +1,6 @@
+LISTLINKS
+---------
+mostra tutti i bouncers che sono linkati alla BounceNet in
+un albero, e pure la lista dei links localmente definiti.
+Esempio: LISTLINKS 
+Vedi anche: BWHO

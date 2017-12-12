@@ -1,0 +1,8 @@
+ADDASK [network'][#canale] password :hostmask oppure )bot
+---------------------------------------------------
+Puoi impostare il bouncer a chiedere l'op a dei bot anche se non sei online.
+Questo e' utile perche' puoi usare il bouncer sia come client per chattare
+che come screen per proteggere canali.
+Esempio:
+/ADDASK lamepass :*!LameBot@Lame.Host.Com 
+Vedi anche: DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

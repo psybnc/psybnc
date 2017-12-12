@@ -1,0 +1,7 @@
+DELASK [network'] :number
+-------------------------
+cancella un op su richiesta dal bot. Usa /LISTASK per ottenere il numero
+da specificare.
+Esempio:
+/DELASK 12 
+Vedi anche: ADDASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

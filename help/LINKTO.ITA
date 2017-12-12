@@ -1,0 +1,12 @@
+LINKTO :[S=]host:port
+---------------------
+Stabilisce un nuovo link verso un altro bouncer. Puoi linkare a quanti altri
+bouncer ti pare, non verranno rallentati. Quindi puoi chattare nella partyline
+del bouncer o nel canale del bouncer. Gli utenti degli altri bouncer NON
+avranno accesso o diritti nel tuo bouncer !
+Se S= viene posta prima dell'host, psyBNC cerca di creare una connessione SSL.
+Esempio:
+/linkto :S=this.is.host.of.bouncer.that.you.are.linking.to.com:54321 
+Il tuo bouncer (host e porta) dev'essere addato nel bouncer a cui lo stai
+facendo linkare per fare in modo che questa connessione funzioni.
+Vedi anche: LINKFROM NAMEBOUNCER and RELAYLINK

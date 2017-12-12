@@ -1,0 +1,12 @@
+JUMP [network'] :[number]
+-------------------------
+jumps to next server, if no servernumber is given, or to the server by number
+from LISTSERVERS. 
+If you are in LAG or something else is wrong you can 
+force bouncer to change servers. In order to do that you must have
+atleast two IRC servers added in ServerList (See /addserver)
+JUMP command is also used to trigger VHOSTS or in other situations when 
+displayed. 
+Example: 
+JUMP
+See also: LISTSERVERS ADDSERVER DELSERVER

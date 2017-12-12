@@ -1,0 +1,6 @@
+DELLINK number
+--------------
+deletes a bouncer from the BounceNet. You can get the number
+of the bouncer with LISTLINKS command. 
+Example: 
+/DELLINK 4

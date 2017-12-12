@@ -1,0 +1,4 @@
+This option defines, if psybnc should support talk- and 
+connection encryption. See the second choice where you can 
+define the encryption algorithm which should be used for 
+this encryption.

@@ -1,0 +1,5 @@
+LISTASK [network']
+------------------
+lists all ask-op entrys Example:
+/LISTASK 
+See also ADDASK DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

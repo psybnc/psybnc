@@ -1,0 +1,11 @@
+SOCKSTAT
+--------
+displays the current status of all connected sockets, included
+accounting informations, encryption informations etc.
+This command can be also used to delete possibly expired sockets
+from the socket array. If you trigger SOCKSTAT, the socket
+debug information will also be written to the MAIN-Log.
+You can also trigger the logging of socketstats by sending
+the USR1 signal on the shell.
+Example:
+/SOCKSTAT

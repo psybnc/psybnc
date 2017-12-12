@@ -1,0 +1,1 @@
+This options shows you the current main log for psybnc.

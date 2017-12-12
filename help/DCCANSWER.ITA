@@ -1,0 +1,8 @@
+DCCANSWER [S=]nick
+------------------
+DCCANSWER fa si' che una richiesta di DCC Chat dal dato
+nick venga accettata, se questi ha inviato la richiesta
+per una sessione di Chat.
+Se S= e' messo in fronte al nick, psyBNC cerchera' di
+stabilire una connessione SSL.
+Vedi anche: DCCCHAT DCCGET DCCSEND DCCCANCEL LISTDCC

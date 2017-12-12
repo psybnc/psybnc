@@ -1,0 +1,8 @@
+ADDASK [network'][#chan] password :hostmask or )bot
+---------------------------------------------------
+You can set your bouncer to ask bots for OP even if you are not online. 
+This is quite usefull becouse you can use bouncer both as a chat client and 
+screen which protects channel. 
+Example: 
+/ADDASK lamepass :*!LameBot@Lame.Host.Com 
+See also: DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

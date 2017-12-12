@@ -1,0 +1,7 @@
+DCCANSWER [S=]nick
+------------------
+DCCANSWER will accept an offered DCC Chat from the
+given nick, if he sent a request for a Chat Session.
+If S= is put in front of the nick, psyBNC tries to
+establish a SSL-Connection.
+See also: DCCCHAT DCCGET DCCSEND DCCCANCEL LISTDCC

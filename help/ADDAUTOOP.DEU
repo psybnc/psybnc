@@ -1,0 +1,11 @@
+ADDAUTOOP [netzwerk']#channel :hostmaske
+----------------------------------------
+Dieser Befehl ermoeglicht das Hinzufuegen von Nutzern,
+welche autmatisch geopped werden, wenn sie den Channel
+betreten.
+Beispiel:
+ADDAUTOOP #leet :*!*blah@*.lame.com
+wuerde einen Autoop fuer einen Nutzer mit der Hostmask
+*!*blah@*.lame.com hinzufuegen, jedoch nur fuer den Channel
+#leet.
+Siehe: DELAUTOOP LISTAUTOOPS ADDOP DELOP LISTOPS

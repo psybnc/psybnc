@@ -1,0 +1,4 @@
+LISTOPS [network']
+------------------
+mostra la lista degli utenti che possono chiedere l'OP al tuo bouncer.
+Vedi anche: DELOP ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

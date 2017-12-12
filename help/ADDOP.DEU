@@ -1,0 +1,11 @@
+ADDOP [netzwerk'][#chan] password :hostmaske
+--------------------------------------------
+Du kannst User eintragen, welche von Deinem Bouncer Op holen koennen.
+Dies ist vergleichbar mit Bots, der Nutzer muss im Falle, falls er 
+op abfragen will, "op password #channel" an Deinen bouncer per Query
+senden.
+Beispiel: 
+/ADDOP #chan Neuespass :*!*@wurst.com. 
+Falls der Channel nicht angegeben wird, kann der Nutzer op fuer jeden
+Channel anfordern, in dem der Bouncer verweilt.
+Siehe: DELOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

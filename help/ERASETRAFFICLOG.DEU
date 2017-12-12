@@ -1,0 +1,4 @@
+ERASETRAFFICLOG [netzwerk']
+---------------------------
+Loescht das Traffic-Log des Nutzers.
+Siehe: PLAYPRIVATELOG PLAIMAINLOG ERASEMAINLOG PLAYPRIVATELOG ERASEPRIVATELOG

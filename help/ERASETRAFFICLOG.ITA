@@ -1,0 +1,5 @@
+ERASETRAFFICLOG [network']
+--------------------------
+cancella il log del traffico IRC. Per potere tenere i log aggiornati dovresti
+cancellari i messaggi che hai gia' letto usando /PLAYTRAFFICLOG last.
+Vedi anche: PLAYPRIVATELOG PLAIMAINLOG ERASEMAINLOG PLAYPRIVATELOG ERASEPRIVATELOG

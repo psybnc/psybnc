@@ -1,0 +1,4 @@
+This option defines, that irc connections never are permanent, 
+but will be disconnected, if the user himself disconnects. 
+Usefull for using the bouncer as connection-dependent bouncer 
+in the case of low resources.

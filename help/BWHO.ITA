@@ -1,0 +1,6 @@
+BWHO
+----
+Lista tutti gli utenti con un account sul bouncer. Se un utente ha un "*" prima del
+nick significa che questi e' online nel bouncer. Con questo comando e' anche possibile
+vedere i link da (->) e verso (<-) il tuo bouncer. Questo se il tuo bouncer e'
+linkato ad altri.

@@ -1,0 +1,13 @@
+LINKTO :[S=]host:port
+---------------------
+Establishes a new link to another bouncer. You can link as
+many bouncers as you wish. That won't slow them down. Then you can also chat 
+in Bouncer PartyLine or in the bouncer channel. Users from other bouncers 
+won't have access or rights in your bouncer !
+If S= is being put in front of the host, psyBNC tries to create an SSL-
+Connection.
+Example: 
+/linkto :this.is.host.of. bouncer.that.you.are.linking.to.com:54321 
+Your bouncer (host and port) must be added in the bouncer that you are linking 
+to in order for this connection to work. 
+See also: LINKFROM NAMEBOUNCER and RELAYLINK

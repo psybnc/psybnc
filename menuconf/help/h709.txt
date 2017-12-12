@@ -1,0 +1,2 @@
+This defines the port for the proxy. In the case of webproxies the port 
+normally is 8080 or 3128. Socks-Proxies usually have port 1080.

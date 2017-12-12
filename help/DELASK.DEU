@@ -1,0 +1,7 @@
+DELASK [netzwerk'] :nummer
+--------------------------
+Entfernt eine Op Abfrage von einem Bot oder einem User. Die Nummer
+kannst Du anhand von /LISTASK herausfinden.
+Beispiel: 
+/DELASK 12 
+Siehe: ADDASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

@@ -1,0 +1,7 @@
+DELBAN [netzwerk'] :nummer
+--------------------------
+Entfernt einen Ban aus der BanListe. Um herauszufinden, welche Nummer
+anzugeben ist, benutze LISTBANS.
+Beispiel: 
+/DELBAN 6 
+Siehe: ADDBAN LISTBANS

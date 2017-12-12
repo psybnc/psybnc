@@ -1,0 +1,33 @@
+PLAYTRAFFICLOG [network']source fromdate fromtime todate totime :filter
+or
+PLAYTRAFFICLOG last
+-----------------------------------------------------------------------
+PLAYTRAFFICLOG plays your logged traffic in IRC-isalike Traffic.
+Example:
+PLAYTRAFFICLOG #leet 03-02-99 13:20:00 03-02-99 14:20:00 :JOIN
+would show you any lines containing JOIN (in most cases 
+channeljoins) from 03-02-99 13:20:00 to 03-02-99 14:20:00.
+The Traffic itself will be played as it was recorded, so it
+will appear in the channel if you sourced a channel.
+source must be a full qualified Nickname or channel.
+Date always has to be the format mm-dd-yy.
+Time always has to be hh:mm:ss.
+Any digit has to be two letters.
+Also you can use:
+PLAYTRAFFICLOG last
+you will get the last log entrys since you played PLAYTRAFFICLOG last the last
+time or you deleted the log (see ERASETRAFFICLOG).
+Some Hints about logging:
+- you should filter loggings, or possibly would get an
+  extensive amount of diskspace usage.
+  If you got a quota on your shell, you should use this
+  functionality with maximum care or possibly run out of
+  diskspace fast.
+- logging only will happen, if you are NOT connected to
+  the bouncer.
+- If you define * as filter, then anything that happens
+  to the source will be logged.  
+- You need to care about erasing the traffic log.
+  That happens using ERASETRAFFICLOG. It will erase
+  the whole logfile and start a new one.
+See also: ADDLOG DELLOG LISTLOG ERASETRAFFICLOG

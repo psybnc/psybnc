@@ -1,0 +1,7 @@
+DELDCC [network']number
+-----------------------
+deletes a dcc bot connection. You can get the number of DCC link that you want 
+to delete using the /LISTDCC command. 
+Example: 
+/DELDCC 4 
+See also: ADDDCC LISTDCC

@@ -1,0 +1,7 @@
+DCCENABLE 0 | 1
+---------------
+Ermoeglicht/Verhindert die Verarbeitung von DCC-Chat-Anfragen
+und DCC-Dateitransferanfragen durch psyBNC. Wird dies ausgeschaltet,
+werden die Anfragen direkt an einen moeglicherweise verbundenen Client
+geschickt.
+Siehe: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC

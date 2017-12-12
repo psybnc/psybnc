@@ -1,0 +1,6 @@
+AUTOGETDCC [network'] :0|1
+--------------------------
+enables or disables auto get of offered DCC-Files. This setting
+is disabled by default.
+Example: 
+/AUTOGETDCC 1

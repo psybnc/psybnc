@@ -1,0 +1,9 @@
+DELTRANSLATE [network']number
+-----------------------------
+DELTRANSLATE ti permette di rimuovere un translator dalla lista.
+Usa /LISTTRANSLATE per prendere nota del numero di translator
+da eliminare.
+Esempio:
+/DELTRANSLATE 3
+cancellerebbe l'item 3 dalla lista di translator.
+Vedi anche: TRANSLATE LISTTRANSLATE

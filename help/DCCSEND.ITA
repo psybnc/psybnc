@@ -1,0 +1,5 @@
+DCCSENDME :filename
+-------------------
+Invia la richiesta di invio file.
+Se l'utente accetta l'invio, il file verra' infiato.
+Vedi anche: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC DCCSEND

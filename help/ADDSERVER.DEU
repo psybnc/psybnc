@@ -1,0 +1,10 @@
+ADDSERVER [netzwerk'][S=]server :port password
+----------------------------------------------
+Fuegt einen neuen IRC-Server hinzu. Du kannst mehrere Server hinzufuegen,
+falls der Bouncer nicht zu einem angegebenen Server verbinden kann, 
+versucht er den jeweils naechsten in der Liste.
+Falls ein S= vor dem Hostname steht, wird versucht, eine SSL-
+Verbindung aufzubauen.
+Beispiel: 
+ADDSERVER irc.uni-erlangen.de:6667 
+Siehe: DELSERVER LISTSERVERS

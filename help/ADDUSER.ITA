@@ -1,0 +1,10 @@
+ADDUSER login :username
+------------------------
+Aggiunge un nuovo utente al bouncer, puoi avere fino a 99 utenti
+e non verrai ancora flooddato. Ma ricorda che piu' utenti significa piu'
+traffico e molti server o shell hanno un traffico limitato.
+Esempio:
+/ADDUSER newbie :The lamest kid in town !
+newbie verra' usato come LOGIN, che dev'essere l'ident settato nel client.
+Il testo dopo ":" verra' usato come REAL NAME.
+Vedi anche: DELUSER

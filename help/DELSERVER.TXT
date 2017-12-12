@@ -1,0 +1,8 @@
+DELSERVER [network'] :servernumber
+----------------------------------
+Deletes Server. If you find out that some IRC servers are LAGGED or don't allow 
+your connection or you have +r (restricted) connection you can delete them. 
+Use /LISTERVERS to get the server number that you want to delete. 
+Example: 
+/DELSERVER 5 
+See also: ADDSERVER LISTSERVER

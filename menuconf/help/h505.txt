@@ -1,0 +1,4 @@
+This resets the Password of the link. You cannot define Passwords 
+for links, they are handshaked at connection. Resetting results 
+in creating a new password. You need to reset the pass on the 
+incoming and outgoing link to complete the Reset.

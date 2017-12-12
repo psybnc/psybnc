@@ -1,0 +1,7 @@
+LEAVEQUIT [0|1]
+---------------
+Se abilitato, psyBNC uscira' da tutti i canali dopo che ti disconnetti
+da esso.
+Esempio:
+/LEAVEQUIT 1
+Vedi anche: AUTOREJOIN

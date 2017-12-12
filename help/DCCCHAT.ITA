@@ -1,0 +1,7 @@
+DCCCHAT [S=]nick
+----------------
+offre una DCC Chat al dato nick ed aspetta finche' verra'
+accettata.
+Se S= viene messo prima del nick psyBNC cerchera' di stabilire
+una connessione SSL.
+Vedi anche: DCCCANCEL DCCSEND DCCGET DCCANSWER LISTDCC

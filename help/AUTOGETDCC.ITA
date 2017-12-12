@@ -1,0 +1,6 @@
+AUTOGETDCC [network'] :0|1
+--------------------------
+abilita o disabilita l'accettazione automatica dei file offerti
+via DCC. Quest'opzione e' disabilitata di default.
+Esempio:
+/AUTOGETDCC 1

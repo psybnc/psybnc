@@ -1,0 +1,6 @@
+SWITCHNET nuovanet :vecchianet
+------------------------
+Permette di scambiare dal network attuale ad un altro.
+Per questo il network attualmente in uso avra' il nome "nuovanet",
+e "vecchianet" diverra' quella prima di usare il comando.
+Vedi anche: ADDNETWORK DELNETWORK

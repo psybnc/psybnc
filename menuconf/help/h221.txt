@@ -1,0 +1,2 @@
+This defines a version reply of psyBNC on a
+ctcp Version request.

@@ -1,0 +1,7 @@
+SWITCHNET neuesnetz :altesnetz
+------------------------------
+Dies ermoeglicht den Wechsel des derzeitgen Hauptnetzwerkes zu
+einem sekundaeren Netzwerk. Das aktuelle Hauptnetz wird zu neuesnetz',
+anstelle dessen wird altesnetz zum Hauptnetz deklariert, ohne, dass
+hier weiterhin Tokens dargestellt werden.
+Siehe: ADDNETWORK DELNETWORK

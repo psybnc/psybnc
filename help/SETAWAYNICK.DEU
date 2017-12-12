@@ -1,0 +1,9 @@
+SETAWAYNICK [netzwerk']nick
+---------------------------
+setzt einen Nick, der genutzt wird, wenn der Nutzer die
+Verbindung zum Bouncer trennt.
+Beispiel: 
+SETAWAYNICK me|away
+Der Bouncer aendert dann den Nick auf me|away, wenn der Nutzer
+die Verbindung zum Bouncer trennt.
+Siehe: SETAWAY SETLEAVEMSG

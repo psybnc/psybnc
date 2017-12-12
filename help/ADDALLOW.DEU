@@ -1,0 +1,16 @@
+ADDALLOW Host oder Hostmask
+----------------------------
+Diese Funktion ermoeglicht das Hinzufuegen von Hosts, welche zu dem
+Bouncer Verbindungen aufbauen duerfen. Voreinstellung ist *, somit
+kann jeder Host zum Bouncer Verbindungen aufbauen. Dieser Eintrag
+muesste zunaechst entfernt werden, fall die Host-Allows eingeschraenkt
+werden duerfen.
+Beispiel:
+/ADDALLOW host22.mydomain.com
+wuerde diesem speziellen Host Verbindungen ermoeglichen.
+/ADDALLOW *.mydomain.com
+wurde allen Hosts dieser Domain Verbindungen ermoeglichen..
+Du kannst ? und * in deiner Definition nutzen.
+Bitte beachte, dass auch DCC- und Link-Hosts in den Hostallows
+beruecksichtigt werden muessen..
+Siehe: DELALLOW LISTALLOW

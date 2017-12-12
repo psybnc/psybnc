@@ -1,0 +1,7 @@
+DELDCC [netzwerk']nummer
+------------------------
+Entfernt eine DCC-Bot-Verbindung. Die Nummer kann aus LISTDCC ausgelesen
+werden.
+Beispiel: 
+/DELDCC 4 
+Siehe: ADDDCC LISTDCC

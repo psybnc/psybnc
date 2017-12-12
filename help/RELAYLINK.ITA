@@ -1,0 +1,8 @@
+RELAYLINK name :0|1
+-------------------
+Permette o inibisce relay links da/verso il bouncer.
+Esempio:
+RELAYLINK nome :1 
+Nome e' il nome del bouncer. Il numero 0 indica inibizione, numero 1 indica
+link consentito dal bouncer.
+Vedi anche: LINKFROM LINKTO NAMEBOUNCER

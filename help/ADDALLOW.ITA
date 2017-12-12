@@ -1,0 +1,16 @@
+ADDALLOW host oppure hostmask
+-------------------------
+Questa funzione permette di impostare degli hosts che potranno connettersi
+al bouncer.
+Di default, * e' impostato per consentire connessioni da chiunque. Devi
+quindi cancellare questa entry prima di settare restrizioni per gli
+host permessi a connettersi al bouncer.
+Esempio:
+/ADDALLOW host22.mydomain.com
+consente all'host specifico di connettersi.
+/ADDALLOW *.mydomain.com
+consente la connessione dal dominio mydomain.com
+E' possibile usare le wildcard ? e * nella definizione.
+Ricorda che anche gli host dei link (cioe' degli altri bouncer) devono
+essere aggiunti all
+Vedi anche: DELALLOW LISTALLOW

@@ -1,0 +1,14 @@
+ADDALLOW host or hostmask
+-------------------------
+This Function allows you to set hosts which may connect to your bouncer.
+On default, * is set to be allowed to connect to the bouncer. You would
+have to delete that entry first to set your own more restricted host
+allows for the bouncer.
+Example 
+/ADDALLOW host22.mydomain.com
+would allow that specific host to connect.
+/ADDALLOW *.mydomain.com
+would allow all hosts from mydomain.com.
+You can use the wildcards ? and * in your definition.
+Remember that also linked hosts have to be added in the host allowance.
+See also: DELALLOW LISTALLOW

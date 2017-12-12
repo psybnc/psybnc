@@ -1,0 +1,7 @@
+DELASK [network'] :number
+-------------------------
+deletes op request from a bot. Use /LISTASK to find out which entry you want 
+to delete. 
+Example: 
+/DELASK 12 
+See also: ADDASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

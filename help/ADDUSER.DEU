@@ -1,0 +1,11 @@
+ADDUSER login :Nutzername
+-------------------------
+Fuegt einen neuen Bouncer-Nutzer hinzu.
+Die Maximalanzahl ist jeweils abhaengig von der vor Compilieren 
+festgelegten MAX_USER-Angabe in der Datei config.hr
+Beispiel: 
+/ADDUSER Anfaenger :Der Anfaenger 
+"Anfaenger" ist das Login des Nutzers, gleichzusetzen mit dem
+Username unter Unix oder dem Ident bei Windows-Clients.
+Der Text hinter ":" ist der Nutzername. 
+Siehe: DELUSER

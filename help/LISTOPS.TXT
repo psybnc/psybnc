@@ -1,0 +1,4 @@
+LISTOPS [network']
+------------------
+lists users that can ask OP from your bouncer. 
+See also: DELOP ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDASK DELASK LISTASK

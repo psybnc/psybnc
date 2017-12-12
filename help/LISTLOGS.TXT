@@ -1,0 +1,5 @@
+LISTLOGS [network']
+-------------------
+LISTLOGS shows all entrys from your traffic logging specifications
+by a numbered index.
+See also: ADDLOG DELLOG PLAYTRAFFICLOG ERASETRAFFICLOG

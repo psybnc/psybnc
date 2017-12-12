@@ -1,0 +1,2 @@
+This option defines the maximal Number of users, which may be 
+added by the bouncer-Admin.

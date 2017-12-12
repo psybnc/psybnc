@@ -1,0 +1,7 @@
+LISTASK [netzwerk']
+-------------------
+Zeigt die Liste aller eingetragenen Bots oder Hosts, von denen 
+der Nutzer Op anfragen kann.
+Beispiel:
+/LISTASK 
+Siehe: ADDASK DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

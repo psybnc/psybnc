@@ -1,0 +1,4 @@
+LISTSERVERS [netzwerk']
+-----------------------
+zeigt die Liste der hinzugefuegten Server
+Siehe: DELSERVER ADDSERVER

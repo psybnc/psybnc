@@ -1,0 +1,18 @@
+LINKFROM name :host:port
+-------------------------
+LINKFROM fuegt einen Link von einem anderen Bouncer zu der Liste der Links
+hinzu.
+Man kann so viele Bouncer verlinken, wie man mag. Dies ermoeglicht
+desweiteren das Einrichten einer Partyline, entweder ueber das sogenannte
+int'-Net oder ueber den internen Channel &partyline, falls dieser bei
+Compilierung eingeschaltet wurde.
+Die Verlinkung von Bouncern veraendert keinerlei Rechte der Nutzer
+auf dem verlinkten Bouncer, der Zugriff der anderen Nutzer ist trotzdem
+nicht gestattet. Nur, falls RELAYLINK aktiviert ist, koennen die
+Nutzer des anderen Bouncers auch die VHOSTS des verlinkten Bouncers
+mitnutzen.
+Ob die Linkverbindung verschluesselt werden soll, ist davon abhaengig,
+ob SSL-Listener angelegt wurden.
+Beispiel:
+/linkfrom :der.host.des.bouncers.der.zu.dir.linkt.org:38765. 
+Siehe: LINKTO NAMEBOUNCER und RELAYLINK

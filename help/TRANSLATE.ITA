@@ -1,0 +1,32 @@
+TRANSLATE [network']#canale/utente :linguaggio-da linguaggio-a
+------------------------------------------------------------
+Translate ti permette di impostare degli utenti o canali i cui messaggi
+debbano essere tradotti.
+Attualmente sono possibili le seguenti traduzioni:
+- Dall' Inglese al Tedesco       en_de
+- Dall' Inglese all'Italiano     en_it
+- Dall' Inglese al Francese      en_fr
+- Dall' Inglese al Portoghese    en_pt
+- Dall' Inglese al Cinese        en_zh
+- Dall' Inglese al Giapponese    en_ja
+- Dall' Inglese al Koreano       en_ko
+- Dall' Inglese allo Spagnolo    en_es
+- Dall' Inglese al Russo         en_ru
+- Dal Tedesco all' Inglese       de_en
+- Dall' Italiano all' Inglese    it_en
+- dal Francese all' Inglese      fr_en
+- Dal Portoghese all' Inglese    pt_en
+- Dal Giapponese all' Inglese    ja_en
+- Dal Koreano all' Inglese       ko_en
+- Dal Russo all' Inglese         ru_en
+- Dallo Spagnolo all' Inglese    es_en
+- Dal Francese al Tedesco        fr_de
+- Dal Tedesco al Francese        de_fr
+Hai bisogno di impostare un canale od un utente da essere tradotto e
+due degli identificatori di linguaggio (a destra nella lista sopra).
+Esempio
+/TRANSLATE #london :en_it it_en
+Cosi' ogni cosa scritta che ricevi DAL canale #london
+verra' tradotta dall'inglese all'italiano, ed in ritorno ogni cosa
+scrivi AL canale #london verra' tradotto dall'italiano all'inglese.
+Vedi anche: DELTRANSLATE LISTTRANSLATE

@@ -1,0 +1,5 @@
+DCCCANCEL nick [:file]
+----------------------
+
+Cancels a given DCC Chat or File Transfer.
+See also: DCCCHAT DCCANSWER DCCSEND DCCGET LISTDCC

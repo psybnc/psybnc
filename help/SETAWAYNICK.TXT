@@ -1,0 +1,9 @@
+SETAWAYNICK [network']nick
+--------------------------
+This command allows you to set an nick, which will be changed
+by the bounce, if you leave the bouncer.
+Example: 
+SETAWAYNICK me|away
+the bouncer would change your nick to me/away if you
+disconnect.
+See also: SETAWAY SETLEAVEMSG

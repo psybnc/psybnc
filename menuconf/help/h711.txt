@@ -1,0 +1,2 @@
+This flag sets, if the User should not be connected on bouncerstart. On the
+bouncer this flag is equivalent to the BQUIT command.

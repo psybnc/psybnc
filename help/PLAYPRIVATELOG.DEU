@@ -1,0 +1,6 @@
+PLAYPRIVATELOG [netzwerk']
+--------------------------
+Falls private Nachrichten an den Nutzer in seiner Abwesenheit geschickt
+wurden, werden diese im private Log vermerkt. Mit PLAYPRIVATELOG wird 
+dieses Log in einem Query ausgegeben.
+Siehe: ERASEPRIVATELOG PLAYMAINLOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

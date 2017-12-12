@@ -1,0 +1,5 @@
+BWHO
+----
+Listet alle Nutzer des Bouncers und der Bouncer, die verlinkt sind.
+Falls ein Nutzer einen '*' vor seinem Login hat, ist dieser Nutzer
+eingeloggt.

@@ -1,0 +1,8 @@
+PROXY [network']host:port
+-------------------------
+sets a proxy to relay through to connect to irc. This was thought for
+possibly firewalled networks.
+Currently supported are SOCKS4, WinGate and Webproxys, which allow
+the CONNECT Method.
+Example:
+/PROXY proxy.mydomain.com:8080

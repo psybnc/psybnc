@@ -1,0 +1,8 @@
+DCCANSWER [S=]nick
+------------------
+DCCANSWER antwortet auf einen von nick angeboten DCC-Chat und
+stellt die Verbindung her, falls der Nutzer ein DCC-Chat Angebot
+gestellt hat.
+Wird ein S= vorm Nick angegeben, so versucht psyBNC den Aufbau einer
+SSL-Verbindung.
+Siehe: DCCCHAT DCCGET DCCSEND DCCCANCEL LISTDCC

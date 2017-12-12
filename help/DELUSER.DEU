@@ -1,0 +1,7 @@
+DELUSER login
+-------------
+loescht einen Nutzer vom Bouncer. Du musst Bouncer-Admin sein,
+um diesen Befehl ausfuehren zu koennen.
+Beispiel: 
+/DELUSER Anfaenger
+Siehe: ADDUSER

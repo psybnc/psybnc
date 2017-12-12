@@ -1,0 +1,7 @@
+DCCSEND [S=]nick :filename
+--------------------------
+Sends a file send request to the given nickname.
+If the user accepts the send, the file will be sent.
+If S= is put in front of the Nick, psyBNC tries to
+create an SSL-Connection.
+See also: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC

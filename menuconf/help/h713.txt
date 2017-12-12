@@ -1,0 +1,2 @@
+This option defines, if the User should receive Systemmessages. Those
+Systemmessages are for example Connection Losses/Establishments.

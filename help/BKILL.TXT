@@ -1,0 +1,6 @@
+BKILL user
+----------
+You can close user connection with BKILL. 
+Example: 
+BKILL lamer
+See also: DELUSER

@@ -1,0 +1,5 @@
+This option defines, if files can be saved locally from dcc 
+file transfers. This allows the users to load files down fast, 
+and request them on demand while they are saved on the shell. 
+This also allows to setup a DCC File server, which can be reached 
+at dcc chat.

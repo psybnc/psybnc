@@ -1,0 +1,6 @@
+LISTIGNORES [network']
+----------------------
+Lista gli ignores
+Esempio:
+/LISTIGNORES
+Vedi anche: ADDIGNORE DELIGNORE

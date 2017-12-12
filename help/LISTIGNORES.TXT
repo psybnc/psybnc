@@ -1,0 +1,6 @@
+LISTIGNORES [network']
+----------------------
+Lists all added Ignores
+Example:
+/LISTAUTOOPS
+See also: ADDIGNORE DELIGNORE

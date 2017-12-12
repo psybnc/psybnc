@@ -1,0 +1,9 @@
+ADDASK [netzwerk'][#chan] password :hostmask oderr )bot
+--------------------------------------------------------
+Du kannst Deinen Bouncer so einstellen, dass er Bots oder andere 
+Nutzer nach Op fragt, auch, wenn Du nicht zum Bouncer verbunden bist.
+Dies ist nuetzlich, damit kannst Du den Bouncer sowohl als simplen
+Client, als auch als Screen nutzen, welcher Channels beschuetzt.
+Beispiel: 
+/ADDASK lamepass :*!LameBot@Lame.Host.Com 
+Siehe: DELASK LISTASK DELOP ADDOP LISTOPS ADDAUTOOP DELAUTOOP LISTAUTOOPS

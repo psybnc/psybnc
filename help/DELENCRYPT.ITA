@@ -1,0 +1,9 @@
+DELENCRYPT [network']number
+---------------------------
+DELENCRYPT permette di rimuovere un ENCRYPT dalla lista.
+Usa /LISTENCRYPT per prendere nota del numero dell'encrypt
+da eliminare.
+Esempio:
+/DELENCRYPT 3
+cancellerebbe l'entry 3 dalla lista delle crittazioni.
+Vedi anche: ENCRYPT LISTENCRYPT

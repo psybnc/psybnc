@@ -1,0 +1,8 @@
+DELOP [netzwerk'] :nummer
+-------------------------
+loescht einen Eintrag aus der Liste der Nutzer, welche vom
+Bouncer Op abfragen koennen. Die Nummer des Nutzers kann aus /LISTOPS
+ausgelesen werden.
+Beispiel:
+/DELOP 12 
+Siehe: LISTOPS ADDOP ADDAUTOOP DELAUTOOP LISTAUTOOPS ADDAS DELASK LISTASK

@@ -1,0 +1,5 @@
+This option allows the definition of using psyBNC for anonymous 
+access. If this option is set, every user which connects, will 
+be allowed to login, still checking the host-allows. Be sure to 
+set this option only, if you want to use the bouncer as a public 
+proxy.

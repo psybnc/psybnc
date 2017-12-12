@@ -1,0 +1,7 @@
+VHOST [network'][link number or nick] :host
+-------------------------------------------
+sets your VHOST - You can also set the bouncer to use your virtual hosts if 
+present on the server from which the bouncer is running. 
+if a nick is given, an admin may also set the vhost of another user.
+Example: 
+/BVHOST :This.Is.Only.Virtual.Com

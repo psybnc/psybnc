@@ -1,0 +1,11 @@
+SOCKSTAT
+--------
+mostra lo status di tutti i sockets connessi, incluse le informazioni
+sugli account, cripting, eccetera.
+Questo comando puo' anche essere usato per eliminare sockets expirati
+dall'array dei sockets. Se si trigga SOCKSTAT, le informazioni di debug
+sul socket verranno scritto nel log principale.
+Si puo' anche triggerare il log delle statistiche sui socket inviando
+il segnale USRS1 alla shell.
+Esempio:
+/SOCKSTAT

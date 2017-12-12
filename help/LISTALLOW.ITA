@@ -1,0 +1,6 @@
+LISTALLOW
+---------
+LISTALLOW mostra tutti gli hosts consentiti a connettersi al bouncer
+con un indice numerico.
+Vedi anche: ADDALLOW DELALLOW
+

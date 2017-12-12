@@ -1,0 +1,2 @@
+This option allows to setup the dcc host, which is needed
+for allowing DCC Chats and DCC Files.

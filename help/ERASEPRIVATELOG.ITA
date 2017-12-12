@@ -1,0 +1,6 @@
+ERASEPRIVATELOG [network']
+--------------------------
+cancella i messaggi loggati. 
+erases your logged messages. Per potere tenere i log aggiornati dovresti
+cancellari i messaggi che hai gia' letto usando /PLAYPRIVATELOG.
+Vedi anche: PLAYPRIVATELOG PLAIMAINLOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

@@ -1,0 +1,6 @@
+LISTLINKS
+---------
+zeigt die lokal eingetragenen Links sowie die derzeit
+verlinkten Bouncer in einer Baumstruktur.
+Beispiel: LISTLINKS 
+Siehe: BWHO

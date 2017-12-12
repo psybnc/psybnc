@@ -1,0 +1,4 @@
+REHASH
+------
+rehashes the bouncer. Warning: this will trigger bouncer disconnect !
+Example: /REHASH

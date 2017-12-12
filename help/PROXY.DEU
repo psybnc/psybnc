@@ -1,0 +1,6 @@
+PROXY [netzwerk']host:port
+--------------------------
+setzt einen Proxy, ueber welchen die Verbindung zum IRC-Server aufgebaut
+werden soll. Unterstuetzt werden SOCKS4, Telnetproxies und WebProxys.
+Beispiel:
+/PROXY proxy.meinedomain.com:8080

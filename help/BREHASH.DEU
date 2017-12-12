@@ -1,0 +1,4 @@
+BREHASH
+-------
+Restartet den Bouncer. Alle Verbindungen werden geschlossen.
+Beispiel: /BREHASH

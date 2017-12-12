@@ -1,0 +1,6 @@
+NAMEBOUNCER name
+----------------
+Da' un nome al bouncer. Il nome puo' contenere lettere e numeri e
+puo' essere al massimo di 20 caratteri. C'e' bisogno di dare un
+nome al bouncer per poterlo linkare ad altri bouncer.
+Vedi anche: LINKTO LINKFROM RELAYLINK

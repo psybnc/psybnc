@@ -1,0 +1,3 @@
+This option defines, if Users on the bouncer may use relays 
+via Webproxies or sockshosts. See the PROXY command in the 
+online help or in the README file.

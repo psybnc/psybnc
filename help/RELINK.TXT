@@ -1,0 +1,7 @@
+RELINK linknumber
+-----------------
+Allows you to disconnect a link and automatically reconnect it.
+This is needed after an encryption setup for the link.
+Example:
+/RELINK 2
+See also: SETLINKKEY

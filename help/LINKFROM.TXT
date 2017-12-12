@@ -1,0 +1,11 @@
+LINKFROM name :host:port
+-------------------------
+Allows a link from another bouncer. You can link as  many bouncers as you wish. 
+That won't slow them down. Then you can also chat in Bouncer PartyLine or in the
+private bouncer channel. Users from other bouncers won't have no access or rights 
+in your bouncer ! 
+If SSL-Encryption should be used, is dependent from the Installation
+of SSL-Listeners.
+Example: 
+/linkfrom :this.is.host.of.bouncer.that.is.linking.to.you.com:98765. 
+See also: LINKTO NAMEBOUNCER and RELAYLINK

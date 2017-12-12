@@ -1,0 +1,10 @@
+DELLOG [network']number
+-----------------------
+DELLOG permette di cancellare un entry dalla lista dei log per il
+traffic log.
+Esempio:
+/DELLOG 3
+cancellerebbe l'entry 3 dalla lista.
+Per prendere nota del numero da specificare usa /LISTOLOGS.
+E' il primo numero all'inizio dell'entry.
+Vedi anche: ADDLOG LISTLOG PLAYTRAFFICLOG ERASETRAFFICLOG

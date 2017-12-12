@@ -1,0 +1,7 @@
+BVHOST [network'][numero link|nick] :host
+-----------------------------------------
+imposta il VHOST - Puoi settare il virtual host da usare se questi sono
+presenti nel server su cui il bouncer sta girando.
+admin settare il virtual host da usare nick.
+Esempio
+/BVHOST :Questo.E.Un.Bel.Vhost.Com

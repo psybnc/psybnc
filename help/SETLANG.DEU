@@ -1,0 +1,5 @@
+SETLANG sprache
+---------------
+Setzt die Sprache des Bouncers. Im Standardumfang
+werden die Argumente "german" und "english" unterstuetzt.
+

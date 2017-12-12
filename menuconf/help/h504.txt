@@ -1,0 +1,3 @@
+This option defines, if a User may use vhosts of the directly 
+connected Link via relay. A User would give a linknumber in the 
+VHOST command to use the given Link.

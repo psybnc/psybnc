@@ -1,0 +1,1 @@
+This defines the loglevel psyBNC should run on.

@@ -1,0 +1,5 @@
+ERASEMAINLOG
+------------
+cancella il log principale. Per potere tenere i log aggiornati dovresti
+cancellare il log di sistema dopo che lo hai esaminato.
+Vedi anche: PLAYPRIVATELOG ERASELOG PLAIMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

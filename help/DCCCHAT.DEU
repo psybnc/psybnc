@@ -1,0 +1,8 @@
+DCCCHAT [S=]nick
+----------------
+bietet dem angegebenen Nick einen DCC-Chat an, und wartet,
+bis das Angebot angenommen wird. Wird es abgelehnt, wird das
+Angebot nach bestimmter Zeit automatisch geloescht.
+Wird ein S= vor dem Nick angegeben, so versucht psyBNC den
+Aufbau einer SSL-Verbinding.
+Siehe: DCCCANCEL DCCSEND DCCGET DCCANSWER LISTDCC

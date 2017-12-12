@@ -1,0 +1,4 @@
+SETLANG linguaggio
+----------------
+Imposta il linguaggio per il bouncer. Il pacchetto standard
+supporta gli argomenti "english" e "german".

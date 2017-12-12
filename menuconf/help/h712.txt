@@ -1,0 +1,4 @@
+This option enables or disables, if DCC-Files should be accepted on every
+Send-Request. Use of this function is not suggested, because you wont
+keep track of downloaded files.
+

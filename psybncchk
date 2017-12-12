@@ -1,0 +1,18 @@
+#!/bin/sh
+# This is the crontab script for psybnc.
+#
+# Please change the following path to your psybnc-directory.
+
+PSYBNCPATH=/home/foobar/psybnc
+
+# the rest should be kept as is
+
+if test -r $PSYBNCPATH/psybnc.pid; then
+    PSYPID=$(cat $PSYBNCPATH/psybnc.pid)
+    if $(kill -CHLD $PSYPID >/dev/null 2>&1)
+    then
+	exit 0
+    fi
+fi
+cd $PSYBNCPATH
+./psybnc &>/dev/null

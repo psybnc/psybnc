@@ -1,0 +1,4 @@
+DCCCANCEL nick [:Datei]
+-----------------------
+Unterbricht den angegebenen DCC-Chat oder DCC-Dateitransfer.
+Siehe: DCCCHAT DCCANSWER DCCSEND DCCGET LISTDCC

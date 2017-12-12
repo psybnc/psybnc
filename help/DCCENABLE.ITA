@@ -1,0 +1,6 @@
+DCCENABLE 0 | 1
+---------------
+Ti permette di abilitare o disabilitare la gestione
+interna delle DCC (sia Chat che Send) da parte del bouncer.
+Se disabilitata, psyBNC passera' le richieste DCC sul client.
+Vedi anche: DCCCHAT DCCANSWER DCCGET DCCCANCEL LISTDCC

@@ -1,0 +1,14 @@
+BVHOST [netzwerk'][link nummer oder nick(nur admin)] :host
+----------------------------------------------------------
+Setzt den VHOST, welcher zum Aufbau der Verbindung zum Server
+genutzt werden soll. Falls eine Link-Nummer angegeben wird, wird
+versucht, ein RELAY zum angegebenen Link herzustellen.
+Wird ein nick angegeben, so kann der Bouncer-Admin dem
+Nutzer einen Vhost zuweisen.
+Um moeglichen Rueckfragen vorzubeugen:
+Der VHOST muss auf dem Rechner, auf dem er genutzt werden soll, vorhanden
+sein.
+Beispiel: 
+/BVHOST :Nur.Virtuell.Com
+Siehe: RELAYLINK PROXY
+

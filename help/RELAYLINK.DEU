@@ -1,0 +1,9 @@
+RELAYLINK name :0|1
+-------------------
+Ermoeglicht/Verhindert den Nutzen eines Links als Relay.
+Ein Relay ermoeglicht den Aufbau einer Verbindung zum Server ueber den
+verlinkten Bouncer. RELAYLINK muss an der Seite auf 1 gesetzt werden,
+welche seine VHOSTS fuer Nutzer des verlinkten Bouncers zur Verfuegung stellt.
+Beispiel:
+RELAYLINK name :1 
+Siehe: LINKFROM LINKTO NAMEBOUNCER

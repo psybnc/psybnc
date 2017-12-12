@@ -1,0 +1,5 @@
+PLAYMAINLOG
+-----------
+mostra il log principale del bouncer. Tutti i messaggi del bouncer come
+links, connessioni, uscite, eccetera vengono loggate qui.
+Vedi anche: PLAYPRIVATELOG ERASEPRIVATELOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

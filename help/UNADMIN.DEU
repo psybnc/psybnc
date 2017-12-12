@@ -1,0 +1,8 @@
+UNADMIN Nutzer
+--------------
+Entfernt die ADMIN-Rechte vom angegebenen Nutzer.
+Ausgenommen hiervon ist der erste Admin, diesem koennen
+die Admin-Rechte nicht genommen werden.
+Example: 
+UNADNIM horst
+Siehe: MADMIN

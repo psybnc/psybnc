@@ -1,0 +1,7 @@
+LISTAUTOOPS [network']
+----------------------
+Displays the list of all added Users/Hosts which may get
+autoop from your bouncer.
+Example:
+/LISTAUTOOPS
+See also: ADDAUTOOP DELAUTOOP DELOP ADDOP LISTOPS ADDASK DELASK LISTASK

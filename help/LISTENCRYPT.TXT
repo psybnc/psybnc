@@ -1,0 +1,7 @@
+LISTENCRYPT [network']
+----------------------
+LISTENCRYPT shows all entrys for encryptions
+by a numbered index.
+See also: ENCRYPT DELENCRYPT
+
+

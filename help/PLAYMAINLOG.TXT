@@ -1,0 +1,5 @@
+PLAYMAINLOG
+-----------
+displays the bouncer system log. All system changes like bouncer
+link, connections, quits etc. are logged here. 
+See also: PLAYPRIVATELOG ERASEPRIVATELOG ERASEMAINLOG PLAYTRAFFICLOG ERASETRAFFICLOG

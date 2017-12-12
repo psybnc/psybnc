@@ -1,0 +1,12 @@
+JUMP [network'] :[number]
+-------------------------
+Salta al prossimo server, se nessun numero di server e' indicato, o al numero
+del server in LISTSERVERS.
+Se sei laggato o qualcos'altro va male puoi forzare il bouncer a cambiare
+server. Per fare questo devi avere almeno due IRC server nella lista (vedi
+/ADDSERVER).
+Il comando JUMP e' anche usato dopo che si cambia VHOST o in altre situazioni
+quando indicato.
+Esempio:
+/JUMP
+Vedi anche: LISTSERVERS ADDSERVER DELSERVER

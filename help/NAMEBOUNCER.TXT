@@ -1,0 +1,6 @@
+NAMEBOUNCER name
+----------------
+Names your bouncer. The name can be letters or numbers and can be
+20 letters long. You need to name the bouncer in orde
+r to link it to other bouncers. 
+See also: LINKTO LINKFROM RELAYLINK

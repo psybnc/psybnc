@@ -1,0 +1,9 @@
+DCCGET [S=]nick :Datei
+----------------------
+Antwortet nick auf eine DCC-Dateitransferanfrage, und stellt
+die Verbindung zum empfangen der Datei her.
+Die Datei wird in downloads/USERnn gespeichert, wobei
+nn die Nummer des Nutzers ist.
+Falls vor dem Nick S= angegeben wird, versucht psyBNC
+den Aufbau einer SSL-Verbindung.
+Siehe: DCCCHAT DCCANSWER DCCSEND DCCCANCEL LISTDCC
